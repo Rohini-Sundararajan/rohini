@@ -1,0 +1,19 @@
+body {
+    background-color: darkcyan;
+    margin: 0;
+}
+
+#menu {
+    width: 100%;
+    height: 500px;
+    background-color: darkslategray;
+}
+
+.logo {
+    width: 240px;
+    margin: 10px 15px 10px 15px;
+}
+
+#menu ul {
+    float: right;
+}
