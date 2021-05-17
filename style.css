@@ -5,7 +5,6 @@ body {
     background: -moz-linear-gradient(21deg, #33FA40 34%, #20F4CB 66%);
     background: -o-linear-gradient(21deg, #33FA40 34%, #20F4CB 66%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='33FA40', endColorstr='#20F4CB', GradientType=1);
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -22,11 +21,11 @@ body {
     width: 250px;
     height: 100%;
     background: cadetblue;
-    transition: all.5s ease;
+    transition: all .5s ease;
 }
 
 .sidebar header {
-    font-size: 30px;
+    font-size: 22px;
     color: darkgreen;
     text-align: center;
     line-height: 70px;
@@ -38,22 +37,22 @@ body {
     display: block;
     height: 100%;
     width: 100%;
-    line-height: 70px;
-    font-size: 25px;
+    line-height: 65px;
+    font-size: 20px;
     color: black;
     padding-left: 40px;
     box-sizing: border-box;
     border-top: 1px solid rgba(255, 255, 255, .1);
     border-bottom: 1px solid black;
+    transition: .4s;
 }
 
-ul li :hover a {
-    padding left: 55px;
+ul li:hover a {
+    padding-left: 50px;
 }
 
 .sidebar ul a i {
-    margin: right 16px;
-    ;
+    margin-right: 16px;
 }
 
 #check {
@@ -99,6 +98,4 @@ label #cancel {
 
 #check:checked~.label #cancel {
     left: 195px;
-    opacity: 0;
-    pointer-events: none;
 }
