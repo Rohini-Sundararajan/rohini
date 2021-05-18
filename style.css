@@ -8,13 +8,14 @@ body {
     padding: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 .sidebar {
     position: fixed;
     left: -250px;
     width: 250px;
-    height: 75%;
+    height: 85%;
     background-color: #042331;
     transition: all .5s ease;
 }
@@ -61,21 +62,21 @@ label #btn {
     position: absolute;
     cursor: pointer;
     background-color: #e76892d7;
-    border-radius: 30px;
+    border-radius: 3px;
 }
 
 label #cancel {
     position: absolute;
     cursor: pointer;
     background-color: #e76892d7;
-    border-radius: 30px;
+    border-radius: 3px;
 }
 
 label #btn {
-    left: 40px;
-    top: 25px;
-    font-size: 35px;
-    color: crimson;
+    left: 15px;
+    top: 15px;
+    font-size: 20px;
+    color: rgb(23, 235, 250);
     padding: 6px 12px;
     transition: all .5s;
 }
@@ -95,7 +96,7 @@ label #cancel {
 }
 
 #check:checked~label #btn {
-    left: 195px;
+    left: 250px;
     opacity: 0;
     pointer-events: none;
 }
@@ -104,24 +105,24 @@ label #cancel {
     left: 180px;
 }
 
-ul {
+.social_media ul {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 95%;
+    left: 10%;
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-ul li {
+.social_media ul li {
     list-style-type: none;
 }
 
-ul li a {
+.social_media ul li a {
     position: relative;
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     display: block;
     text-align: center;
     margin: 0 10px;
@@ -137,20 +138,88 @@ ul li a {
 ul li a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 3);
     text-decoration: none;
+    transform: translate(0, -20px);
 }
 
 ul li:nth-child(1) a:hover .fab {
     color: #3b5998;
 }
 
+ul li:nth-child(2) a:hover .fab {
+    color: #00acee;
+}
+
+ul li:nth-child(3) a:hover .fab {
+    color: #db4a39
+}
+
+ul li:nth-child(4) a:hover .fab {
+    color: #0e76a8;
+}
+
+ul li:nth-child(5) a:hover .fab {
+    color: #de249f;
+}
+
 ul li a.fab {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     display: block;
     background: linear-gradient(0deg, #fff, #ddd);
-    border-radius: 50%;
+    border-radius: 25%;
     line-height: calc(6px - 12px);
     font-size: 24px;
     color: #262626;
     transition: .5s;
+}
+
+.search_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 50px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.search_box input {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: #252525;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0 10px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.search_box:hover {
+    width: 400px;
+}
+
+.search_box:hover input {
+    opacity: 1;
+}
+
+.search_box .icon {
+    position: absolute;
+    right: 0;
+    width: 80px;
+    height: 100%;
+    background: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.search_box .icon:hover {
+    background: #8256c9;
 }
