@@ -1,63 +1,34 @@
 body {
-    background: #8AFA7E;
-    background: linear-gradient(5deg, #8AFA7E 21%, #8FD3F4 62%);
-    background: -webkit-linear-gradient(5deg, #8AFA7E 21%, #8FD3F4 62%);
-    background: -moz-linear-gradient(5deg, #8AFA7E 21%, #8FD3F4 62%);
-    background: -o-linear-gradient(5deg, #8AFA7E 21%, #8FD3F4 62%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='8AFA7E', endColorstr='#8FD3F4', GradientType=1);
-    font-family: Arial, Helvetica, fantasy;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(./ini.jpg);
+    background-size: cover;
+}
+
+.back {
+    position: absolute;
+    left: 250px;
+    width: 1000px;
+    background-size: cover;
 }
 
 .logo {
     position: absolute;
-    left: 80px;
+    left: 15px;
     top: 10px;
     width: 50px;
     border-radius: 40%;
-}
-
-main {
-    width: 20%;
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-p {
-    font-size: 35px;
-    color: rgb(24, 24, 24);
-    position: absolute;
-}
-
-p::before,
-p::after {
-    content: 'PRO WORLD';
-    top: 0;
-    left: 0;
-    color: #ffffff;
-    z-index: -1;
-    transition: all .4s;
-}
-
-p:hover::before {
-    transform: translate(-5px, -5px);
-    text-shadow: 4px 4px 20px #ff0101;
-}
-
-p:hover::after {
-    transform: translate(5px, 5px);
-    text-shadow: 4px 4px 20px #351fff;
+    border: 3px solid rgb(8, 128, 48);
+    visibility: visible;
 }
 
 h3 {
     position: absolute;
-    left: 150px;
-    top: 20px;
-    color: rgb(11, 4, 51);
+    left: 350px;
+    top: 200px;
+    color: rgb(47, 12, 243);
     text-shadow: 1px 1px 2px palevioletred, 0 0 25px #db4a39, 0 0 5px #9e8516;
     font-style: italic;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 55px;
 }
 
 * {
@@ -68,101 +39,153 @@ h3 {
     box-sizing: border-box;
 }
 
-.sidebar {
-    position: fixed;
-    left: -250px;
-    width: 250px;
-    height: 85%;
-    background-color: #042331;
-    transition: all .5s ease;
-}
-
-.sidebar header {
-    font-size: 35px;
-    color: white;
-    text-align: left;
-    line-height: 70px;
-    background-color: #063146;
-    padding-left: 20px;
-    user-select: none;
-}
-
-.sidebar ul a {
-    display: block;
-    height: 80%;
-    width: 100%;
-    line-height: 65px;
-    text-align: left;
-    font-size: 20px;
-    color: white;
-    padding-left: 40px;
-    box-sizing: border-box;
-    border-top: 1px solid rgba(255, 255, 255, .1);
-    border-bottom: 1px solid black;
-    /* transition: .4s; */
-    /* transition-property: hover; */
-}
-
-
-/* ul>li>a:hover .fas {
-    padding-left: 40px;
-} */
-
-.sidebar ul a i {
-    margin-right: 16px;
-    font-size: 20px;
-}
-
-#check {
-    display: none;
-}
-
-label #btn {
+p {
     position: absolute;
-    cursor: pointer;
-    background-color: #e76892d7;
-    border-radius: 3px;
+    font-size: 20px;
+    top: 43%;
+    left: 20%;
+    color: #20366b;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 5px #7B3B8C;
 }
 
-label #cancel {
+b {
+    color: #ff502f;
+}
+
+.menu {
     position: absolute;
-    cursor: pointer;
-    background-color: #e76892d7;
-    border-radius: 3px;
-}
-
-label #btn {
-    left: 15px;
     top: 15px;
+    left: 10%;
+    width: 30%;
+    height: 8%;
+    border-radius: 20px;
+}
+
+.menu ul a {
     font-size: 20px;
-    color: rgb(23, 235, 250);
-    padding: 6px 12px;
-    transition: all .5s;
+    text-decoration: none;
+    padding: 10px 15px;
+    float: left;
+    text-align: center;
+    color: greenyellow;
+    display: block;
+    cursor: pointer;
 }
 
-label #cancel {
-    z-index: 1111;
-    left: -180px;
-    top: 17px;
-    font-size: 30px;
-    color: white;
-    padding: 4px 9px;
-    transition: all .5s ease;
+.menu>ul>li>a:hover {
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+    border-bottom-color: #66809c;
+    background: #1522FF;
+    background: linear-gradient(0deg, #1522FF 27%, #F7FF05 63%);
+    background: -webkit-linear-gradient(0deg, #1522FF 27%, #F7FF05 63%);
+    background: -moz-linear-gradient(0deg, #1522FF 27%, #F7FF05 63%);
+    background: -o-linear-gradient(0deg, #1522FF 27%, #F7FF05 63%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='1522FF', endColorstr='#F7FF05', GradientType=1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-shadow: 0 0 4px #fff, 0 0 4px #fff, 0 0 8px #fff, 0 0 10px #fff, 0 0 12px #0fa, 0 0 16px #0fa, 0 0 20px #0fa, 0 0 22px #0fa, 0 0 24px #0fa; */
 }
 
-#check:checked~.sidebar {
-    left: 0px;
-}
 
-#check:checked~label #btn {
-    left: 250px;
-    opacity: 0;
-    pointer-events: none;
-}
-
-#check:checked~label #cancel {
-    left: 180px;
-}
+/*  
+ .sidebar {
+     position: fixed;
+     top: 40px;
+     left: -250px;
+     width: 250px;
+     height: 100%;
+     background-color: rgba(253, 249, 249, 0);
+     transition: all .5s ease;
+ }
+ 
+ .sidebar header {
+     font-size: 35px;
+     color: white;
+     text-align: left;
+     line-height: 70px;
+     background-color: rgba(253, 249, 249, 0);
+     padding-left: 20px;
+     user-select: none;
+ }
+ 
+ .sidebar ul a {
+     display: block;
+     height: 100%;
+     width: 100%;
+     line-height: 65px;
+     text-align: left;
+     font-size: 20px;
+     color: white;
+     padding-left: 40px;
+     box-sizing: border-box;
+     border-top: 1px solid rgba(255, 255, 255, .1);
+     transition: .4s;
+ }
+ 
+ ul li a:hover {
+     padding-left: 40px;
+ }
+ 
+ .sidebar ul a i {
+     margin-right: 16px;
+     font-size: 20px;
+ }
+ 
+ #check {
+     display: none;
+ }
+ 
+ label #btn {
+     position: absolute;
+     cursor: pointer;
+     background-color: #e76892d7;
+     border-radius: 3px;
+ }
+ 
+ label #cancel {
+     position: absolute;
+     cursor: pointer;
+     background-color: #e76892d7;
+     border-radius: 3px;
+ }
+ 
+ label #btn {
+     left: 15px;
+     top: 15px;
+     font-size: 20px;
+     color: rgb(23, 235, 250);
+     padding: 6px 12px;
+     transition: all .5s;
+ }
+ 
+ label #cancel {
+     z-index: 1111;
+     left: -180px;
+     top: 55px;
+     font-size: 30px;
+     color: white;
+     padding: 4px 9px;
+     transition: all .5s ease;
+ }
+ 
+ #check:checked~.sidebar {
+     left: 0px;
+ }
+ 
+ #check:checked~label #btn {
+     left: 250px;
+     opacity: 0;
+     pointer-events: none;
+ }
+ 
+ #check:checked~label #cancel {
+     left: 180px;
+ } */
 
 .social_media ul {
     position: absolute;
@@ -194,7 +217,7 @@ label #cancel {
     transition: .5s;
 }
 
-ul li a:hover {
+.social_media ul li a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 3);
     text-decoration: none;
     transform: translate(0, -20px);
@@ -292,7 +315,7 @@ ul li a.fab {
     background: #8256c9;
 }
 
-button {
+.button1 button {
     margin: 0 5px;
     padding: 6px 25px;
     color: #21ebff;
@@ -305,14 +328,14 @@ button {
     transition: 0.5s;
 }
 
-button:hover {
+.button1 button:hover {
     background-color: #21ebff !important;
     color: #111;
     box-shadow: 0 0 50px #21ebff;
     transition-delay: 0.5s;
 }
 
-button::before {
+.button1 button::before {
     content: '';
     position: absolute;
     top: 0px;
@@ -324,12 +347,12 @@ button::before {
     transition: 0.5s;
 }
 
-button:hover:before {
+.button1 button:hover:before {
     width: 100%;
     height: 100%;
 }
 
-button::after {
+.button1 button::after {
     content: '';
     position: absolute;
     bottom: 0px;
@@ -341,13 +364,156 @@ button::after {
     transition: 0.5s;
 }
 
-button:hover:after {
+.button1 button:hover:after {
     width: 100%;
     height: 100%;
 }
 
-button {
+.button1 button {
     position: relative;
-    left: 1200px;
-    bottom: 20px;
+    left: 88%;
+    bottom: 19px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%-50%);
+}
+
+.container button {
+    padding: 10px 20px;
+    width: 200px;
+    border: none;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    background: #060A68;
+    background: linear-gradient(0deg, #060A68 29%, #2ED4FF 70%);
+    background: -webkit-linear-gradient(0deg, #060A68 29%, #2ED4FF 70%);
+    background: -moz-linear-gradient(0deg, #060A68 29%, #2ED4FF 70%);
+    background: -o-linear-gradient(0deg, #060A68 29%, #2ED4FF 70%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='060A68', endColorstr='#2ED4FF', GradientType=1);
+    color: #fafafa;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.container button:hover {
+    border-radius: 4px;
+    background: #35E5DF;
+    background: linear-gradient(0deg, #35E5DF 36%, #2B34BA 78%);
+    background: -webkit-linear-gradient(0deg, #35E5DF 36%, #2B34BA 78%);
+    background: -moz-linear-gradient(0deg, #35E5DF 36%, #2B34BA 78%);
+    background: -o-linear-gradient(0deg, #35E5DF 36%, #2B34BA 78%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='35E5DF', endColorstr='#2B34BA', GradientType=1);
+}
+
+.card {
+    position: relative;
+    top: 200px;
+    left: 1000px;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    background: #131419;
+    box-sizing: border-box;
+    transition: .5;
+}
+
+.card :hover {
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+}
+
+.imgBx {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.imgBx img {
+    width: 100%;
+    transition: 5s;
+    transform-origin: top right;
+}
+
+.card:hover .imgBx img {
+    transform: scale(1.3);
+}
+
+.card:hover button {
+    visibility: visible;
+}
+
+.card button {
+    position: relative;
+    left: 80px;
+    top: 10px;
+    padding: 5px 10px;
+    width: 150px;
+    border: none;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    background: #060A68;
+    background: linear-gradient(0deg, #060A68 29%, #2ED4FF 70%);
+    background: -webkit-linear-gradient(0deg, #060A68 29%, #2ED4FF 70%);
+    background: -moz-linear-gradient(0deg, #060A68 29%, #2ED4FF 70%);
+    background: -o-linear-gradient(0deg, #060A68 29%, #2ED4FF 70%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='060A68', endColorstr='#2ED4FF', GradientType=1);
+    color: #fafafa;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    transition: .4s;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.content:hover {
+    height: 100%;
+    overflow: visible;
+}
+
+.card button:hover {
+    border-radius: 4px;
+    background: #35E5DF;
+    background: linear-gradient(0deg, #35E5DF 36%, #2B34BA 78%);
+    background: -webkit-linear-gradient(0deg, #35E5DF 36%, #2B34BA 78%);
+    background: -moz-linear-gradient(0deg, #35E5DF 36%, #2B34BA 78%);
+    background: -o-linear-gradient(0deg, #35E5DF 36%, #2B34BA 78%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='35E5DF', endColorstr='#2B34BA', GradientType=1);
+}
+
+.content {
+    background: #131419;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5), inset -3px -3px -7px rgba(255, 255, 255, 0.05);
+    height: 0px;
+    overflow: hidden;
+}
+
+.content h3 {
+    position: relative;
+    left: 0px;
+    top: -15px;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: rgb(192, 192, 169);
+}
+
+.content:hover h3 {
+    top: 10px;
+}
+
+.content p {
+    position: relative;
+    left: 10px;
+    top: 0px;
+    margin: 10px 0 0;
+    padding: 0;
+    color: rgb(136, 118, 118);
 }
