@@ -213,7 +213,7 @@ body {
     color: wheat;
     font-size: 30px;
     padding: 5px 30px;
-    top: 2590px;
+    top: 1750px;
     left: 80%;
 }
 
@@ -235,7 +235,7 @@ body {
     color: wheat;
     font-size: 30px;
     padding: 5px 20px;
-    top: 2590px;
+    top: 1750px;
     left: 15%;
 }
 
@@ -252,7 +252,7 @@ footer {
     bottom: 0px;
     margin: 0;
     padding: 0;
-    top: 2800px;
+    top: 1900px;
     left: 305.5px;
     overflow: hidden;
 }
