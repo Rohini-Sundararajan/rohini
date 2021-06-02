@@ -89,14 +89,15 @@ body {
     left: 20px;
 }
 
-.container .content {
-    position: absolute;
+.container .content a p {
+    position: relative;
     line-height: 2.0;
     font-size: 20px;
     padding: 5px 20px;
     top: 50px;
     left: 20px;
     cursor: pointer;
+    color: #1f212b;
 }
 
 .container .content p:hover {
@@ -225,8 +226,8 @@ body {
 }
 
 .btn a {
-    position: relative;
-    border: 2px solid;
+    position: absolute;
+    border: 3px solid;
     border-radius: 15px;
     border-color: black;
     background: #060B07;
@@ -238,7 +239,7 @@ body {
     color: wheat;
     font-size: 30px;
     padding: 5px 30px;
-    top: 1300px;
+    top: 1400px;
     left: 80%;
 }
 
@@ -256,7 +257,7 @@ footer {
     margin: 0;
     padding: 0;
     top: 250%;
-    left: 275px;
+    left: 305px;
     overflow: hidden;
 }
 
