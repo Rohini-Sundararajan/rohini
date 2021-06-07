@@ -1,6 +1,6 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(90deg, #1f005c, #350168, #4e0274, #6a0380, #8b058b, #970780, #a30971, #af0b5f);
+    font-family: "Times New Roman", Times, serif;
+    background: linear-gradient( 90deg, #1f005c, #350168, #4e0274, #6a0380, #8b058b, #970780, #a30971, #af0b5f);
 }
 
 * {
@@ -11,7 +11,7 @@ body {
     box-sizing: border-box;
 }
 
-.logo {
+.attlogo {
     position: fixed;
     left: 15px;
     top: 10px;
@@ -21,7 +21,7 @@ body {
     visibility: visible;
 }
 
-.logo1 {
+.attlogo1 {
     position: fixed;
     font-size: 25px;
     top: 20px;
@@ -34,7 +34,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.menu {
+.attmenu {
     position: relative;
     top: 10px;
     left: 30%;
@@ -43,7 +43,7 @@ body {
     border-radius: 20px;
 }
 
-.menu ul a {
+.attmenu .attul .atta {
     font-size: 25px;
     text-decoration: none;
     padding: 10px 15px;
@@ -55,17 +55,17 @@ body {
     font-weight: bold;
 }
 
-.menu>ul>li>a:hover {
+.attmenu .attul .attli .atta:hover {
     padding-bottom: 10px;
     border-bottom-style: solid;
     border-bottom-width: 3.1px;
     width: fit-content;
     border-bottom-color: #9dd3a8;
-    background: #F29C08;
-    background: linear-gradient(20deg, #F29C08 0%, #FF0D45 67%);
-    background: -webkit-linear-gradient(20deg, #F29C08 0%, #FF0D45 67%);
-    background: -moz-linear-gradient(20deg, #F29C08 0%, #FF0D45 67%);
-    background: -o-linear-gradient(20deg, #F29C08 0%, #FF0D45 67%);
+    background: #f29c08;
+    background: linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    background: -webkit-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    background: -moz-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    background: -o-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='F29C08', endColorstr='#FF0D45', GradientType=1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -73,7 +73,7 @@ body {
     /* text-shadow: 0 0 4px #fff, 0 0 4px #fff, 0 0 8px #fff, 0 0 10px #fff, 0 0 12px #0fa, 0 0 16px #0fa, 0 0 20px #0fa, 0 0 22px #0fa, 0 0 24px #0fa; */
 }
 
-.container {
+.attcontainer {
     position: fixed;
     top: 70px;
     width: 20%;
@@ -82,16 +82,16 @@ body {
     margin-left: 5px;
 }
 
-.container h3 {
+.attcontainer .atth3 {
     font-size: 30px;
     position: absolute;
     padding: 2px 15px;
     left: 20px;
 }
 
-.container .content a p {
+.attcontainer .attcontent .attcona .att-p {
     position: relative;
-    line-height: 2.0;
+    line-height: 2;
     font-size: 20px;
     padding: 5px 20px;
     top: 50px;
@@ -100,157 +100,157 @@ body {
     color: #1f212b;
 }
 
-.container .content p:hover {
+.attcontainer .attcontent .att-p:hover {
     color: #1f005c;
     font-weight: bold;
 }
 
-.attribute1 .head1 {
+.attribute1 .att-head1 {
     position: absolute;
     top: 150px;
     font-size: 30px;
     left: 40%;
 }
 
-.attribute1 ul {
-    position: absolute;
+.attribute1 .at-ul {
+    width: 40%;
 }
 
-.attribute1 ul li {
+.attribute1 .at-ul .at-li {
     position: relative;
     font-size: 20px;
     top: 200px;
     list-style: disc;
     left: 70%;
-    line-height: 2.0;
+    line-height: 2;
 }
 
-.attribute1 .p1 {
+.attribute1 .att-p1 {
     position: absolute;
     font-size: 25px;
     top: 500px;
     left: 25%;
 }
 
-.attribute1 .x1 {
+.attribute1 .att-x1 {
     position: absolute;
     font-size: 20px;
     top: 560px;
     left: 30%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
-.attribute1 .p2 {
+.attribute1 .att-p2 {
     position: absolute;
     font-size: 20px;
     top: 600px;
     left: 30%;
-    line-height: 2.0;
+    line-height: 2;
 }
 
-.attribute1 .x2 {
+.attribute1 .att-x2 {
     position: absolute;
     font-size: 20px;
     top: 690px;
     left: 30%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
-.attribute1 .p3 {
+.attribute1 .att-p3 {
     position: absolute;
     font-size: 25px;
     top: 750px;
     left: 25%;
 }
 
-.attribute1 .x3 {
+.attribute1 .att-x3 {
     position: absolute;
     font-size: 20px;
     top: 810px;
     left: 30%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
-.attribute1 .p4 {
+.attribute1 .att-p4 {
     position: absolute;
     font-size: 20px;
     top: 850px;
     left: 30%;
-    line-height: 2.0;
+    line-height: 2;
 }
 
-.attribute1 .x4 {
+.attribute1 .att-x4 {
     position: absolute;
     font-size: 20px;
     top: 950px;
     left: 30%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
-.attribute1 .p5 {
+.attribute1 .att-p5 {
     position: absolute;
     font-size: 25px;
     top: 1025px;
     left: 25%;
 }
 
-.attribute1 .p6 {
+.attribute1 .att-p6 {
     position: absolute;
     font-size: 20px;
     top: 1100px;
     left: 30%;
-    line-height: 2.0;
+    line-height: 2;
 }
 
-.attribute1 .p7 {
+.attribute1 .att-p7 {
     position: absolute;
     font-size: 25px;
     top: 1500px;
     left: 30%;
-    line-height: 5.0;
+    line-height: 5;
 }
 
-.attribute1 .x5 {
+.attribute1 .att-x5 {
     position: absolute;
     font-size: 20px;
     top: 1590px;
     left: 30%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
-.attribute1 .p8 {
+.attribute1 .att-p8 {
     position: absolute;
     font-size: 20px;
     top: 1620px;
     left: 30%;
-    line-height: 2.0;
+    line-height: 2;
 }
 
-.attribute1 .x6 {
+.attribute1 .att-x6 {
     position: absolute;
     font-size: 20px;
     top: 1725px;
     left: 30%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
-.attribute1 .p9 {
+.attribute1 .att-p9 {
     position: absolute;
     font-size: 25px;
     top: 1800px;
     left: 30%;
-    line-height: 2.0;
+    line-height: 2;
 }
 
-.attribute1 .x7 {
+.attribute1 .att-x7 {
     position: absolute;
     font-size: 20px;
     top: 1870px;
     left: 30%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
-.attribute1 .p10 {
+.attribute1 .att-p10 {
     position: absolute;
     font-size: 20px;
     top: 1900px;
@@ -258,23 +258,23 @@ body {
     line-height: 2.5;
 }
 
-.attribute1 .x8 {
+.attribute1 .att-x8 {
     position: absolute;
     font-size: 20px;
     top: 2050px;
     left: 30%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
-.attribute1 .p11 {
+.attribute1 .att-p11 {
     position: absolute;
     font-size: 25px;
     top: 2100px;
     left: 30%;
-    line-height: 2.0;
+    line-height: 2;
 }
 
-.attribute1 .p12 {
+.attribute1 .att-p12 {
     position: absolute;
     font-size: 20px;
     top: 2160px;
@@ -282,23 +282,23 @@ body {
     line-height: 2.5;
 }
 
-.attribute1 .x9 {
+.attribute1 .att-x9 {
     position: absolute;
     font-size: 20px;
     top: 2250px;
     left: 25%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
-.attribute1 .p13 {
+.attribute1 .att-p13 {
     position: absolute;
     font-size: 25px;
     top: 2330px;
     left: 30%;
-    line-height: 2.0;
+    line-height: 2;
 }
 
-.attribute1 .p14 {
+.attribute1 .att-p14 {
     position: absolute;
     font-size: 20px;
     top: 2400px;
@@ -306,24 +306,24 @@ body {
     line-height: 2.5;
 }
 
-.attribute1 .x10 {
+.attribute1 .att-x10 {
     position: absolute;
     font-size: 20px;
     top: 2530px;
     left: 25%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
-.btn .next {
+.att-btn .att-next {
     position: relative;
     border: 2px solid;
     border-radius: 15px;
     border-color: black;
-    background: #060B07;
-    background: linear-gradient(0deg, #060B07 0%, #8CFFF8 100%);
-    background: -webkit-linear-gradient(0deg, #060B07 0%, #8CFFF8 100%);
-    background: -moz-linear-gradient(0deg, #060B07 0%, #8CFFF8 100%);
-    background: -o-linear-gradient(0deg, #060B07 0%, #8CFFF8 100%);
+    background: #060b07;
+    background: linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -webkit-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -moz-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -o-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='060B07', endColorstr='#8CFFF8', GradientType=1);
     color: wheat;
     font-size: 30px;
@@ -332,20 +332,20 @@ body {
     left: 80%;
 }
 
-.btn .next:hover {
+.att-btn .att-next:hover {
     text-shadow: 1px 1px 1px red, 3px 3px 5px blue;
 }
 
-.btn .previous {
+.att-btn .att-previous {
     position: relative;
     border: 2px solid;
     border-radius: 15px;
     border-color: black;
-    background: #060B07;
-    background: linear-gradient(0deg, #060B07 0%, #8CFFF8 100%);
-    background: -webkit-linear-gradient(0deg, #060B07 0%, #8CFFF8 100%);
-    background: -moz-linear-gradient(0deg, #060B07 0%, #8CFFF8 100%);
-    background: -o-linear-gradient(0deg, #060B07 0%, #8CFFF8 100%);
+    background: #060b07;
+    background: linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -webkit-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -moz-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -o-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='060B07', endColorstr='#8CFFF8', GradientType=1);
     color: wheat;
     font-size: 30px;
@@ -354,11 +354,11 @@ body {
     left: 15%;
 }
 
-.btn .previous:hover {
+.att-btn .att-previous:hover {
     text-shadow: 1px 1px 1px red, 3px 3px 5px blue;
 }
 
-footer {
+.att-footer {
     position: relative;
     background: #1f212b;
     width: 79.6%;
@@ -372,29 +372,29 @@ footer {
     overflow: hidden;
 }
 
-.main-content {
+.attmain-content {
     display: flex;
     /* position: absolute; */
 }
 
-.main-content .left-box {
+.attmain-content .attleft-box {
     border: none;
 }
 
-.main-content .left-box h2 {
+.attmain-content .attleft-box .atlt-h2 {
     font-size: 30px;
-    line-height: 1.0;
+    line-height: 1;
     color: #005792;
     left: 50px;
     top: 30px;
     position: relative;
 }
 
-.main-content .left-box ul li a {
+.attmain-content .attleft-box .atlt-ul .atlt-li .atlt-a {
     position: relative;
     display: block;
     font-size: 25px;
-    line-height: 2.0;
+    line-height: 2;
     padding-top: 10px;
     margin-left: 10px;
     color: #e4d1d3;
@@ -404,15 +404,15 @@ footer {
     cursor: pointer;
 }
 
-.main-content .left-box>ul>li>a:hover {
+.attmain-content .attleft-box .atlt-ul .atlt-li .atlt-a:hover {
     color: white;
-    border-bottom: #F29C08;
+    border-bottom: #f29c08;
     padding-bottom: 5px;
     border-bottom-style: solid;
     border-bottom-width: 3.1px;
 }
 
-.main-content .center-box {
+.attmain-content .attcenter-box {
     position: absolute;
     display: block;
     border: none;
@@ -422,7 +422,7 @@ footer {
     left: 35%;
 }
 
-.main-content .center-box h2 {
+.attmain-content .attcenter-box .atce-h2 {
     position: absolute;
     font-size: 30px;
     left: 45px;
@@ -431,7 +431,7 @@ footer {
     /* line-height: 2.0; */
 }
 
-.main-content .center-box .phone {
+.attmain-content .attcenter-box .atce-phone {
     position: relative;
     display: flex;
     font-size: 20px;
@@ -441,7 +441,7 @@ footer {
     cursor: pointer;
 }
 
-.main-content .center-box .mail {
+.attmain-content .attcenter-box .atce-mail {
     position: relative;
     display: flex;
     font-size: 20px;
@@ -451,7 +451,7 @@ footer {
     cursor: pointer;
 }
 
-.main-content .center-box .location {
+.attmain-content .attcenter-box .atce-location {
     position: relative;
     display: flex;
     font-size: 20px;
@@ -460,8 +460,8 @@ footer {
     color: #e4d1d3;
 }
 
-.main-content .center-box .button {
-    border: 3px solid #FF5F5F;
+.attmain-content .attcenter-box .atce-button {
+    border: 3px solid #ff5f5f;
     position: relative;
     /* display: flex; */
     font-size: 20px;
@@ -473,18 +473,18 @@ footer {
     left: 60px;
 }
 
-.main-content .center-box .mail,
-.main-content .center-box .phone,
-.main-content .center-box .location {
+.attmain-content .attcenter-box .atce-mail,
+.attmain-content .attcenter-box .atce-phone,
+.attmain-content .attcenter-box .atce-location {
     font-size: 25px;
     text-indent: 20px;
 }
 
-.main-content .center-box .button:hover {
+.attmain-content .attcenter-box .atce-button:hover {
     box-shadow: 4px 3px 8px 4px #e79686;
 }
 
-.main-content .right-box {
+.attmain-content .attright-box {
     position: relative;
     display: flex;
     width: 300px;
@@ -493,7 +493,7 @@ footer {
     left: 60%;
 }
 
-.main-content .right-box h2 {
+.attmain-content .attright-box .atrt-h2 {
     position: absolute;
     display: flex;
     font-size: 30px;
@@ -502,7 +502,7 @@ footer {
     color: #005792;
 }
 
-.main-content .right-box .social_media ul {
+.attmain-content .attright-box .atrtsocial_media .atrt-ul {
     position: relative;
     top: 150px;
     left: 90px;
@@ -512,11 +512,11 @@ footer {
     display: flex;
 }
 
-.main-content .right-box .social_media ul li {
+.attmain-content .attright-box .atrtsocial_media .atrt-ul .atrt-li {
     list-style-type: none;
 }
 
-.main-content .right-box .social_media ul li a {
+.attmain-content .attright-box .atrtsocial_media .atrt-ul .atrt-li .atrt-a {
     position: relative;
     width: 40px;
     height: 40px;
@@ -529,37 +529,37 @@ footer {
     text-decoration: none;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 3);
     background: linear-gradient(0deg, #ddd, #fff);
-    transition: .5s;
+    transition: 0.5s;
     background-color: #1f005c;
 }
 
-.social_media ul li a:hover {
+.atrtsocial_media .atrt-ul .atrt-li .atrt-a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 3);
     text-decoration: none;
     transform: translate(0, -20px);
 }
 
-ul li:nth-child(1) a:hover .fab {
+.atrt-ul .atrt-li:nth-child(1) .atrt-a:hover .fab {
     color: #3b5998;
 }
 
-ul li:nth-child(2) a:hover .fab {
+.atrt-ul .atrt-li:nth-child(2) .atrt-a:hover .fab {
     color: #00acee;
 }
 
-ul li:nth-child(3) a:hover .fab {
-    color: #db4a39
+.atrt-ul .atrt-li:nth-child(3) .atrt-a:hover .fab {
+    color: #db4a39;
 }
 
-ul li:nth-child(4) a:hover .fab {
+.atrt-ul .atrt-li:nth-child(4) .atrt-a:hover .fab {
     color: #0e76a8;
 }
 
-ul li:nth-child(5) a:hover .fab {
+.atrt-ul .atrt-li:nth-child(5) .atrt-a:hover .fab {
     color: #de249f;
 }
 
-.main-content .right-box .social_media ul li a.fab {
+.attmain-content .attright-box .atrtsocial_media .atrt-ul .atrt-li .atrt-a.fab {
     width: 70%;
     height: 70%;
     display: block;
@@ -568,9 +568,9 @@ ul li:nth-child(5) a:hover .fab {
     line-height: calc(6px - 12px);
     font-size: 50px;
     color: #262626;
-    transition: .5s;
+    transition: 0.5s;
 }
 
-.main-content .right-box .social_media ul li i {
+.attmain-content .attright-box .atrtsocial_media .atrt-ul .atrt-li .atrt-a>i {
     font-size: 25px;
 }
