@@ -1,0 +1,459 @@
+.headpg {
+    font-family: "Times New Roman", Times, serif;
+    background: linear-gradient( 90deg, #1f005c, #350168, #4e0274, #6a0380, #8b058b, #970780, #a30971, #af0b5f);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    height: 2493px;
+}
+
+.hlogo {
+    position: fixed;
+    left: 15px;
+    top: 10px;
+    width: 50px;
+    border-radius: 40%;
+    border: 3px solid rgb(8, 128, 48);
+    visibility: visible;
+}
+
+.hlogo1 {
+    position: fixed;
+    font-size: 25px;
+    top: 20px;
+    left: 80px;
+    background: #05f1e6;
+    background: -webkit-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
+    background: -moz-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
+    background: linear-gradient(to right, #05f1e6 0%, hotpink 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hmenu {
+    position: relative;
+    top: 10px;
+    left: 30%;
+    width: 35%;
+    height: 8%;
+    border-radius: 20px;
+}
+
+.hmenu .headul .heada {
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 15px;
+    float: left;
+    text-align: center;
+    color: greenyellow;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hmenu>.headul>.headli>.heada:hover {
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+    border-bottom-color: #9dd3a8;
+    background: #f29c08;
+    background: linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    background: -webkit-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    background: -moz-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    background: -o-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='F29C08', endColorstr='#FF0D45', GradientType=1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    /* text-shadow: 0 0 4px #fff, 0 0 4px #fff, 0 0 8px #fff, 0 0 10px #fff, 0 0 12px #0fa, 0 0 16px #0fa, 0 0 20px #0fa, 0 0 22px #0fa, 0 0 24px #0fa; */
+}
+
+.headcontainer {
+    position: fixed;
+    top: 70px;
+    width: 20%;
+    height: 100%;
+    background-color: aquamarine;
+    margin-left: 5px;
+}
+
+.headcontainer .headh3 {
+    font-size: 30px;
+    position: absolute;
+    padding: 2px 15px;
+    left: 20px;
+}
+
+.headcontainer .hcontent .hcona .headp {
+    position: relative;
+    line-height: 2;
+    font-size: 20px;
+    padding: 5px 20px;
+    top: 50px;
+    left: 20px;
+    cursor: pointer;
+    color: #1f212b;
+}
+
+.headcontainer .hcontent .headp:hover {
+    color: #1f005c;
+    font-weight: bold;
+}
+
+.heading1 .hhead1 {
+    position: absolute;
+    font-size: 30px;
+    top: 150px;
+    left: 50%;
+}
+
+.heading1 .headp1 {
+    position: absolute;
+    font-size: 25px;
+    top: 250px;
+    left: 30%;
+    line-height: 3;
+}
+
+.heading2 {
+    position: absolute;
+    top: 400px;
+    left: 30%;
+    font-size: 30px;
+}
+
+.heading3 .hx1 {
+    position: absolute;
+    top: 850px;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    left: 30%;
+    white-space: nowrap;
+}
+
+.heading3 .hx2 {
+    position: absolute;
+    top: 910px;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    left: 30%;
+    white-space: nowrap;
+}
+
+.heading3 .hx3 {
+    position: absolute;
+    top: 970px;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    left: 30%;
+    white-space: nowrap;
+}
+
+.heading3 .head-p2 {
+    position: absolute;
+    top: 1050px;
+    left: 30%;
+    font-size: 25px;
+}
+
+.heading3 .hx4 {
+    position: absolute;
+    top: 1090px;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    left: 30%;
+}
+
+.heading3 .hhead2 {
+    position: absolute;
+    top: 1325px;
+    left: 30%;
+    font-size: 30px;
+}
+
+.heading3 .head-p3 {
+    position: absolute;
+    top: 1400px;
+    left: 30%;
+    font-size: 25px;
+    line-height: 2.5;
+}
+
+.heading3 .hhead3 {
+    position: absolute;
+    top: 1590px;
+    left: 30%;
+    font-size: 30px;
+}
+
+.heading3 .hp4 {
+    position: absolute;
+    top: 1640px;
+    left: 30%;
+    font-size: 25px;
+    line-height: 2.5;
+}
+
+.headbtn .headnext {
+    position: relative;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: black;
+    background: #060b07;
+    background: linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -webkit-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -moz-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -o-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='060B07', endColorstr='#8CFFF8', GradientType=1);
+    color: wheat;
+    font-size: 30px;
+    padding: 5px 30px;
+    top: 1800px;
+    left: 700px;
+}
+
+.headbtn .headnext:hover {
+    text-shadow: 1px 1px 1px red, 3px 3px 5px blue;
+}
+
+.headbtn .headprevious {
+    position: relative;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: black;
+    background: #060b07;
+    background: linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -webkit-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -moz-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -o-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='060B07', endColorstr='#8CFFF8', GradientType=1);
+    color: wheat;
+    font-size: 30px;
+    padding: 5px 20px;
+    top: 1800px;
+    left: -30px;
+}
+
+.headbtn .headprevious:hover {
+    text-shadow: 1px 1px 1px red, 3px 3px 5px blue;
+}
+
+.head-footer {
+    position: relative;
+    background: #1f212b;
+    width: 79.6%;
+    height: 360px;
+    box-sizing: border-box;
+    bottom: 0px;
+    margin: 0;
+    padding: 0;
+    top: 1900px;
+    left: 275px;
+    overflow: hidden;
+}
+
+.hmain-content {
+    display: flex;
+    /* position: absolute; */
+}
+
+.hmain-content .hleft-box {
+    border: none;
+}
+
+.hmain-content .hleft-box .hmainh2 {
+    font-size: 30px;
+    line-height: 1;
+    color: #005792;
+    left: 50px;
+    top: 30px;
+    position: relative;
+}
+
+.hmain-content .hleft-box .hmain-ul .hmain-li .hmain-a {
+    position: relative;
+    display: block;
+    font-size: 25px;
+    line-height: 2;
+    padding-top: 10px;
+    margin-left: 10px;
+    color: #e4d1d3;
+    text-align: center;
+    left: 30px;
+    top: 50px;
+    cursor: pointer;
+}
+
+.hmain-content .hleft-box>.hmain-ul>.hmain-li>.head-a:hover {
+    color: white;
+    border-bottom: #f29c08;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+}
+
+.hmain-content .hcenter-box {
+    position: absolute;
+    display: block;
+    border: none;
+    width: 300px;
+    height: 300px;
+    top: 30px;
+    left: 35%;
+}
+
+.hmain-content .hcenter-box .hce-h2 {
+    position: absolute;
+    font-size: 30px;
+    left: 45px;
+    top: 4.5px;
+    color: #005792;
+    /* line-height: 2.0; */
+}
+
+.hmain-content .hcenter-box .hce-phone {
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    top: 60px;
+    left: -40px;
+    color: #e4d1d3;
+    cursor: pointer;
+}
+
+.hmain-content .hcenter-box .hce-mail {
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    left: -40px;
+    top: 130px;
+    color: #e4d1d3;
+    cursor: pointer;
+}
+
+.hmain-content .hcenter-box .hce-location {
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    left: -40px;
+    top: 200px;
+    color: #e4d1d3;
+}
+
+.hmain-content .hcenter-box .headbutton {
+    border: 3px solid #ff5f5f;
+    position: relative;
+    /* display: flex; */
+    font-size: 20px;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 15px;
+    text-align: center;
+    top: 200px;
+    left: 60px;
+}
+
+.hmain-content .hcenter-box .hce-mail,
+.hmain-content .hcenter-box .hce-phone,
+.hmain-content .hcenter-box .hce-location {
+    font-size: 25px;
+    text-indent: 20px;
+}
+
+.hmain-content .hcenter-box .headbutton:hover {
+    box-shadow: 4px 3px 8px 4px #e79686;
+}
+
+.hmain-content .hright-box {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 350px;
+    top: 25px;
+    left: 60%;
+}
+
+.hmain-content .hright-box .hrt-h2 {
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    top: 10px;
+    left: -25px;
+    color: #005792;
+}
+
+.hmain-content .hright-box .hsocial_media .hrt-ul {
+    position: relative;
+    top: 150px;
+    left: 90px;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.hmain-content .hright-box .hsocial_media .hrt-ul .hrt-li {
+    list-style-type: none;
+}
+
+.hmain-content .hright-box .hsocial_media .hrt-ul .hrt-li .hrt-a {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: 0.5s;
+    background-color: #1f005c;
+}
+
+.hsocial_media .hrt-ul .hrt-li .hrt-a:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 3);
+    text-decoration: none;
+    transform: translate(0, -20px);
+}
+
+.hrt-ul .hrt-li:nth-child(1) .hrt-a:hover .fab {
+    color: #3b5998;
+}
+
+.hrt-ul .hrt-li:nth-child(2) .hrt-a:hover .fab {
+    color: #00acee;
+}
+
+.hrt-ul .hrt-li:nth-child(3) .hrt-a:hover .fab {
+    color: #db4a39;
+}
+
+.hrt-ul .hrt-li:nth-child(4) .hrt-a:hover .fab {
+    color: #0e76a8;
+}
+
+.hrt-ul .hrt-li:nth-child(5) .hrt-a:hover .fab {
+    color: #de249f;
+}
+
+.hmain-content .hright-box .hsocial_media .hrt-ul .hrt-li .hrt-a.fab {
+    width: 70%;
+    height: 70%;
+    display: block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(6px - 12px);
+    font-size: 50px;
+    color: #262626;
+    transition: 0.5s;
+}
+
+.hmain-content .hright-box .hsocial_media .hrt-ul .hrt-a>i {
+    font-size: 25px;
+}

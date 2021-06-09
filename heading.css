@@ -1,6 +1,6 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(90deg, #1f005c, #350168, #4e0274, #6a0380, #8b058b, #970780, #a30971, #af0b5f);
+    font-family: "Times New Roman", Times, serif;
+    background: linear-gradient( 90deg, #1f005c, #350168, #4e0274, #6a0380, #8b058b, #970780, #a30971, #af0b5f);
 }
 
 * {
@@ -11,7 +11,7 @@ body {
     box-sizing: border-box;
 }
 
-.logo {
+.hlogo {
     position: fixed;
     left: 15px;
     top: 10px;
@@ -21,7 +21,7 @@ body {
     visibility: visible;
 }
 
-.logo1 {
+.hlogo1 {
     position: fixed;
     font-size: 25px;
     top: 20px;
@@ -34,7 +34,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.menu {
+.hmenu {
     position: relative;
     top: 10px;
     left: 30%;
@@ -43,7 +43,7 @@ body {
     border-radius: 20px;
 }
 
-.menu ul a {
+.hmenu .headul .heada {
     font-size: 25px;
     text-decoration: none;
     padding: 10px 15px;
@@ -55,17 +55,17 @@ body {
     font-weight: bold;
 }
 
-.menu>ul>li>a:hover {
+.hmenu>.headul>.headli>.heada:hover {
     padding-bottom: 10px;
     border-bottom-style: solid;
     border-bottom-width: 3.1px;
     width: fit-content;
     border-bottom-color: #9dd3a8;
-    background: #F29C08;
-    background: linear-gradient(20deg, #F29C08 0%, #FF0D45 67%);
-    background: -webkit-linear-gradient(20deg, #F29C08 0%, #FF0D45 67%);
-    background: -moz-linear-gradient(20deg, #F29C08 0%, #FF0D45 67%);
-    background: -o-linear-gradient(20deg, #F29C08 0%, #FF0D45 67%);
+    background: #f29c08;
+    background: linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    background: -webkit-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    background: -moz-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    background: -o-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='F29C08', endColorstr='#FF0D45', GradientType=1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -73,7 +73,7 @@ body {
     /* text-shadow: 0 0 4px #fff, 0 0 4px #fff, 0 0 8px #fff, 0 0 10px #fff, 0 0 12px #0fa, 0 0 16px #0fa, 0 0 20px #0fa, 0 0 22px #0fa, 0 0 24px #0fa; */
 }
 
-.container {
+.headcontainer {
     position: fixed;
     top: 70px;
     width: 20%;
@@ -82,16 +82,16 @@ body {
     margin-left: 5px;
 }
 
-.container h3 {
+.headcontainer .headh3 {
     font-size: 30px;
     position: absolute;
     padding: 2px 15px;
     left: 20px;
 }
 
-.container .content a p {
+.headcontainer .hcontent .hcona .headp {
     position: relative;
-    line-height: 2.0;
+    line-height: 2;
     font-size: 20px;
     padding: 5px 20px;
     top: 50px;
@@ -100,19 +100,19 @@ body {
     color: #1f212b;
 }
 
-.container .content p:hover {
+.headcontainer .hcontent .headp:hover {
     color: #1f005c;
     font-weight: bold;
 }
 
-.heading1 .head1 {
+.heading1 .hhead1 {
     position: absolute;
     font-size: 30px;
     top: 150px;
     left: 50%;
 }
 
-.heading1 .p1 {
+.heading1 .headp1 {
     position: absolute;
     font-size: 25px;
     top: 250px;
@@ -127,56 +127,56 @@ body {
     font-size: 30px;
 }
 
-.heading3 .x1 {
+.heading3 .hx1 {
     position: absolute;
     top: 850px;
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     left: 30%;
     white-space: nowrap;
 }
 
-.heading3 .x2 {
+.heading3 .hx2 {
     position: absolute;
     top: 910px;
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     left: 30%;
     white-space: nowrap;
 }
 
-.heading3 .x3 {
+.heading3 .hx3 {
     position: absolute;
     top: 970px;
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     left: 30%;
     white-space: nowrap;
 }
 
-.heading3 .p2 {
+.heading3 .head-p2 {
     position: absolute;
     top: 1050px;
     left: 30%;
     font-size: 25px;
 }
 
-.heading3 .x4 {
+.heading3 .hx4 {
     position: absolute;
     top: 1090px;
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     left: 25%;
 }
 
-.heading3 .head2 {
+.heading3 .hhead2 {
     position: absolute;
     top: 1325px;
     left: 30%;
     font-size: 30px;
 }
 
-.heading3 .p3 {
+.heading3 .head-p3 {
     position: absolute;
     top: 1400px;
     left: 30%;
@@ -184,14 +184,14 @@ body {
     line-height: 2.5;
 }
 
-.heading3 .head3 {
+.heading3 .hhead3 {
     position: absolute;
     top: 1550px;
     left: 30%;
     font-size: 30px;
 }
 
-.heading3 .p4 {
+.heading3 .hp4 {
     position: absolute;
     top: 1600px;
     left: 30%;
@@ -199,16 +199,16 @@ body {
     line-height: 2.5;
 }
 
-.btn .next {
+.headbtn .headnext {
     position: relative;
     border: 2px solid;
     border-radius: 15px;
     border-color: black;
-    background: #060B07;
-    background: linear-gradient(0deg, #060B07 0%, #8CFFF8 100%);
-    background: -webkit-linear-gradient(0deg, #060B07 0%, #8CFFF8 100%);
-    background: -moz-linear-gradient(0deg, #060B07 0%, #8CFFF8 100%);
-    background: -o-linear-gradient(0deg, #060B07 0%, #8CFFF8 100%);
+    background: #060b07;
+    background: linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -webkit-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -moz-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -o-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='060B07', endColorstr='#8CFFF8', GradientType=1);
     color: wheat;
     font-size: 30px;
@@ -217,20 +217,20 @@ body {
     left: 80%;
 }
 
-.btn .next:hover {
+.headbtn .headnext:hover {
     text-shadow: 1px 1px 1px red, 3px 3px 5px blue;
 }
 
-.btn .previous {
+.headbtn .headprevious {
     position: relative;
     border: 2px solid;
     border-radius: 15px;
     border-color: black;
-    background: #060B07;
-    background: linear-gradient(0deg, #060B07 0%, #8CFFF8 100%);
-    background: -webkit-linear-gradient(0deg, #060B07 0%, #8CFFF8 100%);
-    background: -moz-linear-gradient(0deg, #060B07 0%, #8CFFF8 100%);
-    background: -o-linear-gradient(0deg, #060B07 0%, #8CFFF8 100%);
+    background: #060b07;
+    background: linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -webkit-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -moz-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -o-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='060B07', endColorstr='#8CFFF8', GradientType=1);
     color: wheat;
     font-size: 30px;
@@ -239,11 +239,11 @@ body {
     left: 15%;
 }
 
-.btn .previous:hover {
+.headbtn .headprevious:hover {
     text-shadow: 1px 1px 1px red, 3px 3px 5px blue;
 }
 
-footer {
+.head-footer {
     position: relative;
     background: #1f212b;
     width: 79.6%;
@@ -257,29 +257,29 @@ footer {
     overflow: hidden;
 }
 
-.main-content {
+.hmain-content {
     display: flex;
     /* position: absolute; */
 }
 
-.main-content .left-box {
+.hmain-content .hleft-box {
     border: none;
 }
 
-.main-content .left-box h2 {
+.hmain-content .hleft-box .hmainh2 {
     font-size: 30px;
-    line-height: 1.0;
+    line-height: 1;
     color: #005792;
     left: 50px;
     top: 30px;
     position: relative;
 }
 
-.main-content .left-box ul li a {
+.hmain-content .hleft-box .hmain-ul .hmain-li .hmain-a {
     position: relative;
     display: block;
     font-size: 25px;
-    line-height: 2.0;
+    line-height: 2;
     padding-top: 10px;
     margin-left: 10px;
     color: #e4d1d3;
@@ -289,15 +289,15 @@ footer {
     cursor: pointer;
 }
 
-.main-content .left-box>ul>li>a:hover {
+.hmain-content .hleft-box>.hmain-ul>.hmain-li>.head-a:hover {
     color: white;
-    border-bottom: #F29C08;
+    border-bottom: #f29c08;
     padding-bottom: 5px;
     border-bottom-style: solid;
     border-bottom-width: 3.1px;
 }
 
-.main-content .center-box {
+.hmain-content .hcenter-box {
     position: absolute;
     display: block;
     border: none;
@@ -307,7 +307,7 @@ footer {
     left: 35%;
 }
 
-.main-content .center-box h2 {
+.hmain-content .hcenter-box .hce-h2 {
     position: absolute;
     font-size: 30px;
     left: 45px;
@@ -316,7 +316,7 @@ footer {
     /* line-height: 2.0; */
 }
 
-.main-content .center-box .phone {
+.hmain-content .hcenter-box .hce-phone {
     position: relative;
     display: flex;
     font-size: 20px;
@@ -326,7 +326,7 @@ footer {
     cursor: pointer;
 }
 
-.main-content .center-box .mail {
+.hmain-content .hcenter-box .hce-mail {
     position: relative;
     display: flex;
     font-size: 20px;
@@ -336,7 +336,7 @@ footer {
     cursor: pointer;
 }
 
-.main-content .center-box .location {
+.hmain-content .hcenter-box .hce-location {
     position: relative;
     display: flex;
     font-size: 20px;
@@ -345,8 +345,8 @@ footer {
     color: #e4d1d3;
 }
 
-.main-content .center-box .button {
-    border: 3px solid #FF5F5F;
+.hmain-content .hcenter-box .headbutton {
+    border: 3px solid #ff5f5f;
     position: relative;
     /* display: flex; */
     font-size: 20px;
@@ -358,18 +358,18 @@ footer {
     left: 60px;
 }
 
-.main-content .center-box .mail,
-.main-content .center-box .phone,
-.main-content .center-box .location {
+.hmain-content .hcenter-box .hce-mail,
+.hmain-content .hcenter-box .hce-phone,
+.hmain-content .hcenter-box .hce-location {
     font-size: 25px;
     text-indent: 20px;
 }
 
-.main-content .center-box .button:hover {
+.hmain-content .hcenter-box .headbutton:hover {
     box-shadow: 4px 3px 8px 4px #e79686;
 }
 
-.main-content .right-box {
+.hmain-content .hright-box {
     position: relative;
     display: flex;
     width: 300px;
@@ -378,7 +378,7 @@ footer {
     left: 60%;
 }
 
-.main-content .right-box h2 {
+.hmain-content .hright-box .hrt-h2 {
     position: absolute;
     display: flex;
     font-size: 30px;
@@ -387,7 +387,7 @@ footer {
     color: #005792;
 }
 
-.main-content .right-box .social_media ul {
+.hmain-content .hright-box .hsocial_media .hrt-ul {
     position: relative;
     top: 150px;
     left: 90px;
@@ -397,11 +397,11 @@ footer {
     display: flex;
 }
 
-.main-content .right-box .social_media ul li {
+.hmain-content .hright-box .hsocial_media .hrt-ul .hrt-li {
     list-style-type: none;
 }
 
-.main-content .right-box .social_media ul li a {
+.hmain-content .hright-box .hsocial_media .hrt-ul .hrt-li .hrt-a {
     position: relative;
     width: 40px;
     height: 40px;
@@ -414,37 +414,37 @@ footer {
     text-decoration: none;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 3);
     background: linear-gradient(0deg, #ddd, #fff);
-    transition: .5s;
+    transition: 0.5s;
     background-color: #1f005c;
 }
 
-.social_media ul li a:hover {
+.hsocial_media .hrt-ul .hrt-li .hrt-a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 3);
     text-decoration: none;
     transform: translate(0, -20px);
 }
 
-ul li:nth-child(1) a:hover .fab {
+.hrt-ul .hrt-li:nth-child(1) .hrt-a:hover .fab {
     color: #3b5998;
 }
 
-ul li:nth-child(2) a:hover .fab {
+.hrt-ul .hrt-li:nth-child(2) .hrt-a:hover .fab {
     color: #00acee;
 }
 
-ul li:nth-child(3) a:hover .fab {
-    color: #db4a39
+.hrt-ul .hrt-li:nth-child(3) .hrt-a:hover .fab {
+    color: #db4a39;
 }
 
-ul li:nth-child(4) a:hover .fab {
+.hrt-ul .hrt-li:nth-child(4) .hrt-a:hover .fab {
     color: #0e76a8;
 }
 
-ul li:nth-child(5) a:hover .fab {
+.hrt-ul .hrt-li:nth-child(5) .hrt-a:hover .fab {
     color: #de249f;
 }
 
-.main-content .right-box .social_media ul li a.fab {
+.hmain-content .hright-box .hsocial_media .hrt-ul .hrt-li .hrt-a.fab {
     width: 70%;
     height: 70%;
     display: block;
@@ -453,9 +453,9 @@ ul li:nth-child(5) a:hover .fab {
     line-height: calc(6px - 12px);
     font-size: 50px;
     color: #262626;
-    transition: .5s;
+    transition: 0.5s;
 }
 
-.main-content .right-box .social_media ul li i {
+.hmain-content .hright-box .hsocial_media .hrt-ul .hrt-a>i {
     font-size: 25px;
 }
