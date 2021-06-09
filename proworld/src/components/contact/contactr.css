@@ -1,21 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(90deg, #1f005c, #350168, #4e0274, #6a0380, #8b058b, #970780, #a30971, #af0b5f);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-    min-height: 100vh;
-}
-
 .con-logo {
     position: absolute;
     left: 15px;
@@ -30,12 +12,12 @@ body {
     position: absolute;
     top: 15px;
     left: 10%;
-    width: 35%;
+    width: 45%;
     height: 8%;
     border-radius: 20px;
 }
 
-.con-menu .con-ul .con-a {
+.con-menu .con-ul .con-li .con-a {
     font-size: 20px;
     text-decoration: none;
     padding: 10px 15px;
@@ -47,17 +29,21 @@ body {
     font-weight: bold;
 }
 
+.con-li {
+    list-style: none;
+}
+
 .con-menu .con-ul .con-li .con-a:hover {
     padding-bottom: 10px;
     border-bottom-style: solid;
     border-bottom-width: 3.1px;
     width: fit-content;
     border-bottom-color: #9dd3a8;
-    background: #F29C08;
-    background: linear-gradient(20deg, #F29C08 0%, #FF0D45 67%);
-    background: -webkit-linear-gradient(20deg, #F29C08 0%, #FF0D45 67%);
-    background: -moz-linear-gradient(20deg, #F29C08 0%, #FF0D45 67%);
-    background: -o-linear-gradient(20deg, #F29C08 0%, #FF0D45 67%);
+    background: #f29c08;
+    background: linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    background: -webkit-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    background: -moz-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    background: -o-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='F29C08', endColorstr='#FF0D45', GradientType=1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -77,6 +63,7 @@ body {
 .container .text {
     font-size: 35px;
     font-weight: 600;
+
     text-align: center;
     background: -webkit-linear-gradient(right, #9f01ea, #56d8e4, #9f01ea);
     -webkit-background-clip: text;
@@ -224,20 +211,12 @@ form .form-row .input-data {
     width: 40% !important;
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    outline: none;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-body {
+.contactpage {
+    font-family: "Times New Roman", Times, serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 90vh;
+    min-height: 100vh;
     padding: 40px;
     background: linear-gradient(115deg, #8fd3f4 5%, #84fab0 95%);
 }

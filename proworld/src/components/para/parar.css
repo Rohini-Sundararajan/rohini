@@ -1,9 +1,6 @@
-body {
+.parapg {
     font-family: "Times New Roman", Times, serif;
     background: linear-gradient( 90deg, #1f005c, #350168, #4e0274, #6a0380, #8b058b, #970780, #a30971, #af0b5f);
-}
-
-* {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -108,111 +105,111 @@ body {
 .parapara1 .parahead1 {
     position: absolute;
     top: 150px;
-    left: 40%;
+    left: 45%;
     font-size: 30px;
 }
 
 .parapara1 .parap1 {
     position: absolute;
     top: 250px;
-    left: 25%;
-    font-size: 25px;
+    left: 30%;
+    font-size: 22px;
 }
 
 .parapara1 .parax1 {
     position: absolute;
     top: 300px;
-    left: 25%;
-    font-size: 25px;
+    left: 30%;
+    font-size: 22px;
     font-family: "Times New Roman", Times, serif;
     white-space: nowrap;
 }
 
 .parapara1 .parap2 {
     position: absolute;
-    font-size: 25px;
+    font-size: 22px;
     top: 350px;
-    left: 25%;
+    left: 30%;
     line-height: 2.5;
 }
 
 .parapara1 .parax2 {
     position: absolute;
     top: 505px;
-    left: 20%;
+    left: 30%;
     line-height: 35px;
-    font-size: 25px;
+    font-size: 22px;
     font-family: "Times New Roman", Times, serif;
 }
 
 .parapara1 .parahead2 {
     position: absolute;
-    top: 650px;
+    top: 625px;
     left: 50%;
     font-size: 30px;
 }
 
 .parapara1 .parap3 {
     position: absolute;
-    font-size: 25px;
+    font-size: 22px;
     top: 700px;
-    left: 25%;
+    left: 30%;
     line-height: 2.5;
 }
 
 .parapara1 .parahead3 {
     position: absolute;
-    top: 1070px;
+    top: 1000px;
     left: 45%;
     font-size: 30px;
 }
 
 .parapara1 .parax3 {
     position: absolute;
-    top: 1100px;
-    left: 20%;
-    font-size: 25px;
+    top: 1070px;
+    left: 30%;
+    font-size: 22px;
     font-family: "Times New Roman", Times, serif;
     line-height: 2;
 }
 
 .parapara1 .parax4 {
     position: absolute;
-    top: 1300px;
-    left: 25%;
-    font-size: 25px;
+    top: 1150px;
+    left: 30%;
+    font-size: 22px;
     font-family: "Times New Roman", Times, serif;
     line-height: 2;
 }
 
 .parapara1 .parahead4 {
     position: absolute;
-    top: 1670px;
+    top: 1500px;
     left: 45%;
     font-size: 30px;
 }
 
 .parapara1 .parax5 {
     position: absolute;
-    top: 1690px;
-    left: 25%;
-    font-size: 25px;
+    top: 1550px;
+    left: 30%;
+    font-size: 22px;
     font-family: "Times New Roman", Times, serif;
     line-height: 2;
 }
 
 .parapara1 .parax6 {
     position: absolute;
-    top: 1800px;
-    left: 31.5%;
-    font-size: 25px;
+    top: 1600px;
+    left: 30%;
+    font-size: 22px;
     font-family: "Times New Roman", Times, serif;
     line-height: 2;
 }
 
 .parapara1 .parax7 {
     position: absolute;
-    top: 1850px;
+    top: 1700px;
     left: 25%;
     font-size: 25px;
     font-family: "Times New Roman", Times, serif;
@@ -234,7 +231,7 @@ body {
     font-size: 30px;
     padding: 5px 30px;
     top: 1950px;
-    left: 50%;
+    left: 600px;
 }
 
 .parabtn .paranext:hover {
@@ -256,7 +253,7 @@ body {
     font-size: 30px;
     padding: 5px 20px;
     top: 1950px;
-    right: 27%;
+    left: -170px;
 }
 
 .parabtn .paraprevious:hover {
@@ -273,7 +270,7 @@ body {
     margin: 0;
     padding: 0;
     top: 2050px;
-    left: 250.5px;
+    left: 275px;
     overflow: hidden;
 }
 
@@ -374,7 +371,7 @@ body {
     border-radius: 15px;
     padding: 10px 15px;
     text-align: center;
-    top: 130px;
+    top: 160px;
     left: 60px;
 }
 
