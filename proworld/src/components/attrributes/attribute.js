@@ -1,6 +1,7 @@
 import React from "react";
 import "./attributer.css";
 import malogo from "../../assets/mainlogoroh.jpg";
+import { Link } from "react-router-dom";
 export default function Attribute() {
   return (
     <div className="attributepg">
@@ -9,24 +10,24 @@ export default function Attribute() {
       <div className="attmenu">
         <ul className="attul">
           <li className="attli">
-            <a className="atta" href="./main.html">
+            <Link className="atta" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="attli">
-            <a className="atta" href="./course.html">
+            <Link className="atta" to="/course">
               Courses
-            </a>
+            </Link>
           </li>
           <li className="attli">
-            <a className="atta" href="./contact.html">
+            <Link className="atta" to="/contact">
               Contact us
-            </a>
+            </Link>
           </li>
           <li className="attli">
-            <a className="atta" href="./about.html">
+            <Link className="atta" to="/about">
               About
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -34,27 +35,27 @@ export default function Attribute() {
       <div className="attcontainer">
         <h3 className="atth3">HTML Tutorial</h3>
         <div className="attcontent">
-          <a className="attcona" href="#">
+          <Link className="attcona" to="/html">
             <p className="att-p">HTML Introduction</p>
-          </a>
-          <a className="attcona" href="#">
+          </Link>
+          <Link className="attcona" to="/tag">
             <p className="att-p">HTML Tags</p>
-          </a>
-          <a className="attcona" href="#">
+          </Link>
+          <Link className="attcona" to="/element">
             <p className="att-p">HTML Elements</p>
-          </a>
-          <a className="attcona" href="#">
+          </Link>
+          <Link className="attcona" to="/attribute">
             <p class="att-p">HTML Attributes</p>
-          </a>
-          <a className="attcona" href="#">
+          </Link>
+          <Link className="attcona" to="/head">
             <p className="att-p">HTML Headings</p>
-          </a>
-          <a className="attcona" href="#">
+          </Link>
+          <Link className="attcona" to="/para">
             <p className="att-p">HTML Paragraphs</p>
-          </a>
-          <a className="attcona" href="#">
+          </Link>
+          <Link className="attcona" to="https://forms.gle/p4M4YjYaYyFYtWDz9">
             <p className="att-p">HTML Quiz</p>
-          </a>
+          </Link>
         </div>
       </div>
       <div className="attribute1">
@@ -85,7 +86,7 @@ export default function Attribute() {
         </p>
         <xmp className="att-x2">href="https://www.google.com" Visit google</xmp>
         <p className="att-p3">The src Attribute:</p>
-        <xmp class="att-x3">
+        <xmp className="att-x3">
           The img tag is used to embed an image in an HTML page.
         </xmp>
         <p className="att-p4">
@@ -162,12 +163,12 @@ export default function Attribute() {
         </xmp>
       </div>
       <div className="att-btn">
-        <a href="./attributes.html" className="att-next">
+        <Link to="/attribute" className="att-next">
           Next
-        </a>
-        <a href="./tag.html" className="att-previous">
+        </Link>
+        <Link to="/tag" className="att-previous">
           Previous
-        </a>
+        </Link>
       </div>
 
       <div className="att-footer">
@@ -176,24 +177,24 @@ export default function Attribute() {
             <h2 className="atlt-h2">Quick Links</h2>
             <ul className="atlt-ul">
               <li className="atlt-li">
-                <a className="atlt-a" href="./course.html">
-                  Courses
-                </a>
-              </li>
-              <li className="atlt-li">
-                <a className="atlt-a" href="# ">
-                  Certificates
-                </a>
-              </li>
-              <li className="atlt-li">
-                <a className="atlt-a" href="# ">
-                  Help
-                </a>
-              </li>
-              <li className="atlt-li">
-                <a className="atlt-a" href="./main.html">
+                <Link className="atlt-a" to="/">
                   Home
-                </a>
+                </Link>
+              </li>
+              <li className="atlt-li">
+                <Link className="atlt-a" to="/mycourse">
+                  My Enrollments
+                </Link>
+              </li>
+              <li className="atlt-li">
+                <Link className="atlt-a" to="/contact">
+                  Help
+                </Link>
+              </li>
+              <li className="atlt-li">
+                <Link className="atlt-a" to="/course">
+                  Courses
+                </Link>
               </li>
             </ul>
           </div>
@@ -212,44 +213,44 @@ export default function Attribute() {
               <i className="atce-text ">+91 7339481237</i>
             </div>
 
-            <a
+            <Link
               className="atce-button "
-              href="https://www.google.co.in/maps/place/PSG+College+of+Arts+%26+Science/@11.0332141,77.0316629,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba858526b5c0591:0x6c452206816788d4!8m2!3d11.0332088!4d77.0338516?hl=en&authuser=0 "
+              to="https://www.google.co.in/maps/place/PSG+College+of+Arts+%26+Science/@11.0332141,77.0316629,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba858526b5c0591:0x6c452206816788d4!8m2!3d11.0332088!4d77.0338516?hl=en&authuser=0 "
             >
               Locate Us
-            </a>
+            </Link>
           </div>
           <div className="attright-box ">
             <h2 className="atrt-h2">Connect with us</h2>
             <div className="atrtsocial_media ">
               <ul className="atrt-ul">
                 <li className="atrt-li">
-                  <a className="atrt-a" href="# ">
+                  <Link className="atrt-a" to="# ">
                     <i className="fab fa-facebook " aria-hidden="true "></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="atrt-li">
-                  <a className="atrt-a" href="# ">
+                  <Link className="atrt-a" to="# ">
                     <i className="fab fa-twitter " aria-hidden="true "></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="atrt-li">
-                  <a className="atrt-a" href="# ">
+                  <Link className="atrt-a" to="# ">
                     <i
                       className="fab fa-google-plus-g "
                       aria-hidden="true "
                     ></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="atrt-li">
-                  <a className="atrt-a" href="# ">
+                  <Link className="atrt-a" to="# ">
                     <i className="fab fa-linkedin " aria-hidden="true "></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="atrt-li">
-                  <a className="atrt-a" href="# ">
+                  <Link className="atrt-a" to="#">
                     <i className="fab fa-instagram " aria-hidden="true "></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

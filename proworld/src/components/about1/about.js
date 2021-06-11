@@ -5,6 +5,7 @@ import abte from "./../../assets/aboute.gif";
 import abtc from "../../assets/aboutc.gif";
 import abtd from "./../../assets/aboutd.gif";
 import "./aboutr.css";
+import { Link } from "react-router-dom";
 export default function About() {
   return (
     <div className="aboutpage">
@@ -12,24 +13,24 @@ export default function About() {
       <div className="abo-menu">
         <ul className="abtm-ul">
           <li className="abtm-li">
-            <a className="abtm-a" href="./main.html">
+            <Link className="abtm-a" to="./main.html">
               Home
-            </a>
+            </Link>
           </li>
           <li className="abtm-li">
-            <a className="abtm-a" href="course.html">
+            <Link className="abtm-a" to="./courser.html">
               Courses
-            </a>
+            </Link>
           </li>
           <li className="abtm-li">
-            <a className="abtm-a" href="./contact.html">
+            <Link className="abtm-a" to="./contactr.html">
               Contact us
-            </a>
+            </Link>
           </li>
           <li className="abtm-li">
-            <a className="abtm-a" href="#">
+            <Link className="abtm-a" href="./aboutr.html">
               About
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -45,10 +46,9 @@ export default function About() {
                 "Being The Pro in Programming can be easy,especially if you
                 start with us"
               </p>
-              <a className="abt-con-a" href="#">
-                {" "}
+              <Link className="abt-con-a" href="./courser.html">
                 Read More
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -73,9 +73,9 @@ export default function About() {
           We believe that coding can be easy <br /> if taught the right way.
         </h2>
         <p className="abt-cont1-p2">
-          Get verified <b>e-certificate</b> at completion of each course. <br />{" "}
+          Get verified <b>e-certificate</b> at completion of each course. <br />
           You can share the certificate on your resume and <br /> popular
-          platforms such as <b>LinkedIn.</b>{" "}
+          platforms such as <b>LinkedIn.</b>
         </p>
       </div>
       <div className="abt-container2">
@@ -100,24 +100,24 @@ export default function About() {
             <h2 className="abtfoo-h2">Quick Links</h2>
             <ul className="abtfoo-ul">
               <li className="abtfoo-li">
-                <a className="abtfoo-a" href="./main.html">
-                  Courses
-                </a>
-              </li>
-              <li className="abtfoo-li">
-                <a className="abtfoo-a" href="#">
-                  Certificates
-                </a>
-              </li>
-              <li className="abtfoo-li">
-                <a className="abtfoo-a" href="#">
-                  Help
-                </a>
-              </li>
-              <li className="abtfoo-li">
-                <a className="abtfoo-a" href="./main.html">
+                <Link className="abtfoo-a" to="/main.html">
                   Home
-                </a>
+                </Link>
+              </li>
+              <li className="abtfoo-li">
+                <Link className="abtfoo-a" to="/courser.html">
+                  Course
+                </Link>
+              </li>
+              <li className="abtfoo-li">
+                <Link className="abtfoo-a" to="/enrollr.html">
+                  My Enrollments
+                </Link>
+              </li>
+              <li className="abtfoo-li">
+                <Link className="abtfoo-a" href="/contactr.html">
+                  Help
+                </Link>
               </li>
             </ul>
           </div>
@@ -136,12 +136,12 @@ export default function About() {
               <i className="text">+91 7339481237</i>
             </div>
 
-            <a
+            <Link
               className="abtcen-button"
-              href="https://www.google.co.in/maps/place/PSG+College+of+Arts+%26+Science/@11.0332141,77.0316629,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba858526b5c0591:0x6c452206816788d4!8m2!3d11.0332088!4d77.0338516?hl=en&authuser=0"
+              to="https://www.google.co.in/maps/place/PSG+College+of+Arts+%26+Science/@11.0332141,77.0316629,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba858526b5c0591:0x6c452206816788d4!8m2!3d11.0332088!4d77.0338516?hl=en&authuser=0"
             >
               Locate Us
-            </a>
+            </Link>
           </div>
           <div className="abt-right-box">
             <h2 className="abtrt-h2">Connect with us</h2>
@@ -153,24 +153,24 @@ export default function About() {
                   </a>
                 </li>
                 <li className="abtrt-li">
-                  <a className="abtrt-a" href="#">
+                  <Link className="abtrt-a" to="#">
                     <i className="fab fa-twitter" aria-hidden="true"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="abtrt-li">
-                  <a className="abtrt-a" href="#">
+                  <Link className="abtrt-a" to="#">
                     <i className="fab fa-google-plus-g" aria-hidden="true"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="abtrt-li">
-                  <a className="abtrt-a" href="#">
+                  <Link className="abtrt-a" to="#">
                     <i className="fab fa-linkedin" aria-hidden="true"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="abtrt-li">
-                  <a className="abtrt-a" href="#">
+                  <Link className="abtrt-a" to="#">
                     <i className="fab fa-instagram" aria-hidden="true"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

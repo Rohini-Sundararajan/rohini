@@ -2,6 +2,7 @@ import React from "react";
 import "./myCourser.css";
 import myclogo from "./../../assets/mainlogoroh.jpg";
 import mychtml from "./../../assets/html1.png";
+import { Link } from "react-router-dom";
 
 export default function Mcourse() {
   return (
@@ -10,24 +11,24 @@ export default function Mcourse() {
       <div className="mycmenu">
         <ul className="myc-ul">
           <li className="myc-ul">
-            <a className="myc-a" href="./main.html">
+            <Link className="myc-a" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="myc-ul">
-            <a className="myc-a" href="./course.html">
+            <Link className="myc-a" to="/course">
               Courses
-            </a>
+            </Link>
           </li>
           <li className="myc-ul">
-            <a className="myc-a" href="./contact.html">
+            <Link className="myc-a" to="/contact">
               Contact us
-            </a>
+            </Link>
           </li>
           <li className="myc-ul">
-            <a className="myc-a" href="./about.html">
+            <Link className="myc-a" to="/about">
               About
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -42,9 +43,9 @@ export default function Mcourse() {
             <h3 className="myc-head1">The Web Tool - HTML5</h3>
           </div>
           <div className="myc-button">
-            <a className="mycbtna" href="#">
+            <Link className="mycbtna" to="/html">
               Go To Course
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -54,24 +55,24 @@ export default function Mcourse() {
             <h2 className="myc-h2">Quick Links</h2>
             <ul className="myclt-ul">
               <li className="myclt-li">
-                <a className="myclt-a" href="./course.html">
-                  Courses
-                </a>
-              </li>
-              <li className="myclt-li">
-                <a className="myclt-a" href="#">
-                  Certificates
-                </a>
-              </li>
-              <li className="myclt-li">
-                <a className="myclt-a" href="./contact.html">
-                  Help
-                </a>
-              </li>
-              <li className="myclt-li">
-                <a className="myclt-a" href="./main.html">
+                <Link className="myclt-a" to="/">
                   Home
-                </a>
+                </Link>
+              </li>
+              <li className="myclt-li">
+                <Link className="myclt-a" to="/mycourse">
+                  My Enrollments
+                </Link>
+              </li>
+              <li className="myclt-li">
+                <Link className="myclt-a" to="/contact">
+                  Help
+                </Link>
+              </li>
+              <li className="myclt-li">
+                <Link className="myclt-a" to="/course">
+                  Courses
+                </Link>
               </li>
             </ul>
           </div>
@@ -90,41 +91,41 @@ export default function Mcourse() {
               <i className="myce-text">+91 7339481237</i>
             </div>
 
-            <a
+            <Link
               className="myce-button"
-              href="https://www.google.co.in/maps/place/PSG+College+of+Arts+%26+Science/@11.0332141,77.0316629,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba858526b5c0591:0x6c452206816788d4!8m2!3d11.0332088!4d77.0338516?hl=en&authuser=0"
+              to="https://www.google.co.in/maps/place/PSG+College+of+Arts+%26+Science/@11.0332141,77.0316629,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba858526b5c0591:0x6c452206816788d4!8m2!3d11.0332088!4d77.0338516?hl=en&authuser=0"
             >
               Locate Us
-            </a>
+            </Link>
           </div>
           <div className="myc-right-box">
             <h2 className="mycrt-h2">Connect with us</h2>
             <div className="mycrt-social_media">
               <ul className="mycrt-ul">
                 <li className="mycrt-li">
-                  <a className="mycrt-a" href="#">
+                  <Link className="mycrt-a" to="#">
                     <i className="fab fa-facebook" aria-hidden="true"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="mycrt-li">
-                  <a className="mycrt-a" href="#">
+                  <Link className="mycrt-a" to="#">
                     <i className="fab fa-twitter" aria-hidden="true"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="mycrt-li">
-                  <a className="mycrt-a" href="#">
+                  <Link className="mycrt-a" to="#">
                     <i className="fab fa-google-plus-g" aria-hidden="true"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="mycrt-li">
-                  <a className="mycrt-a" href="#">
+                  <Link className="mycrt-a" to="#">
                     <i className="fab fa-linkedin" aria-hidden="true"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="mycrt-li">
-                  <a className="mycrt-a" href="#">
+                  <Link className="mycrt-a" to="#">
                     <i className="fab fa-instagram" aria-hidden="true"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

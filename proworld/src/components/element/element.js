@@ -1,6 +1,7 @@
 import React from "react";
 import "./elementr.css";
 import melogo from "./../../assets/mainlogoroh.jpg";
+import { Link } from "react-router-dom";
 export default function Element() {
   return (
     <div className="elementpage">
@@ -9,24 +10,24 @@ export default function Element() {
       <div className="ele-menu">
         <ul className="ele-ul">
           <li className="ele-li">
-            <a className="ele-a" href="./main.html">
+            <Link className="ele-a" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="ele-li">
-            <a className="ele-a" href="./course.html">
+            <Link className="ele-a" to="/course">
               Courses
-            </a>
+            </Link>
           </li>
           <li className="ele-li">
-            <a className="ele-a" href="./contact.html">
+            <Link className="ele-a" to="/contact">
               Contact us
-            </a>
+            </Link>
           </li>
           <li className="ele-li">
-            <a className="ele-a" href="./about.html">
+            <Link className="ele-a" to="/about">
               About
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -34,31 +35,31 @@ export default function Element() {
       <div className="ele-container">
         <h3 className="ele-h3">HTML Tutorial</h3>
         <div className="ele-content">
-          <a className="elec-a" href="#">
+          <Link className="elec-a" to="/html">
             <p className="ele-p">HTML Introduction</p>
-          </a>
-          <a className="elec-a" href="#">
+          </Link>
+          <Link className="elec-a" to="/tag">
             <p className="ele-p">HTML Tags</p>
-          </a>
-          <a className="elec-a" href="#">
+          </Link>
+          <Link className="elec-a" to="/element">
             <p className="ele-p">HTML Elements</p>
-          </a>
-          <a className="elec-a" href="#">
+          </Link>
+          <Link className="elec-a" to="/attribute">
             <p className="ele-p">HTML Attributes</p>
-          </a>
-          <a className="elec-a" href="#">
+          </Link>
+          <Link className="elec-a" to="/head">
             <p className="ele-p">HTML Headings</p>
-          </a>
-          <a className="elec-a" href="#">
+          </Link>
+          <Link className="elec-a" to="/para">
             <p className="ele-p">HTML Paragraphs</p>
-          </a>
-          <a
+          </Link>
+          <Link
             className="elec-a"
-            href="https://forms.gle/p4M4YjYaYyFYtWDz9"
+            to="https://forms.gle/p4M4YjYaYyFYtWDz9"
             target="_blank"
           >
             <p className="ele-p">HTML Quiz</p>
-          </a>
+          </Link>
         </div>
       </div>
       <div className="element-tag">
@@ -128,12 +129,12 @@ export default function Element() {
       </div>
 
       <div className="ele-btn">
-        <a href="./attributes.html" className="ele-next">
+        <Link to="/attribute" className="ele-next">
           Next
-        </a>
-        <a href="./tag.html" className="ele-previous">
+        </Link>
+        <Link to="/tag" className="ele-previous">
           Previous
-        </a>
+        </Link>
       </div>
 
       <div className="ele-footer">
@@ -142,24 +143,24 @@ export default function Element() {
             <h2 className="ele-quick">Quick Links</h2>
             <ul className="ele-leftul">
               <li className="ele-leftli">
-                <a className="ele-lefta" href="./course.html">
-                  Courses
-                </a>
-              </li>
-              <li className="ele-leftli">
-                <a className="ele-lefta" href="# ">
-                  Certificates
-                </a>
-              </li>
-              <li className="ele-leftli">
-                <a className="ele-lefta" href="# ">
-                  Help
-                </a>
-              </li>
-              <li className="ele-leftli">
-                <a className="ele-lefta" href="./main.html">
+                <Link className="ele-lefta" to="/course">
                   Home
-                </a>
+                </Link>
+              </li>
+              <li className="ele-leftli">
+                <Link className="ele-lefta" to="/mycourse">
+                  My Enrollments
+                </Link>
+              </li>
+              <li className="ele-leftli">
+                <Link className="ele-lefta" to="/contact">
+                  Help
+                </Link>
+              </li>
+              <li className="ele-leftli">
+                <Link className="ele-lefta" to="/course">
+                  Home
+                </Link>
               </li>
             </ul>
           </div>
@@ -178,56 +179,56 @@ export default function Element() {
               <i className="ele-text ">+91 7339481237</i>
             </div>
 
-            <a
+            <Link
               className="ele-button "
-              href="https://www.google.co.in/maps/place/PSG+College+of+Arts+%26+Science/@11.0332141,77.0316629,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba858526b5c0591:0x6c452206816788d4!8m2!3d11.0332088!4d77.0338516?hl=en&authuser=0 "
+              to="https://www.google.co.in/maps/place/PSG+College+of+Arts+%26+Science/@11.0332141,77.0316629,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba858526b5c0591:0x6c452206816788d4!8m2!3d11.0332088!4d77.0338516?hl=en&authuser=0 "
             >
               Locate Us
-            </a>
+            </Link>
           </div>
           <div className="ele-right-box ">
             <h2 className="ele-contact">Connect with us</h2>
             <div className="ele-social_media ">
               <ul className="ele-socul">
                 <li className="ele-socli">
-                  <a className="ele-soca" href="# ">
+                  <Link className="ele-soca" to="# ">
                     <i
                       className=" ele-soci fab fa-facebook "
                       aria-hidden="true "
                     ></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="ele-socli">
-                  <a className="ele-soca" href="# ">
+                  <Link className="ele-soca" to="# ">
                     <i
                       className="ele-soci fab fa-twitter "
                       aria-hidden="true "
                     ></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="ele-socli ele-goo">
-                  <a className="ele-soca" href="# ">
+                  <Link className="ele-soca" to="# ">
                     <i
                       className=" ele-soci fab fa-google-plus-g "
                       aria-hidden="true "
                     ></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="ele-socli ele-in ">
-                  <a className="ele-soca" href="# ">
+                  <Link className="ele-soca" to="# ">
                     <i
                       className="ele-soci fab fa-linkedin "
                       aria-hidden="true "
                     ></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="ele-socli ele-insta">
-                  <a className="ele-soca" href="# ">
+                  <Link className="ele-soca" to="# ">
                     <i
                       className="ele-soci fab fa-instagram "
                       aria-hidden="true "
                     ></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

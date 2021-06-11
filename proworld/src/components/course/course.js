@@ -5,6 +5,7 @@ import htmlph from "./../../assets/html.jpg";
 import cssph from "./../../assets/css.jpeg";
 import javaph from "./../../assets/javascript.png";
 import htmlcard from "./../../assets/html1.png";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 export default function Course() {
@@ -14,24 +15,24 @@ export default function Course() {
       <div className="comenu">
         <ul className="co-ul">
           <li className="co-li">
-            <a className="co-a" href="./main.html">
+            <Link className="co-a" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="co-li">
-            <a className="co-a" href="#">
+            <Link className="co-a" to="/course">
               Courses
-            </a>
+            </Link>
           </li>
           <li className="co-li">
-            <a className="co-a" href="./contact.html">
+            <Link className="co-a" to="/contact">
               Contact us
-            </a>
+            </Link>
           </li>
           <li className="co-li">
-            <a className="co-a" href="./about.html">
+            <Link className="co-a" to="/about">
               About
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -78,9 +79,9 @@ export default function Course() {
             <h3 className="co-head1">The Web Tool - HTML5</h3>
           </div>
           <div className="co-button">
-            <a className="co-enrol" href="./enroll.html">
+            <Link className="co-enrol" to="/enroll">
               Enroll Now
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -90,24 +91,24 @@ export default function Course() {
             <h2 className="com-h1">Quick Links</h2>
             <ul className="com-ul">
               <li className="com-li">
-                <a className="com-a" href="./main.html">
-                  Courses
-                </a>
-              </li>
-              <li className="com-li">
-                <a className="com-a" href="#">
-                  Certificates
-                </a>
-              </li>
-              <li className="com-li">
-                <a className="com-a" href="#">
-                  Help
-                </a>
-              </li>
-              <li className="com-li">
-                <a className="com-a" href="./main.html">
+                <Link className="com-a" to="/">
                   Home
-                </a>
+                </Link>
+              </li>
+              <li className="com-li">
+                <Link className="com-a" to="/mycourse">
+                  My Enrollments
+                </Link>
+              </li>
+              <li className="com-li">
+                <Link className="com-a" to="/contact">
+                  Help
+                </Link>
+              </li>
+              <li className="com-li">
+                <Link className="com-a" to="/course">
+                  Home
+                </Link>
               </li>
             </ul>
           </div>
@@ -126,43 +127,43 @@ export default function Course() {
               <i className="co-text">+91 7339481237</i>
             </div>
 
-            <a
+            <Link
               className="co-button1"
-              href="https://www.google.co.in/maps/place/PSG+College+of+Arts+%26+Science/@11.0332141,77.0316629,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba858526b5c0591:0x6c452206816788d4!8m2!3d11.0332088!4d77.0338516?hl=en&authuser=0"
+              to="https://www.google.co.in/maps/place/PSG+College+of+Arts+%26+Science/@11.0332141,77.0316629,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba858526b5c0591:0x6c452206816788d4!8m2!3d11.0332088!4d77.0338516?hl=en&authuser=0"
             >
               Locate Us
-            </a>
+            </Link>
           </div>
           <div className="co-right-box">
             <h2 className="cort-h1">Connect with us</h2>
             <div className="co-social_media">
               <ul className="cort-ul">
                 <li className="cort-li">
-                  <a className="cort-a" href="#">
+                  <Link className="cort-a" to="#">
                     <span>
                       <FontAwesomeIcon icon={faFacebook} />
                     </span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="cort-li">
-                  <a className="cort-a" href="#">
+                  <Link className="cort-a" to="#">
                     <i className="fab fa-twitter" aria-hidden="true"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="cort-li">
-                  <a className="cort-a" href="#">
+                  <Link className="cort-a" to="#">
                     <i className="fab fa-google-plus-g" aria-hidden="true"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="cort-li">
-                  <a className="cort-a" href="#">
+                  <Link className="cort-a" to="#">
                     <i className="fab fa-linkedin" aria-hidden="true"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="cort-li">
-                  <a className="cort-a" href="#">
+                  <Link className="cort-a" to="#">
                     <i className="fab fa-instagram" aria-hidden="true"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

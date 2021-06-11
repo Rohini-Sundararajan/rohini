@@ -2,6 +2,7 @@ import React from "react";
 import "../contact/contactr.css";
 import conph from "../../assets/contact.png";
 import mlogo from "../../assets/mainlogoroh.jpg";
+import { Link } from "react-router-dom";
 
 export default function Contact() {
   return (
@@ -10,24 +11,24 @@ export default function Contact() {
       <div className="con-menu">
         <ul className="con-ul">
           <li className="con-li">
-            <a className="con-a" href="./main.html">
+            <Link className="con-a" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="con-li">
-            <a className="con-a " href="./course.html">
+            <Link className="con-a " to="/course">
               Courses
-            </a>
+            </Link>
           </li>
           <li className="con-li">
-            <a className="con-a " href="#">
+            <Link className="con-a " to="/contact">
               Contact us
-            </a>
+            </Link>
           </li>
           <li className="con-li">
-            <a className="con-a" href="./about.html">
+            <Link className="con-a" to="/about">
               About
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

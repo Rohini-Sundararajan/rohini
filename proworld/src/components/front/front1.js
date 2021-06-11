@@ -15,87 +15,89 @@ export default function Front1() {
       <div className="back">
         <img src={backg} />
       </div>
-      <h3 class="main-head1">PRO WORLD</h3>
-      <div class="container">
-        <button class="main-btn1">Look It!</button>
+      <h3 className="main-head1">PRO WORLD</h3>
+      <div className="container">
+        <Link className="main-btn1" to="/about">
+          Look It!
+        </Link>
       </div>
-      <p class="main-p1">
+      <p className="main-p1">
         You are browsing for the best resource for
-        <b class="main-b"> Online Education</b>
+        <b className="main-b"> Online Education</b>
       </p>
-      <img class="logo" src={mainlogo} alt="main " />
-      <div class="menu">
-        <ul class="menu-ul">
-          <div class="menu-li">
+      <img className="logo" src={mainlogo} alt="main " />
+      <div className="menu">
+        <ul className="menu-ul">
+          <div className="menu-li">
             <li>
-              <Link class="menu-a" href="./course.html">
+              <Link className="menu-a" to="/course">
                 Courses
               </Link>
             </li>
             <li>
-              <Link class="menu-a" to="/contact">
+              <Link className="menu-a" to="/contact">
                 Contact us
               </Link>
             </li>
             <li>
-              <Link class="menu-a" to="/about">
+              <Link className="menu-a" to="/about">
                 About
               </Link>
             </li>
             <li>
-              <a class="menu-a" href="#">
+              <Link className="menu-a" to="/mycourse">
                 My Enrollments
-              </a>
+              </Link>
             </li>
           </div>
         </ul>
       </div>
-      <div class="social_media">
-        <ul class="main-soc">
-          <li class="msoc-li">
-            <a class="msoc-a" href="#">
-              <i class="fab fa-facebook" aria-hidden="true"></i>
-            </a>
+      <div className="social_media">
+        <ul className="main-soc">
+          <li className="msoc-li">
+            <Link className="msoc-a" to="#">
+              <i className="fab fa-facebook" aria-hidden="true"></i>
+            </Link>
+          </li>
+          <li className="msoc-li">
+            <Link className="msoc-a" to="#">
+              <i className="fab fa-twitter" aria-hidden="true"></i>
+            </Link>
           </li>
           <li class="msoc-li">
-            <a class="msoc-a" href="#">
-              <i class="fab fa-twitter" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li class="msoc-li">
-            <a class="msoc-a" href="#">
+            <Link class="msoc-a" to="#">
               <i class="fab fa-google-plus-g" aria-hidden="true"></i>
-            </a>
+            </Link>
           </li>
-          <li class="msoc-li">
-            <a class="msoc-a" href="#">
-              <i class="fab fa-linkedin" aria-hidden="true"></i>
-            </a>
+          <li className="msoc-li">
+            <Link className="msoc-a" to="#">
+              <i className="fab fa-linkedin" aria-hidden="true"></i>
+            </Link>
           </li>
-          <li class="msoc-li">
-            <a class="msoc-a" href="#">
-              <i class="fab fa-instagram" aria-hidden="true"></i>
-            </a>
+          <li className="msoc-li">
+            <Link className="msoc-a" to="#">
+              <i className="fab fa-instagram" aria-hidden="true"></i>
+            </Link>
           </li>
         </ul>
       </div>
 
-      <div class="search_box">
+      <div className="search_box">
         <input
-          class="search-txt "
+          className="search-txt "
           type="text"
           name=""
           id=""
           placeholder="Type to search"
         />
-        <a class="search_btn" href="#">
-          <i class="fas fa-search"></i>
-        </a>
+        <Link className="search_btn" to="#">
+          <i className="fas fa-search"></i>
+        </Link>
       </div>
-      <div class="button1">
-        <a href="./loginrohini.html">
-          <button class="mbtn1">Login</button>
-        </a>
+      <div className="button1">
+        <Link to="/login">
+          <button className="mbtn1">Login</button>
+        </Link>
       </div>
     </div>
   );

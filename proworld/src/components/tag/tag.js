@@ -1,6 +1,7 @@
 import React from "react";
 import "./tagr.css";
 import taglogo from "./../../assets/mainlogoroh.jpg";
+import { Link } from "react-router-dom";
 
 export default function Tag() {
   return (
@@ -10,55 +11,55 @@ export default function Tag() {
       <div className="tag-menu">
         <ul className="tag-ul">
           <li className="tag-li">
-            <a className="tag-a" href="./main.html">
+            <Link className="tag-a" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="tag-li">
-            <a className="tag-a" href="./course.html">
+            <Link className="tag-a" to="/course">
               Courses
-            </a>
+            </Link>
           </li>
           <li className="tag-li">
-            <a className="tag-a" href="./contact.html">
+            <Link className="tag-a" to="/contact">
               Contact us
-            </a>
+            </Link>
           </li>
           <li className="tag-li">
-            <a className="tag-a" href="./about.html">
+            <Link className="tag-a" to="/about">
               About
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
       <div className="tag-container">
         <h3 className="tag-h3">HTML Tutorial</h3>
         <div className="tag-content">
-          <a className="tagcon-a" href="./html1.html">
+          <Link className="tagcon-a" to="/html">
             <p className="tagcon-p">HTML Introduction</p>
-          </a>
-          <a className="tagcon-a" href="./tag.html">
+          </Link>
+          <Link className="tagcon-a" to="/tag">
             <p className="tagcon-p">HTML Tags</p>
-          </a>
-          <a className="tagcon-a" href="./element.html">
+          </Link>
+          <Link className="tagcon-a" to="/element">
             <p className="tagcon-p">HTML Elements</p>
-          </a>
-          <a className="tagcon-a" href="./attributes.html">
+          </Link>
+          <Link className="tagcon-a" to="/attribute">
             <p className="tagcon-p">HTML Attributes</p>
-          </a>
-          <a className="tagcon-a" href="./heading.html">
+          </Link>
+          <Link className="tagcon-a" to="/head">
             <p className="tagcon-p">HTML Headings</p>
-          </a>
-          <a className="tagcon-a" href="./paragraph.html">
+          </Link>
+          <Link className="tagcon-a" href="/para">
             <p className="tagcon-p">HTML Paragraphs</p>
-          </a>
-          <a
+          </Link>
+          <Link
             className="tagcon-a"
-            href="https://forms.gle/p4M4YjYaYyFYtWDz9"
+            to="https://forms.gle/p4M4YjYaYyFYtWDz9"
             target="_blank"
           >
             <p className="tagcon-p">HTML Quiz</p>
-          </a>
+          </Link>
         </div>
       </div>
       <div className="tag-content">
@@ -155,12 +156,12 @@ export default function Tag() {
         </ul>
       </div>
       <div className="tcon-btn">
-        <a className="tcon-btna1" href="./element.html">
+        <Link className="tcon-btna1" to="/element">
           Next
-        </a>
-        <a className="tcon-btna2" href="./html.html">
+        </Link>
+        <Link className="tcon-btna2" to="/html">
           Previous
-        </a>
+        </Link>
       </div>
 
       <div className="tag-foo">
@@ -169,24 +170,24 @@ export default function Tag() {
             <h2 className="tleft-h2">Quick Links</h2>
             <ul className="tleft-ul">
               <li className="tleft-li">
-                <a className="tleft-a" href="./course.html">
-                  Courses
-                </a>
-              </li>
-              <li className="tleft-li">
-                <a className="tleft-a" href="# ">
-                  Certificates
-                </a>
-              </li>
-              <li className="tleft-li">
-                <a className="tleft-a" href="./contact.html">
-                  Help
-                </a>
-              </li>
-              <li className="tleft-li">
-                <a className="tleft-a" href="./main.html">
+                <Link className="tleft-a" to="/">
                   Home
-                </a>
+                </Link>
+              </li>
+              <li className="tleft-li">
+                <Link className="tleft-a" to=".mycourse">
+                  My Enrollments
+                </Link>
+              </li>
+              <li className="tleft-li">
+                <Link className="tleft-a" to="/contact">
+                  Help
+                </Link>
+              </li>
+              <li className="tleft-li">
+                <Link className="tleft-a" to="/course">
+                  Courses
+                </Link>
               </li>
             </ul>
           </div>
@@ -205,41 +206,41 @@ export default function Tag() {
               <i className="tce-text">+91 7339481237</i>
             </div>
 
-            <a
+            <Link
               className="tce-button"
               href="https://www.google.co.in/maps/place/PSG+College+of+Arts+%26+Science/@11.0332141,77.0316629,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba858526b5c0591:0x6c452206816788d4!8m2!3d11.0332088!4d77.0338516?hl=en&authuser=0 "
             >
               Locate Us
-            </a>
+            </Link>
           </div>
           <div className="tright-box">
             <h2 className="trt-h2">Connect with us</h2>
             <div className="tsocial_media">
               <ul className="trt-ul">
                 <li className="trt-li">
-                  <a className="trt-a" href="# ">
+                  <Link className="trt-a" to="# ">
                     <i className="fab fa-facebook" aria-hidden="true "></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="trt-li">
-                  <a className="trt-a" href="# ">
+                  <Link className="trt-a" to="# ">
                     <i className="fab fa-twitter" aria-hidden="true "></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="trt-li">
-                  <a className="trt-a" href="# ">
+                  <Link className="trt-a" to="# ">
                     <i className="fab fa-google-plus-g" aria-hidden="true "></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="trt-li">
-                  <a className="trt-a" href="# ">
+                  <Link className="trt-a" to="# ">
                     <i className="fab fa-linkedin" aria-hidden="true "></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="trt-li">
-                  <a className="trt-a" href="# ">
+                  <Link className="trt-a" to="# ">
                     <i className="fab fa-instagram" aria-hidden="true "></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

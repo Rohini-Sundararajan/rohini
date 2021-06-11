@@ -22,26 +22,26 @@ export default function App() {
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/course" component={Course} />
-          <Route path="/Attribute" component={Attribute} />
-          <Route path="/Element" component={Element} />
-          <Route path="/Enroll" component={Enroll} />
-          <Route path="/Html" component={Html} />
-          <Route path="/Mycourse" component={Mcourse} />
-          <Route path="/Para" component={Para} />
-          <Route path="/Tag" component={Tag} />
-          <Route path="/Login" component={Login} />
-          <Route path="./Head" component={Head} />
-          {/* <About /> */}
-          {/* <Contact /> */}
-          {/* <Course /> */}
-          {/* <Attribute /> */}
-          {/* <Element /> */}
-          {/* <Enroll /> */}
-          {/* <Html /> */}
-          {/* <Mcourse /> */}
-          {/* <Para /> */}
-          {/* <Tag /> */}
-          {/* <Login /> */}
+          <Route path="/attribute" component={Attribute} />
+          <Route path="/element" component={Element} />
+          <Route path="/enroll" component={Enroll} />
+          <Route path="/html" component={Html} />
+          <Route path="/mycourse" component={Mcourse} />
+          <Route path="/para" component={Para} />
+          <Route path="/tag" component={Tag} />
+          <Route path="/login" component={Login} />
+          <Route path="/head" component={Head} />
+          <About />
+          <Contact />
+          <Course />
+          <Attribute />
+          <Element />
+          <Enroll />
+          <Html />
+          <Mcourse />
+          <Para />
+          <Tag />
+          <Login />
           <Head />
         </Switch>
       </div>

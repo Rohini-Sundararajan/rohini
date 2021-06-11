@@ -1,6 +1,7 @@
 import React from "react";
 import "./headr.css";
 import headlogo from "./../../assets/mainlogoroh.jpg";
+import { Link } from "react-router-dom";
 export default function Head() {
   return (
     <div className="headpg">
@@ -9,24 +10,24 @@ export default function Head() {
       <div className="hmenu">
         <ul className="headul">
           <li className="headli">
-            <a className="heada" href="./main.html">
+            <Link className="heada" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="headli">
-            <a className="heada" href="./course.html">
+            <Link className="heada" to="/course">
               Courses
-            </a>
+            </Link>
           </li>
           <li className="headli">
-            <a className="heada" href="./contact.html">
+            <Link className="heada" to="/contact">
               Contact us
-            </a>
+            </Link>
           </li>
           <li className="headli">
-            <a className="heada" href="./about.html">
+            <Link className="heada" to="/about">
               About
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -34,31 +35,31 @@ export default function Head() {
       <div className="headcontainer">
         <h3 className="headh3">HTML Tutorial</h3>
         <div className="hcontent">
-          <a className="hcona" href="#">
+          <Link className="hcona" to="/html">
             <p className="headp">HTML Introduction</p>
-          </a>
-          <a className="hcona" href="#">
+          </Link>
+          <Link className="hcona" to="/tag">
             <p className="headp">HTML Tags</p>
-          </a>
-          <a className="hcona" href="#">
+          </Link>
+          <Link className="hcona" to="/Element">
             <p className="headp">HTML Elements</p>
-          </a>
-          <a className="hcona" href="#">
+          </Link>
+          <Link className="hcona" to="/attribute">
             <p className="headp">HTML Attributes</p>
-          </a>
-          <a className="hcona" href="#">
+          </Link>
+          <Link className="hcona" to="/head">
             <p className="headp">HTML Headings</p>
-          </a>
-          <a className="hcona" href="#">
+          </Link>
+          <Link className="hcona" to="/para">
             <p className="headp">HTML Paragraphs</p>
-          </a>
-          <a
+          </Link>
+          <Link
             className="hcona"
-            href="https://forms.gle/p4M4YjYaYyFYtWDz9"
+            to="https://forms.gle/p4M4YjYaYyFYtWDz9"
             target="_blank"
           >
             <p className="headp">HTML Quiz</p>
-          </a>
+          </Link>
         </div>
       </div>
       <div className="heading1">
@@ -117,12 +118,12 @@ export default function Head() {
         </p>
       </div>
       <div className="headbtn">
-        <a href="./paragraph.html" classv="headnext">
+        <Link to="/para" className="headnext">
           Next
-        </a>
-        <a href="./attributes.html" className="headprevious">
+        </Link>
+        <Link to="/attribute" className="headprevious">
           Previous
-        </a>
+        </Link>
       </div>
 
       <div className="head-footer">
@@ -131,24 +132,24 @@ export default function Head() {
             <h2 className="hmainh2">Quick Links</h2>
             <ul className="hmain-ul">
               <li className="hmain-li">
-                <a className="hmain-a" href="./course.html">
-                  Courses
-                </a>
-              </li>
-              <li className="hmain-li">
-                <a className="hmain-a" href="# ">
-                  Certificates
-                </a>
-              </li>
-              <li classv="hmain-li">
-                <a className="hmain-a" href="./contact.html">
-                  Help
-                </a>
-              </li>
-              <li className="hmain-li">
-                <a className="hmain-a" href="./main.html">
+                <Link className="hmain-a" to="/">
                   Home
-                </a>
+                </Link>
+              </li>
+              <li className="hmain-li">
+                <Link className="hmain-a" to="/mycourse ">
+                  My Enrollments
+                </Link>
+              </li>
+              <li className="hmain-li">
+                <Link className="hmain-a" to="/contact">
+                  Help
+                </Link>
+              </li>
+              <li className="hmain-li">
+                <Link className="hmain-a" to="./course">
+                  Courses
+                </Link>
               </li>
             </ul>
           </div>
@@ -167,44 +168,44 @@ export default function Head() {
               <i className="hce-text ">+91 7339481237</i>
             </div>
 
-            <a
+            <Link
               className="headbutton "
-              href="https://www.google.co.in/maps/place/PSG+College+of+Arts+%26+Science/@11.0332141,77.0316629,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba858526b5c0591:0x6c452206816788d4!8m2!3d11.0332088!4d77.0338516?hl=en&authuser=0 "
+              to="https://www.google.co.in/maps/place/PSG+College+of+Arts+%26+Science/@11.0332141,77.0316629,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba858526b5c0591:0x6c452206816788d4!8m2!3d11.0332088!4d77.0338516?hl=en&authuser=0 "
             >
               Locate Us
-            </a>
+            </Link>
           </div>
           <div className="hright-box ">
             <h2 className="hrt-h2">Connect with us</h2>
             <div className="hsocial_media ">
               <ul className="hrt-ul">
                 <li className="hrt-li">
-                  <a className="hrt-a" href="# ">
+                  <Link className="hrt-a" to="# ">
                     <i className="fab fa-facebook " aria-hidden="true "></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="hrt-li">
-                  <a className="hrt-a" href="# ">
+                  <Link className="hrt-a" to="# ">
                     <i className="fab fa-twitter " aria-hidden="true "></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="hrt-li">
-                  <a className="hrt-a" href="# ">
+                  <Link className="hrt-a" to="# ">
                     <i
                       className="fab fa-google-plus-g "
                       aria-hidden="true "
                     ></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="hrt-li">
-                  <a className="hrt-a" href="# ">
+                  <Link className="hrt-a" to="# ">
                     <i className="fab fa-linkedin " aria-hidden="true "></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="hrt-li">
-                  <a className="hrt-a" href="# ">
+                  <Link className="hrt-a" to="# ">
                     <i className="fab fa-instagram " aria-hidden="true "></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
