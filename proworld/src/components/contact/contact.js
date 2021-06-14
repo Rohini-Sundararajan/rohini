@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 export default function Contact() {
   return (
     <div className="contactpage">
+      <h3 className="conlogo1">PRO WORLD</h3>
       <img className="con-logo" src={mlogo} alt="main" />
       <div className="con-menu">
         <ul className="con-ul">
@@ -70,7 +71,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="form-row submit-btn">
+          <div className="form-row csubmit-btn">
             <div className="input-data">
               <div className="inner"></div>
               <input className="csum" type="submit" value="submit" />

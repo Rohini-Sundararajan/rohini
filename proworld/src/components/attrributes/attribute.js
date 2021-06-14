@@ -10,22 +10,22 @@ export default function Attribute() {
       <div className="attmenu">
         <ul className="attul">
           <li className="attli">
-            <Link className="atta" to="/">
+            <Link className="atta ath" to="/">
               Home
             </Link>
           </li>
           <li className="attli">
-            <Link className="atta" to="/course">
+            <Link className="atta atc" to="/course">
               Courses
             </Link>
           </li>
           <li className="attli">
-            <Link className="atta" to="/contact">
+            <Link className="atta atcc" to="/contact">
               Contact us
             </Link>
           </li>
           <li className="attli">
-            <Link className="atta" to="/about">
+            <Link className="atta ata" to="/about">
               About
             </Link>
           </li>

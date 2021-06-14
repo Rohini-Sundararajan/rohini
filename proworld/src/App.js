@@ -15,7 +15,7 @@ import Login from "./components/login/login";
 import Head from "./components/heading/head";
 export default function App() {
   return (
-    <Router basename="/proworld">
+    <Router basename="/proworld/">
       <div>
         <Switch>
           <Route exact path="/" component={Front1} />

@@ -1,12 +1,14 @@
 .attributepg {
     font-family: "Times New Roman", Times, serif;
     background: linear-gradient( 90deg, #1f005c, #350168, #4e0274, #6a0380, #8b058b, #970780, #a30971, #af0b5f);
-    height: 650%;
+    height: 3460px;
+    top: -20px;
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    position: relative;
 }
 
 .attlogo {
@@ -22,8 +24,8 @@
 .attlogo1 {
     position: fixed;
     font-size: 25px;
-    top: 20px;
-    left: 80px;
+    top: -5px;
+    left: 90px;
     background: #05f1e6;
     background: -webkit-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
     background: -moz-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
@@ -36,9 +38,34 @@
     position: relative;
     top: 10px;
     left: 30%;
-    width: 35%;
-    height: 8%;
+    width: 40%;
+    height: 45px;
     border-radius: 20px;
+    text-align: center;
+}
+
+.attmenu .attul .attli {
+    list-style: none;
+}
+
+.attmenu .attul .attli .ath {
+    position: relative;
+    top: 4px;
+}
+
+.attmenu .attul .attli .atc {
+    position: relative;
+    bottom: -4px;
+}
+
+.attmenu .attul .attli .atcc {
+    position: relative;
+    bottom: -6px;
+}
+
+.attmenu .attul .attli .ata {
+    position: relative;
+    bottom: -6px;
 }
 
 .attmenu .attul .atta {
@@ -83,8 +110,10 @@
 .attcontainer .atth3 {
     font-size: 30px;
     position: absolute;
-    padding: 2px 15px;
+    top: -3%;
     left: 20px;
+    /* padding-top: 5px; */
+    /* background-color: #005792; */
 }
 
 .attcontainer .attcontent .attcona .att-p {
@@ -96,6 +125,10 @@
     left: 20px;
     cursor: pointer;
     color: #1f212b;
+}
+
+.attcontainer .attcontent .attcona {
+    text-decoration: none;
 }
 
 .attcontainer .attcontent .att-p:hover {
@@ -284,7 +317,7 @@
     position: absolute;
     font-size: 20px;
     top: 2250px;
-    left: 25%;
+    left: 35%;
     font-family: "Times New Roman", Times, serif;
 }
 
@@ -308,7 +341,7 @@
     position: absolute;
     font-size: 20px;
     top: 2530px;
-    left: 25%;
+    left: 35%;
     font-family: "Times New Roman", Times, serif;
 }
 
@@ -326,8 +359,9 @@
     color: wheat;
     font-size: 30px;
     padding: 5px 30px;
-    top: 2590px;
+    top: 2400px;
     left: 80%;
+    text-decoration: none;
 }
 
 .att-btn .att-next:hover {
@@ -348,8 +382,9 @@
     color: wheat;
     font-size: 30px;
     padding: 5px 20px;
-    top: 2590px;
+    top: 2400px;
     left: 15%;
+    text-decoration: none;
 }
 
 .att-btn .att-previous:hover {
@@ -360,13 +395,13 @@
     position: relative;
     background: #1f212b;
     width: 79.6%;
-    height: 50%;
+    height: 400px;
     box-sizing: border-box;
     bottom: 0px;
     margin: 0;
     padding: 0;
-    top: 2800px;
-    left: 305.5px;
+    top: 2750px;
+    left: 275px;
     overflow: hidden;
 }
 
@@ -383,9 +418,13 @@
     font-size: 30px;
     line-height: 1;
     color: #005792;
-    left: 50px;
+    left: 60px;
     top: 30px;
     position: relative;
+}
+
+.attmain-content .attleft-box .atlt-ul .atlt-li {
+    list-style: none;
 }
 
 .attmain-content .attleft-box .atlt-ul .atlt-li .atlt-a {
@@ -398,8 +437,9 @@
     color: #e4d1d3;
     text-align: center;
     left: 30px;
-    top: 50px;
+    top: 45px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .attmain-content .attleft-box .atlt-ul .atlt-li .atlt-a:hover {
@@ -434,7 +474,7 @@
     display: flex;
     font-size: 20px;
     top: 60px;
-    left: -40px;
+    left: -30px;
     color: #e4d1d3;
     cursor: pointer;
 }
@@ -443,7 +483,7 @@
     position: relative;
     display: flex;
     font-size: 20px;
-    left: -40px;
+    left: -30px;
     top: 130px;
     color: #e4d1d3;
     cursor: pointer;
@@ -453,7 +493,7 @@
     position: relative;
     display: flex;
     font-size: 20px;
-    left: -40px;
+    left: -30px;
     top: 200px;
     color: #e4d1d3;
 }
@@ -462,13 +502,14 @@
     border: 3px solid #ff5f5f;
     position: relative;
     /* display: flex; */
-    font-size: 20px;
+    font-size: 23px;
     color: white;
     border-radius: 15px;
     padding: 10px 15px;
     text-align: center;
     top: 200px;
     left: 60px;
+    text-decoration: none;
 }
 
 .attmain-content .attcenter-box .atce-mail,
@@ -488,7 +529,7 @@
     width: 300px;
     height: 350px;
     top: 25px;
-    left: 60%;
+    left: 55%;
 }
 
 .attmain-content .attright-box .atrt-h2 {

@@ -1,4 +1,9 @@
 .mainpage {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
     font-family: "Times New Roman", Times, serif;
     background: linear-gradient( 90deg, #1f005c, #350168, #4e0274, #6a0380, #8b058b, #970780, #a30971, #af0b5f);
 }
@@ -28,14 +33,6 @@
     text-shadow: 1px 1px 2px red, 0 0 25px #ffeb28, 0 0 5px #fc6453;
     font-style: italic;
     font-size: 55px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
 }
 
 .main-p1 {

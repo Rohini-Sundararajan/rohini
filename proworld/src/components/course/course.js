@@ -12,6 +12,7 @@ export default function Course() {
   return (
     <div className="coursepage">
       <img className="cologo" src={mclogo} alt="main " />
+      <h3 className="cologo1">PRO WORLD</h3>
       <div className="comenu">
         <ul className="co-ul">
           <li className="co-li">
@@ -107,7 +108,7 @@ export default function Course() {
               </li>
               <li className="com-li">
                 <Link className="com-a" to="/course">
-                  Home
+                  Courses
                 </Link>
               </li>
             </ul>

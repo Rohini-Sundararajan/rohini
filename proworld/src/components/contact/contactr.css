@@ -8,17 +8,31 @@
     visibility: visible;
 }
 
+.conlogo1 {
+    position: fixed;
+    font-size: 25px;
+    top: -5px;
+    left: 90px;
+    background: #05f1e6;
+    background: -webkit-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
+    background: -moz-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
+    background: linear-gradient(to right, #05f1e6 0%, hotpink 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .con-menu {
     position: absolute;
-    top: 15px;
-    left: 10%;
+    top: -1.1%;
+    left: 20%;
     width: 45%;
     height: 8%;
     border-radius: 20px;
+    /* background-color: aqua; */
 }
 
 .con-menu .con-ul .con-li .con-a {
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
     padding: 10px 15px;
     float: left;
@@ -248,6 +262,7 @@ form .form-row .input-data {
     background: -webkit-linear-gradient(right, #8fd3f4, #84fab0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    /* background-color: #ff0d45; */
 }
 
 .con-container .con-form {
@@ -277,7 +292,8 @@ form .form-row .input-data {
     width: 100%;
     border: none;
     font-size: 17px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+    outline: none;
+    /* border-bottom: 2px solid rgba(0, 0, 0, 0.12); */
 }
 
 .input-data .cin:focus~.clabel,
@@ -286,26 +302,29 @@ form .form-row .input-data {
 .textarea .ctextarea:valid~.clabel {
     transform: translate(0, -10px);
     color: #84fab0;
-    font-size: 14px;
+    font-size: 18px;
     transition: all 0.3s ease;
 }
 
 .textarea .ctextarea {
     resize: none;
     padding-top: 40px;
+    /* background-color: #05f1e6; */
 }
 
 .input-data .clabel {
     position: absolute;
-    bottom: 40px;
+    bottom: 35px;
     font-size: 16px;
     pointer-events: none;
+    line-height: 1;
+    /* background-color: darkslategray; */
 }
 
 .textarea {
     position: absolute;
     width: 100%;
-    bottom: 31px;
+    bottom: 25px;
     background: #fff;
 }
 
@@ -314,6 +333,9 @@ form .form-row .input-data {
     bottom: 0;
     height: 2px;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.12);
+    border: none;
+    /* border-bottom: 2px solid rgba(0, 0, 0, 0.12); */
 }
 
 .input-data .underline::before,
@@ -322,10 +344,12 @@ form .form-row .input-data {
     content: "";
     height: 100%;
     width: 100%;
-    background: #8fd3f4;
+    background-color: #84fab0;
     transform: scaleX(0);
     transform-origin: center;
     transition: transform 0.3s ease;
+    border: none;
+    outline: none;
 }
 
 .input-data .cin:focus~.underline::before,
@@ -339,14 +363,14 @@ form .form-row .input-data {
     transform: scaleX(1);
 }
 
-.submit-btn .input-data {
+.csubmit-btn .input-data {
     height: 45px !important;
     width: 25% !important;
     overflow: hidden;
     border-radius: 20px;
 }
 
-.submit-btn .input-data .inner {
+.csubmit-btn .input-data .inner {
     height: 100%;
     width: 300%;
     position: absolute;
@@ -356,11 +380,11 @@ form .form-row .input-data {
     transition: all 0.3s;
 }
 
-.submit-btn .input-data:hover .inner {
+.csubmit-btn .input-data:hover .inner {
     left: 0;
 }
 
-.submit-btn .input-data .csum {
+.csubmit-btn .input-data .csum {
     position: relative;
     z-index: 2;
     background: none;

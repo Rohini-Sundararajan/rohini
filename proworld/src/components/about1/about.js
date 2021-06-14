@@ -13,22 +13,22 @@ export default function About() {
       <div className="abo-menu">
         <ul className="abtm-ul">
           <li className="abtm-li">
-            <Link className="abtm-a" to="./main.html">
+            <Link className="abth abtm-a " to="/">
               Home
             </Link>
           </li>
           <li className="abtm-li">
-            <Link className="abtm-a" to="./courser.html">
+            <Link className="abtm-a abtc" to="/course">
               Courses
             </Link>
           </li>
           <li className="abtm-li">
-            <Link className="abtm-a" to="./contactr.html">
+            <Link className="abtm-a abtcc" to="/contact">
               Contact us
             </Link>
           </li>
           <li className="abtm-li">
-            <Link className="abtm-a" href="./aboutr.html">
+            <Link className="abtm-a abta" to="/about">
               About
             </Link>
           </li>
@@ -46,7 +46,7 @@ export default function About() {
                 "Being The Pro in Programming can be easy,especially if you
                 start with us"
               </p>
-              <Link className="abt-con-a" href="./courser.html">
+              <Link className="abt-con-a" to="/courser">
                 Read More
               </Link>
             </div>
@@ -100,22 +100,22 @@ export default function About() {
             <h2 className="abtfoo-h2">Quick Links</h2>
             <ul className="abtfoo-ul">
               <li className="abtfoo-li">
-                <Link className="abtfoo-a" to="/main.html">
+                <Link className="abtfoo-a" to="/">
                   Home
                 </Link>
               </li>
               <li className="abtfoo-li">
-                <Link className="abtfoo-a" to="/courser.html">
+                <Link className="abtfoo-a" to="/course">
                   Course
                 </Link>
               </li>
               <li className="abtfoo-li">
-                <Link className="abtfoo-a" to="/enrollr.html">
+                <Link className="abtfoo-a" to="/enroll">
                   My Enrollments
                 </Link>
               </li>
               <li className="abtfoo-li">
-                <Link className="abtfoo-a" href="/contactr.html">
+                <Link className="abtfoo-a" href="/contact">
                   Help
                 </Link>
               </li>
@@ -148,9 +148,9 @@ export default function About() {
             <div className="asocial_media">
               <ul className="abtrt-ul">
                 <li className="abtrt-li">
-                  <a className="abtrt-a" href="#">
+                  <Link className="abtrt-a" to="#">
                     <i className="fab fa-facebook" aria-hidden="true"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="abtrt-li">
                   <Link className="abtrt-a" to="#">

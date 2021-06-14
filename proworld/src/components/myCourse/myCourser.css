@@ -1,4 +1,9 @@
 .mycpg {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
     font-family: "Times New Roman", Times, serif;
     background: linear-gradient( 90deg, #1f005c, #350168, #4e0274, #6a0380, #8b058b, #970780, #a30971, #af0b5f);
 }
@@ -11,14 +16,6 @@
     border-radius: 40%;
     border: 3px solid rgb(8, 128, 48);
     visibility: visible;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
 }
 
 .mycmenu {
