@@ -6,6 +6,9 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    height: 2675px;
+    position: relative;
+    top: -20px;
 }
 
 .paralogo {
@@ -21,8 +24,8 @@
 .paralogo1 {
     position: fixed;
     font-size: 25px;
-    top: 20px;
-    left: 80px;
+    top: -5px;
+    left: 90px;
     background: #05f1e6;
     background: -webkit-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
     background: -moz-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
@@ -50,6 +53,11 @@
     display: block;
     cursor: pointer;
     font-weight: bold;
+    text-decoration: none;
+}
+
+.paramenu>.paramenuul>.paramenuli {
+    list-style: none;
 }
 
 .paramenu>.paramenuul>.paramenuli>.paramenua:hover {
@@ -70,6 +78,11 @@
     /* text-shadow: 0 0 4px #fff, 0 0 4px #fff, 0 0 8px #fff, 0 0 10px #fff, 0 0 12px #0fa, 0 0 16px #0fa, 0 0 20px #0fa, 0 0 22px #0fa, 0 0 24px #0fa; */
 }
 
+.paracontainer .paracontent .paraconta .a6 {
+    color: darkred !important;
+    font-weight: bold;
+}
+
 .paracontainer {
     position: fixed;
     top: 70px;
@@ -82,8 +95,9 @@
 .paracontainer .parah3 {
     font-size: 28px;
     position: absolute;
-    padding: 10px 10px;
-    left: 20px;
+    top: -15px;
+    /* padding: 10px 10px; */
+    left: 30px;
 }
 
 .paracontainer .paracontent .paraconta .paracontp {
@@ -95,6 +109,10 @@
     left: 20px;
     cursor: pointer;
     color: #1f212b;
+}
+
+.paracontainer .paracontent .paraconta {
+    text-decoration: none;
 }
 
 .paracontainer .paracontent .paracontp:hover {
@@ -230,8 +248,9 @@
     color: wheat;
     font-size: 30px;
     padding: 5px 30px;
-    top: 1950px;
-    left: 600px;
+    top: 1800px;
+    left: 1150px;
+    text-decoration: none;
 }
 
 .parabtn .paranext:hover {
@@ -252,8 +271,9 @@
     color: wheat;
     font-size: 30px;
     padding: 5px 20px;
-    top: 1950px;
-    left: -170px;
+    top: 1800px;
+    left: 200px;
+    text-decoration: none;
 }
 
 .parabtn .paraprevious:hover {
@@ -264,7 +284,7 @@
     position: relative;
     background: #1f212b;
     width: 79.6%;
-    height: 63%;
+    height: 400px;
     box-sizing: border-box;
     bottom: 0px;
     margin: 0;
@@ -292,6 +312,10 @@
     position: relative;
 }
 
+.paramain-content .paraleft-box .paraleftul {
+    list-style: none;
+}
+
 .paramain-content .paraleft-box .paraleftul .paraleftli .paralefta {
     position: relative;
     display: block;
@@ -302,8 +326,10 @@
     color: #e4d1d3;
     text-align: center;
     left: 30px;
-    top: 50px;
+    top: 30px;
     cursor: pointer;
+    text-decoration: none;
+    font-style: oblique;
 }
 
 .paramain-content .paraleft-box>.paraleftul>.paraleftli>.paralefta:hover {
@@ -337,8 +363,8 @@
     position: relative;
     display: flex;
     font-size: 20px;
-    top: 20px;
-    left: -40px;
+    top: 60px;
+    left: -30px;
     color: #e4d1d3;
     cursor: pointer;
 }
@@ -347,8 +373,8 @@
     position: relative;
     display: flex;
     font-size: 20px;
-    left: -40px;
-    top: 90px;
+    left: -30px;
+    top: 130px;
     color: #e4d1d3;
     cursor: pointer;
 }
@@ -357,8 +383,8 @@
     position: relative;
     display: flex;
     font-size: 20px;
-    left: -40px;
-    top: 160px;
+    left: -30px;
+    top: 200px;
     color: #e4d1d3;
 }
 
@@ -366,13 +392,15 @@
     border: 3px solid #ff5f5f;
     position: relative;
     /* display: flex; */
-    font-size: 20px;
+    font-size: 23px;
     color: white;
     border-radius: 15px;
     padding: 10px 15px;
     text-align: center;
-    top: 160px;
+    top: 200px;
     left: 60px;
+    text-decoration: none;
+    font-style: oblique;
 }
 
 .paramain-content .paracenter-box .paramail,
@@ -392,7 +420,7 @@
     width: 300px;
     height: 350px;
     top: 25px;
-    left: 60%;
+    left: 55%;
 }
 
 .paramain-content .pararight-box .paraquick {
@@ -406,7 +434,7 @@
 
 .paramain-content .pararight-box .parasocial_media .parasocul {
     position: relative;
-    top: 150px;
+    top: 170px;
     left: 80px;
     transform: translate(-50%, -50%);
     margin: 0;
@@ -432,7 +460,6 @@
     box-shadow: 0 10px 15px rgba(0, 0, 0, 3);
     background: linear-gradient(0deg, #ddd, #fff);
     transition: 0.5s;
-    background-color: #1f005c;
 }
 
 .parasocial_media .parasocul .parasocli .parasoca:hover {
@@ -441,23 +468,23 @@
     transform: translate(0, -20px);
 }
 
-.parasocul .parasocli:nth-child(1) .parasoca:hover .parasoci {
+.parasocul .parasocli:nth-child(1) .parasoca:hover {
     color: #3b5998;
 }
 
-.parasocul .parasocli:nth-child(2) .parasoca:hover .parasoci {
+.parasocul .parasocli:nth-child(2) .parasoca:hover {
     color: #00acee;
 }
 
-.parasocul .parasocli:nth-child(3) .parasoca:hover .parasoci {
+.parasocul .parasocli:nth-child(3) .parasoca:hover {
     color: #db4a39;
 }
 
-.parasocul .parasocli:nth-child(4) .parasoca:hover .parasoci {
+.parasocul .parasocli:nth-child(4) .parasoca:hover {
     color: #0e76a8;
 }
 
-.parasocul .parasocli:nth-child(5) .parasoca:hover .parasoci {
+.parasocul .parasocli:nth-child(5) .parasoca:hover {
     color: #de249f;
 }
 
@@ -469,10 +496,9 @@
     border-radius: 50%;
     line-height: calc(6px - 12px);
     font-size: 50px;
-    color: #262626;
     transition: 0.5s;
 }
 
-.paramain-content .pararight-box .parasocial_media .parasocul .parasocli .parasoci {
+.paramain-content .pararight-box .parasocial_media .parasocul .parasocli .parasoca {
     font-size: 25px;
 }

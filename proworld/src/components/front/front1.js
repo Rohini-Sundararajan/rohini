@@ -5,6 +5,13 @@ import mainlogo from "./../../assets/mainlogoroh.jpg";
 import { useEffect } from "react";
 import ReactDom from "react-dom";
 import "./style.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGooglePlus } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 export default function Front1() {
   useEffect(() => {
@@ -56,27 +63,37 @@ export default function Front1() {
         <ul className="main-soc">
           <li className="msoc-li">
             <Link className="msoc-a" to="#">
-              <i className="fab fa-facebook" aria-hidden="true"></i>
+              <span>
+                <FontAwesomeIcon icon={faFacebook} />
+              </span>
             </Link>
           </li>
           <li className="msoc-li">
             <Link className="msoc-a" to="#">
-              <i className="fab fa-twitter" aria-hidden="true"></i>
+              <span>
+                <FontAwesomeIcon icon={faTwitter} />
+              </span>
             </Link>
           </li>
           <li class="msoc-li">
             <Link class="msoc-a" to="#">
-              <i class="fab fa-google-plus-g" aria-hidden="true"></i>
+              <span>
+                <FontAwesomeIcon icon={faGooglePlus} />
+              </span>
             </Link>
           </li>
           <li className="msoc-li">
             <Link className="msoc-a" to="#">
-              <i className="fab fa-linkedin" aria-hidden="true"></i>
+              <span>
+                <FontAwesomeIcon icon={faLinkedin} />
+              </span>
             </Link>
           </li>
           <li className="msoc-li">
             <Link className="msoc-a" to="#">
-              <i className="fab fa-instagram" aria-hidden="true"></i>
+              <span>
+                <FontAwesomeIcon icon={faInstagram} />
+              </span>
             </Link>
           </li>
         </ul>
@@ -91,7 +108,9 @@ export default function Front1() {
           placeholder="Type to search"
         />
         <Link className="search_btn" to="#">
-          <i className="fas fa-search"></i>
+          <span>
+            <FontAwesomeIcon icon={faSearch} />
+          </span>
         </Link>
       </div>
       <div className="button1">

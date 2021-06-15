@@ -2,7 +2,15 @@ import React from "react";
 import "./tagr.css";
 import taglogo from "./../../assets/mainlogoroh.jpg";
 import { Link } from "react-router-dom";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGooglePlus } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function Tag() {
   return (
     <div className="tagpg">
@@ -39,7 +47,7 @@ export default function Tag() {
             <p className="tagcon-p">HTML Introduction</p>
           </Link>
           <Link className="tagcon-a" to="/tag">
-            <p className="tagcon-p">HTML Tags</p>
+            <p className="tagcon-p a2">HTML Tags</p>
           </Link>
           <Link className="tagcon-a" to="/element">
             <p className="tagcon-p">HTML Elements</p>
@@ -50,7 +58,7 @@ export default function Tag() {
           <Link className="tagcon-a" to="/head">
             <p className="tagcon-p">HTML Headings</p>
           </Link>
-          <Link className="tagcon-a" href="/para">
+          <Link className="tagcon-a" to="/para">
             <p className="tagcon-p">HTML Paragraphs</p>
           </Link>
           <Link
@@ -94,7 +102,7 @@ export default function Tag() {
           <li className="tp2-li">
             <xmp className="tcon-x4">
               The DOCTYPE declaration represents the document type, and helps
-              browsers to display web pages correctly.{" "}
+              <br /> browsers to display web pages correctly.{" "}
             </xmp>
           </li>
           <li className="tcon-x5">
@@ -175,7 +183,7 @@ export default function Tag() {
                 </Link>
               </li>
               <li className="tleft-li">
-                <Link className="tleft-a" to=".mycourse">
+                <Link className="tleft-a" to="/mycourse">
                   My Enrollments
                 </Link>
               </li>
@@ -194,15 +202,21 @@ export default function Tag() {
           <div className="tcenter-box">
             <h2 className="tce-h2">Address</h2>
             <div className="tce-location">
-              <i className="fas fa-map-marker-alt"></i>
+              <span>
+                <FontAwesomeIcon icon={faFacebook} />
+              </span>
               <i className="tce-text">Coimbatore,Tamilnadu</i>
             </div>
             <div className="tce-mail">
-              <i className="fas fa-envelope"></i>
+              <span>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </span>
               <i className="tce-text">talktorohini21@gmail.com</i>
             </div>
             <div className="tce-phone">
-              <i className="fas fa-phone-alt"></i>
+              <span>
+                <FontAwesomeIcon icon={faPhoneAlt} />
+              </span>
               <i className="tce-text">+91 7339481237</i>
             </div>
 
@@ -219,27 +233,37 @@ export default function Tag() {
               <ul className="trt-ul">
                 <li className="trt-li">
                   <Link className="trt-a" to="# ">
-                    <i className="fab fa-facebook" aria-hidden="true "></i>
+                    <span>
+                      <FontAwesomeIcon icon={faFacebook} />
+                    </span>
                   </Link>
                 </li>
                 <li className="trt-li">
                   <Link className="trt-a" to="# ">
-                    <i className="fab fa-twitter" aria-hidden="true "></i>
+                    <span>
+                      <FontAwesomeIcon icon={faTwitter} />
+                    </span>
                   </Link>
                 </li>
                 <li className="trt-li">
                   <Link className="trt-a" to="# ">
-                    <i className="fab fa-google-plus-g" aria-hidden="true "></i>
+                    <span>
+                      <FontAwesomeIcon icon={faGooglePlus} />
+                    </span>
                   </Link>
                 </li>
                 <li className="trt-li">
                   <Link className="trt-a" to="# ">
-                    <i className="fab fa-linkedin" aria-hidden="true "></i>
+                    <span>
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    </span>
                   </Link>
                 </li>
                 <li className="trt-li">
                   <Link className="trt-a" to="# ">
-                    <i className="fab fa-instagram" aria-hidden="true "></i>
+                    <span>
+                      <FontAwesomeIcon icon={faInstagram} />
+                    </span>
                   </Link>
                 </li>
               </ul>

@@ -2,6 +2,15 @@ import React from "react";
 import "./parar.css";
 import { Link } from "react-router-dom";
 import paralogo from "./../../assets/mainlogoroh.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGooglePlus } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function Para() {
   return (
     <div className="parapg">
@@ -51,7 +60,7 @@ export default function Para() {
             <p className="paracontp">HTML Headings</p>
           </Link>
           <Link className="paraconta" to="/para">
-            <p className="paracontp">HTML Paragraphs</p>
+            <p className="paracontp a6">HTML Paragraphs</p>
           </Link>
           <Link
             className="paraconta"
@@ -159,15 +168,21 @@ export default function Para() {
           <div className="paracenter-box">
             <h2 className="paraaddress">Address</h2>
             <div className="paralocation">
-              <i className="fas fa-map-marker-alt"></i>
+              <span>
+                <FontAwesomeIcon icon={faMapMarkerAlt} />
+              </span>
               <i className="paratext">Coimbatore,Tamilnadu</i>
             </div>
             <div className="paramail">
-              <i className="fas fa-envelope"></i>
+              <span>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </span>
               <i className="text">talktorohini21@gmail.com</i>
             </div>
             <div className="paraphone">
-              <i className="fas fa-phone-alt"></i>
+              <span>
+                <FontAwesomeIcon icon={faPhoneAlt} />
+              </span>
               <i className="paratext">+91 7339481237</i>
             </div>
 
@@ -184,42 +199,37 @@ export default function Para() {
               <ul className="parasocul">
                 <li className="parasocli">
                   <Link to="# " className="parasoca">
-                    <i
-                      className=" parasoci fab fa-facebook"
-                      aria-hidden="true "
-                    ></i>
+                    <span>
+                      <FontAwesomeIcon icon={faFacebook} />
+                    </span>
                   </Link>
                 </li>
                 <li className="parasocli">
                   <Link to="# " class="parasoca">
-                    <i
-                      className=" parasoci fab fa-twitter"
-                      aria-hidden="true "
-                    ></i>
+                    <span>
+                      <FontAwesomeIcon icon={faTwitter} />
+                    </span>
                   </Link>
                 </li>
                 <li className="parasocli">
                   <Link to="# " className="parasoca">
-                    <i
-                      className=" parasoci fab fa-google-plus-g"
-                      aria-hidden="true "
-                    ></i>
+                    <span>
+                      <FontAwesomeIcon icon={faGooglePlus} />
+                    </span>
                   </Link>
                 </li>
                 <li className="parasocli">
                   <Link to="# " className="parasoca">
-                    <i
-                      className=" parasoci fab fa-linkedin"
-                      aria-hidden="true "
-                    ></i>
+                    <span>
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    </span>
                   </Link>
                 </li>
                 <li className="parasocli">
                   <Link to="# " className="parasoca">
-                    <i
-                      className=" parasoci fab fa-instagram"
-                      aria-hidden="true "
-                    ></i>
+                    <span>
+                      <FontAwesomeIcon icon={faInstagram} />
+                    </span>
                   </Link>
                 </li>
               </ul>

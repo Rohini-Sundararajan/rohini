@@ -2,6 +2,15 @@ import React from "react";
 import "./elementr.css";
 import melogo from "./../../assets/mainlogoroh.jpg";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGooglePlus } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function Element() {
   return (
     <div className="elementpage">
@@ -42,7 +51,7 @@ export default function Element() {
             <p className="ele-p">HTML Tags</p>
           </Link>
           <Link className="elec-a" to="/element">
-            <p className="ele-p">HTML Elements</p>
+            <p className="ele-p a3">HTML Elements</p>
           </Link>
           <Link className="elec-a" to="/attribute">
             <p className="ele-p">HTML Attributes</p>
@@ -159,7 +168,7 @@ export default function Element() {
               </li>
               <li className="ele-leftli">
                 <Link className="ele-lefta" to="/course">
-                  Home
+                  Courses
                 </Link>
               </li>
             </ul>
@@ -167,15 +176,21 @@ export default function Element() {
           <div className="ele-center-box ">
             <h2 className="ele-add">Address</h2>
             <div className="ele-location ">
-              <i className="fas fa-map-marker-alt "></i>
+              <span>
+                <FontAwesomeIcon icon={faMapMarkerAlt} />
+              </span>
               <i className="ele-text ">Coimbatore,Tamilnadu</i>
             </div>
             <div className="ele-mail ">
-              <i className="fas fa-envelope "></i>
+              <span>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </span>
               <i className="tele-ext ">talktorohini21@gmail.com</i>
             </div>
             <div className="ele-phone ">
-              <i className="fas fa-phone-alt "></i>
+              <span>
+                <FontAwesomeIcon icon={faPhoneAlt} />
+              </span>
               <i className="ele-text ">+91 7339481237</i>
             </div>
 
@@ -192,42 +207,37 @@ export default function Element() {
               <ul className="ele-socul">
                 <li className="ele-socli">
                   <Link className="ele-soca" to="# ">
-                    <i
-                      className=" ele-soci fab fa-facebook "
-                      aria-hidden="true "
-                    ></i>
+                    <span>
+                      <FontAwesomeIcon icon={faFacebook} />
+                    </span>
                   </Link>
                 </li>
                 <li className="ele-socli">
                   <Link className="ele-soca" to="# ">
-                    <i
-                      className="ele-soci fab fa-twitter "
-                      aria-hidden="true "
-                    ></i>
+                    <span>
+                      <FontAwesomeIcon icon={faTwitter} />
+                    </span>
                   </Link>
                 </li>
                 <li className="ele-socli ele-goo">
                   <Link className="ele-soca" to="# ">
-                    <i
-                      className=" ele-soci fab fa-google-plus-g "
-                      aria-hidden="true "
-                    ></i>
+                    <span>
+                      <FontAwesomeIcon icon={faGooglePlus} />
+                    </span>
                   </Link>
                 </li>
                 <li className="ele-socli ele-in ">
                   <Link className="ele-soca" to="# ">
-                    <i
-                      className="ele-soci fab fa-linkedin "
-                      aria-hidden="true "
-                    ></i>
+                    <span>
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    </span>
                   </Link>
                 </li>
                 <li className="ele-socli ele-insta">
                   <Link className="ele-soca" to="# ">
-                    <i
-                      className="ele-soci fab fa-instagram "
-                      aria-hidden="true "
-                    ></i>
+                    <span>
+                      <FontAwesomeIcon icon={faInstagram} />
+                    </span>
                   </Link>
                 </li>
               </ul>

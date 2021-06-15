@@ -2,6 +2,15 @@ import React from "react";
 import htmllogo from "./../../assets/mainlogoroh.jpg";
 import "./htmlr.css";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGooglePlus } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faMapMarkerAlt, faMobileAlt } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function Html() {
   return (
     <div className="htmlpg">
@@ -35,7 +44,7 @@ export default function Html() {
         <h3 className="htcon-h3">HTML Tutorial</h3>
         <div className="htcon-content">
           <Link className="htcon-a" to="/html">
-            <p className="htcon-p">HTML Introduction</p>
+            <p className="htcon-p a1">HTML Introduction</p>
           </Link>
           <Link className="htcon-a" to="/tag">
             <p className="htcon-p">HTML Tags</p>
@@ -145,7 +154,7 @@ export default function Html() {
             <h2 className="htlt-h2">Quick Links</h2>
             <ul className="htlt-ul">
               <li className="htlt-li">
-                <Link className="htlt-a" href="/ ">
+                <Link className="htlt-a" to="/ ">
                   Home
                 </Link>
               </li>
@@ -169,15 +178,21 @@ export default function Html() {
           <div className="htcenter-box">
             <h2 className="htce-h2">Address</h2>
             <div className="ht-location">
-              <i className="fas fa-map-marker-alt"></i>
+              <span>
+                <FontAwesomeIcon icon={faMapMarkerAlt} />
+              </span>
               <i className="ht-text">Coimbatore,Tamilnadu</i>
             </div>
             <div className="ht-mail">
-              <i className="fas fa-envelope"></i>
+              <span>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </span>
               <i className="ht-text">talktorohini21@gmail.com</i>
             </div>
             <div className="ht-phone">
-              <i className="fas fa-phone-alt"></i>
+              <span>
+                <FontAwesomeIcon icon={faPhoneAlt} />
+              </span>
               <i className="ht-text">+91 7339481237</i>
             </div>
 
@@ -194,27 +209,37 @@ export default function Html() {
               <ul className="htrt-ul">
                 <li className="htrt-li">
                   <Link className="htrt-a" to="# ">
-                    <i className="fab fa-facebook" aria-hidden="true "></i>
-                  </Link>
-                </li>
-                <li className="htrt-li">
-                  <Link className="htrt-a" href="# ">
-                    <i className="fab fa-twitter" aria-hidden="true "></i>
-                  </Link>
-                </li>
-                <li className="htrt-li">
-                  <Link className="htrt-a" to="# ">
-                    <i className="fab fa-google-plus-g" aria-hidden="true "></i>
+                    <span>
+                      <FontAwesomeIcon icon={faFacebook} />
+                    </span>
                   </Link>
                 </li>
                 <li className="htrt-li">
                   <Link className="htrt-a" to="# ">
-                    <i className="fab fa-linkedin" aria-hidden="true "></i>
+                    <span>
+                      <FontAwesomeIcon icon={faTwitter} />
+                    </span>
+                  </Link>
+                </li>
+                <li className="htrt-li">
+                  <Link className="htrt-a" to="# ">
+                    <span>
+                      <FontAwesomeIcon icon={faGooglePlus} />
+                    </span>
+                  </Link>
+                </li>
+                <li className="htrt-li">
+                  <Link className="htrt-a" to="# ">
+                    <span>
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    </span>
                   </Link>
                 </li>
                 <li class="htrt-li">
                   <Link className="htrt-a" to="# ">
-                    <i className="fab fa-instagram" aria-hidden="true "></i>
+                    <span>
+                      <FontAwesomeIcon icon={faInstagram} />
+                    </span>
                   </Link>
                 </li>
               </ul>

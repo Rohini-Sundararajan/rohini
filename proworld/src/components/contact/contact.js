@@ -22,7 +22,7 @@ export default function Contact() {
             </Link>
           </li>
           <li className="con-li">
-            <Link className="con-a " to="/contact">
+            <Link className="con-a con3" to="/contact">
               Contact us
             </Link>
           </li>

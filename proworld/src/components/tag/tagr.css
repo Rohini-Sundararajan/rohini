@@ -6,6 +6,9 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    position: relative;
+    top: -20px;
+    height: 2428px;
 }
 
 .tag-logo {
@@ -21,8 +24,8 @@
 .tag-logo1 {
     position: fixed;
     font-size: 25px;
-    top: 20px;
-    left: 80px;
+    top: -5px;
+    left: 90px;
     background: #05f1e6;
     background: -webkit-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
     background: -moz-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
@@ -80,7 +83,7 @@
     top: 10px;
     left: 30%;
     width: 45%;
-    height: 8%;
+    height: 50px;
     border-radius: 20px;
 }
 
@@ -94,6 +97,11 @@
     display: block;
     cursor: pointer;
     font-weight: bold;
+}
+
+.tag-menu>.tag-ul>.tag-li {
+    list-style: none;
+    position: relative;
 }
 
 .tag-menu>.tag-ul>.tag-li>.tag-a:hover {
@@ -114,6 +122,11 @@
     /* text-shadow: 0 0 4px #fff, 0 0 4px #fff, 0 0 8px #fff, 0 0 10px #fff, 0 0 12px #0fa, 0 0 16px #0fa, 0 0 20px #0fa, 0 0 22px #0fa, 0 0 24px #0fa; */
 }
 
+.tag-container .tag-content .tagcon-a .a2 {
+    color: darkred !important;
+    font-weight: bold;
+}
+
 .tag-container {
     position: fixed;
     top: 70px;
@@ -126,7 +139,8 @@
 .tag-container .tag-h3 {
     font-size: 30px;
     position: absolute;
-    padding: 2px 15px;
+    /* padding: 2px 15px; */
+    top: -15px;
     left: 20px;
 }
 
@@ -139,6 +153,10 @@
     left: 20px;
     cursor: pointer;
     color: #1f212b;
+}
+
+.tag-container .tag-content .tagcon-a {
+    text-decoration: none;
 }
 
 .tag-container .tag-content .tagcon-a .tagcon-p:hover {
@@ -200,13 +218,14 @@
     top: 430px;
     left: 400px;
     white-space: nowrap;
-    font-size: 20px;
+    font-size: 23px;
     font-family: "Times New Roman", Times, serif;
+    line-height: 1.5;
 }
 
 .tag-content .tcon-part2 .tcon-x5 {
     position: absolute;
-    top: 470px;
+    top: 530px;
     left: 400px;
     font-size: 23px;
     font-family: "Times New Roman", Times, serif;
@@ -214,7 +233,7 @@
 
 .tag-content .tcon-part2 .tcon-x6 {
     position: absolute;
-    top: 510px;
+    top: 550px;
     left: 400px;
     font-size: 23px;
     font-family: "Times New Roman", Times, serif;
@@ -223,13 +242,13 @@
 
 .tag-content .tcon-part3 .tcon-h3 {
     position: absolute;
-    top: 590px;
+    top: 610px;
     left: 48%;
 }
 
 .tag-content .tcon-part3 .tcon-x7 {
     position: absolute;
-    top: 660px;
+    top: 680px;
     left: 400px;
     font-size: 23px;
     font-family: "Times New Roman", Times, serif;
@@ -238,7 +257,7 @@
 
 .tag-content .tcon-part3 .tcon-x8 {
     position: absolute;
-    top: 700px;
+    top: 720px;
     left: 400px;
     font-size: 23px;
     font-family: "Times New Roman", Times, serif;
@@ -247,7 +266,7 @@
 
 .tag-content .tcon-part3 .tcon-x9 {
     position: absolute;
-    top: 740px;
+    top: 760px;
     left: 400px;
     font-size: 23px;
     font-family: "Times New Roman", Times, serif;
@@ -335,8 +354,9 @@
     color: wheat;
     font-size: 30px;
     padding: 5px 30px;
-    top: 1550px;
-    left: 50%;
+    top: 1350px;
+    left: 83%;
+    text-decoration: none;
 }
 
 .tcon-btn .tcon-btna1:hover {
@@ -357,8 +377,9 @@
     color: wheat;
     font-size: 30px;
     padding: 5px 20px;
-    top: 1550px;
-    left: -200px;
+    top: 1350px;
+    left: 250px;
+    text-decoration: none;
 }
 
 .tcon-btn .tcon-btna2:hover {
@@ -369,7 +390,7 @@
     position: relative;
     background: #1f212b;
     width: 79.6%;
-    height: 60%;
+    height: 400px;
     box-sizing: border-box;
     bottom: 0px;
     margin: 0;
@@ -392,9 +413,13 @@
     font-size: 30px;
     line-height: 1;
     color: #005792;
-    left: 50px;
+    left: 70px;
     top: 30px;
     position: relative;
+}
+
+.tmain-content .tleft-box .tleft-ul .tleft-li {
+    list-style: none;
 }
 
 .tmain-content .tleft-box .tleft-ul .tleft-li .tleft-a {
@@ -407,8 +432,10 @@
     color: #e4d1d3;
     text-align: center;
     left: 30px;
-    top: 50px;
+    top: 30px;
     cursor: pointer;
+    text-decoration: none;
+    font-style: oblique;
 }
 
 .tmain-content .tleft-box .tleft-ul .tleft-li .tleft-a:hover {
@@ -471,13 +498,15 @@
     border: 3px solid #ff5f5f;
     position: relative;
     /* display: flex; */
-    font-size: 20px;
+    font-size: 23px;
     color: white;
+    font-style: oblique;
     border-radius: 15px;
     padding: 10px 15px;
     text-align: center;
     top: 200px;
     left: 60px;
+    text-decoration: none;
 }
 
 .tmain-content .tcenter-box .tce-mail,
@@ -497,7 +526,7 @@
     width: 300px;
     height: 350px;
     top: 25px;
-    left: 60%;
+    left: 55%;
 }
 
 .tmain-content .tright-box .trt-h2 {
@@ -512,7 +541,7 @@
 .tmain-content .tright-box .tsocial_media .trt-ul {
     position: relative;
     top: 150px;
-    left: 90px;
+    left: 110px;
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
@@ -537,7 +566,6 @@
     box-shadow: 0 10px 15px rgba(0, 0, 0, 3);
     background: linear-gradient(0deg, #ddd, #fff);
     transition: 0.5s;
-    background-color: #1f005c;
     font-size: 25px;
 }
 
@@ -547,28 +575,28 @@
     transform: translate(0, -20px);
 }
 
-.trt-ul .trt-li:nth-child(1) .trt-a:hover .fab {
+.trt-ul .trt-li:nth-child(1) .trt-a:hover {
     color: #3b5998;
 }
 
-.trt-ul .trt-li:nth-child(2) .trt-a:hover .fab {
+.trt-ul .trt-li:nth-child(2) .trt-a:hover {
     color: #00acee;
 }
 
-.trt-ul .trt-li:nth-child(3) .trt-a:hover .fab {
+.trt-ul .trt-li:nth-child(3) .trt-a:hover {
     color: #db4a39;
 }
 
-.trt-ul .trt-li:nth-child(4) .trt-a:hover .fab {
+.trt-ul .trt-li:nth-child(4) .trt-a:hover {
     color: #0e76a8;
 }
 
-.trt-ul .trt-li:nth-child(5) .trt-a:hover .fab {
+.trt-ul .trt-li:nth-child(5) .trt-a:hover {
     color: #de249f;
 }
 
 
-/* .tmain-content .tright-box .tsocial_media .trt-ul .trt-li .trt-a.fab {
+/* .tmain-content .tright-box .tsocial_media .trt-ul .trt-li .trt-a {
     width: 70%;
     height: 70%;
     display: block;
@@ -580,6 +608,6 @@
     transition: 0.5s;
 } */
 
-.tmain-content .tright-box .tsocial_media .trt-ul .trt-li>i {
+.tmain-content .tright-box .tsocial_media .trt-ul .trt-li .trt-a {
     font-size: 25px;
 }

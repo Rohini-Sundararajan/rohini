@@ -6,6 +6,10 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    top: -20px;
+    position: absolute;
+    height: 2305px;
+    width: 100%;
 }
 
 .ele-logo {
@@ -21,8 +25,8 @@
 .ele-logo1 {
     position: fixed;
     font-size: 25px;
-    top: 20px;
-    left: 80px;
+    top: -5px;
+    left: 85px;
     background: #05f1e6;
     background: -webkit-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
     background: -moz-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
@@ -52,6 +56,10 @@
     font-weight: bold;
 }
 
+.ele-menu .ele-ul .ele-li {
+    list-style: none;
+}
+
 .ele-menu .ele-ul .ele-li .ele-a:hover {
     padding-bottom: 10px;
     border-bottom-style: solid;
@@ -70,6 +78,11 @@
     /* text-shadow: 0 0 4px #fff, 0 0 4px #fff, 0 0 8px #fff, 0 0 10px #fff, 0 0 12px #0fa, 0 0 16px #0fa, 0 0 20px #0fa, 0 0 22px #0fa, 0 0 24px #0fa; */
 }
 
+.ele-container .ele-content .elec-a .a3 {
+    color: darkred !important;
+    font-weight: bold;
+}
+
 .ele-container {
     position: fixed;
     top: 70px;
@@ -82,7 +95,7 @@
 .ele-container .ele-h3 {
     font-size: 27px;
     position: absolute;
-    padding: 10px 15px;
+    padding: 2px 5px;
     left: 20px;
 }
 
@@ -95,6 +108,10 @@
     left: 20px;
     cursor: pointer;
     color: #1f212b;
+}
+
+.ele-container .ele-content .elec-a {
+    text-decoration: none;
 }
 
 .ele-container .ele-content .ele-p:hover {
@@ -111,14 +128,14 @@
 
 .element-tag .ele-p1 {
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
     top: 225px;
     left: 30%;
 }
 
 .element-tag .ele-p2 {
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
     top: 275px;
     left: 30%;
 }
@@ -141,7 +158,7 @@
 
 .element-tag .ele-x3 {
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Times New Roman", Times, serif;
     top: 485px;
     left: 30%;
@@ -152,7 +169,7 @@
     font-size: 25px;
     font-family: "Times New Roman", Times, serif;
     top: 380px;
-    left: 25%;
+    left: 30%;
 }
 
 .element .eletabl1,
@@ -160,13 +177,13 @@
 .eleda1 {
     position: relative;
     border: 2px solid black;
-    top: 550px;
-    left: -15%;
+    top: 370px;
+    left: 40%;
     width: 45%;
     height: 20px;
     text-align: center;
     padding: 8px;
-    font-size: 18px;
+    font-size: 20px;
     background-color: #9dd3a8;
 }
 
@@ -179,7 +196,7 @@
 
 .element3 .ele-p4 {
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
     top: 820px;
     left: 30%;
     line-height: 2.5;
@@ -194,14 +211,14 @@
 
 .element3 .ele-p5 {
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
     top: 1025px;
     left: 30%;
 }
 
 .element3 .ele-x4 {
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
     top: 1080px;
     left: 30%;
     font-family: "Times New Roman", Times, serif;
@@ -211,14 +228,14 @@
     position: absolute;
     font-size: 25px;
     top: 1120px;
-    left: 25%;
+    left: 30%;
 }
 
 .element3 .ele-x5 {
     position: absolute;
-    font-size: 20px;
-    top: 1180px;
-    left: 30%;
+    font-size: 25px;
+    top: 1160px;
+    left: 35%;
     font-family: "Times New Roman", Times, serif;
 }
 
@@ -236,8 +253,9 @@
     color: wheat;
     font-size: 30px;
     padding: 5px 30px;
-    top: 1300px;
+    top: 1100px;
     left: 80%;
+    text-decoration: none;
 }
 
 .ele-btn .ele-next:hover {
@@ -245,6 +263,7 @@
 }
 
 .ele-btn .ele-previous {
+    text-decoration: none;
     position: relative;
     border: 2px solid;
     border-radius: 15px;
@@ -258,7 +277,7 @@
     color: wheat;
     font-size: 30px;
     padding: 5px 20px;
-    top: 1300px;
+    top: 1100px;
     left: 15%;
 }
 
@@ -270,7 +289,7 @@
     position: relative;
     background: #1f212b;
     width: 79.6%;
-    height: 60%;
+    height: 400px;
     box-sizing: border-box;
     bottom: 0px;
     margin: 0;
@@ -285,17 +304,17 @@
     /* position: absolute; */
 }
 
-.ele-main-content .ele-left-box {
-    border: none;
-}
-
 .ele-main-content .ele-left-box .ele-quick {
     font-size: 30px;
     line-height: 1;
     color: #005792;
-    left: 50px;
+    left: 70px;
     top: 30px;
     position: relative;
+}
+
+.ele-left-box .ele-leftul .ele-leftli {
+    list-style: none;
 }
 
 .ele-main-content .ele-left-box .ele-leftul .ele-leftli .ele-lefta {
@@ -307,9 +326,11 @@
     margin-left: 10px;
     color: #e4d1d3;
     text-align: center;
-    left: 30px;
-    top: 50px;
+    left: 20px;
+    top: 30px;
+    font-style: italic;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .ele-main-content .ele-left-box>.ele-leftul>.ele-leftli>.ele-lefta:hover {
@@ -343,7 +364,7 @@
     position: relative;
     display: flex;
     font-size: 20px;
-    top: 20px;
+    top: 75px;
     left: -40px;
     color: #e4d1d3;
     cursor: pointer;
@@ -354,7 +375,7 @@
     display: flex;
     font-size: 20px;
     left: -40px;
-    top: 90px;
+    top: 140px;
     color: #e4d1d3;
     cursor: pointer;
 }
@@ -364,7 +385,7 @@
     display: flex;
     font-size: 20px;
     left: -40px;
-    top: 160px;
+    top: 210px;
     color: #e4d1d3;
 }
 
@@ -372,13 +393,15 @@
     border: 3px solid #ff5f5f;
     position: relative;
     /* display: flex; */
-    font-size: 20px;
+    font-size: 23px;
     color: white;
     border-radius: 15px;
     padding: 10px 15px;
     text-align: center;
-    top: 170px;
+    top: 220px;
     left: 60px;
+    text-decoration: none;
+    font-style: italic;
 }
 
 .ele-main-content .ele-center-box .ele-mail,
@@ -393,12 +416,13 @@
 }
 
 .ele-main-content .ele-right-box {
-    position: relative;
+    position: absolute;
     display: flex;
-    width: 300px;
+    width: 400px;
     height: 350px;
     top: 25px;
-    left: 60%;
+    left: 75%;
+    /* background-color: #005792; */
 }
 
 .ele-main-content .ele-right-box .ele-contact {
@@ -406,7 +430,7 @@
     display: flex;
     font-size: 30px;
     top: 10px;
-    left: -30px;
+    left: -10%;
     color: #005792;
 }
 
@@ -447,23 +471,23 @@
     transform: translate(0, -20px);
 }
 
-.ele-socul .ele-socli:nth-child(1) .ele-soca:hover .ele-soci {
+.ele-socul .ele-socli:nth-child(1) .ele-soca:hover {
     color: #3b5998;
 }
 
-.ele-socul .ele-socli:nth-child(2) .ele-soca:hover .ele-soci {
+.ele-socul .ele-socli:nth-child(2) .ele-soca:hover {
     color: #00acee;
 }
 
-.ele-socul .ele-socli:nth-child(3) .ele-soca:hover .ele-soci {
+.ele-socul .ele-socli:nth-child(3) .ele-soca:hover {
     color: #db4a39;
 }
 
-.ele-socul .ele-socli:nth-child(4) .ele-soca:hover .ele-soci {
+.ele-socul .ele-socli:nth-child(4) .ele-soca:hover {
     color: #0e76a8 !important;
 }
 
-.ele-socul .ele-socli:nth-child(5) .ele-soca:hover .ele-soci {
+.ele-socul .ele-socli:nth-child(5) .ele-soca:hover {
     color: #de249f;
 }
 
@@ -479,7 +503,7 @@
     transition: 0.5s;
 }
 
-.ele-main-content .ele-right-box .ele-social_media .ele-socul .ele-socli .ele-soci {
+.ele-main-content .ele-right-box .ele-social_media .ele-socul .ele-socli .ele-soca {
     font-size: 25px;
 }
 

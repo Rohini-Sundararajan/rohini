@@ -2,6 +2,15 @@ import React from "react";
 import "./headr.css";
 import headlogo from "./../../assets/mainlogoroh.jpg";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGooglePlus } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function Head() {
   return (
     <div className="headpg">
@@ -48,7 +57,7 @@ export default function Head() {
             <p className="headp">HTML Attributes</p>
           </Link>
           <Link className="hcona" to="/head">
-            <p className="headp">HTML Headings</p>
+            <p className="headp a5">HTML Headings</p>
           </Link>
           <Link className="hcona" to="/para">
             <p className="headp">HTML Paragraphs</p>
@@ -71,29 +80,20 @@ export default function Head() {
         </p>
       </div>
       <div className="heading2">
-        <h1>heading 1</h1> <br />
+        <h1>heading 1</h1>
         <h2>heading 2</h2>
-        <br />
         <h3>heading 3</h3>
-        <br />
         <h4>heading 4</h4>
-        <br />
         <h5>heading 5</h5>
-        <br />
         <h6>heading 6</h6>
-        <br />
       </div>
       <div className="heading3">
         <xmp className="hx1">
           HTML headings are defined with the h1 to h6 tags.
         </xmp>
 
-        <xmp className="hx2">
-          <h1 /> defines the most important heading.
-        </xmp>
-        <xmp className="hx3">
-          <h6 /> defines the least important heading.
-        </xmp>
+        <xmp className="hx2">h1 defines the most important heading.</xmp>
+        <xmp className="hx3">h6 defines the least important heading.</xmp>
 
         <p className="head-p2">Example:</p>
         <xmp className="hx4">
@@ -156,15 +156,21 @@ export default function Head() {
           <div className="hcenter-box ">
             <h2 className="hce-h2">Address</h2>
             <div className="hce-location ">
-              <i className="fas fa-map-marker-alt "></i>
+              <span>
+                <FontAwesomeIcon icon={faMapMarkerAlt} />
+              </span>
               <i className="hce-text ">Coimbatore,Tamilnadu</i>
             </div>
             <div className="hce-mail ">
-              <i className="fas fa-envelope "></i>
+              <span>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </span>
               <i className="hce-text ">talktorohini21@gmail.com</i>
             </div>
             <div className="hce-phone ">
-              <i className="fas fa-phone-alt "></i>
+              <span>
+                <FontAwesomeIcon icon={faPhoneAlt} />
+              </span>
               <i className="hce-text ">+91 7339481237</i>
             </div>
 
@@ -181,30 +187,37 @@ export default function Head() {
               <ul className="hrt-ul">
                 <li className="hrt-li">
                   <Link className="hrt-a" to="# ">
-                    <i className="fab fa-facebook " aria-hidden="true "></i>
+                    <span>
+                      <FontAwesomeIcon icon={faFacebook} />
+                    </span>
                   </Link>
                 </li>
                 <li className="hrt-li">
                   <Link className="hrt-a" to="# ">
-                    <i className="fab fa-twitter " aria-hidden="true "></i>
+                    <span>
+                      <FontAwesomeIcon icon={faTwitter} />
+                    </span>
                   </Link>
                 </li>
                 <li className="hrt-li">
                   <Link className="hrt-a" to="# ">
-                    <i
-                      className="fab fa-google-plus-g "
-                      aria-hidden="true "
-                    ></i>
+                    <span>
+                      <FontAwesomeIcon icon={faGooglePlus} />
+                    </span>
                   </Link>
                 </li>
                 <li className="hrt-li">
                   <Link className="hrt-a" to="# ">
-                    <i className="fab fa-linkedin " aria-hidden="true "></i>
+                    <span>
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    </span>
                   </Link>
                 </li>
                 <li className="hrt-li">
                   <Link className="hrt-a" to="# ">
-                    <i className="fab fa-instagram " aria-hidden="true "></i>
+                    <span>
+                      <FontAwesomeIcon icon={faInstagram} />
+                    </span>
                   </Link>
                 </li>
               </ul>

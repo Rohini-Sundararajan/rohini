@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: "Times New Roman", Times, serif;
     background: linear-gradient( 90deg, #1f005c, #350168, #4e0274, #6a0380, #8b058b, #970780, #a30971, #af0b5f);
+    height: 1500px;
 }
 
 .myclogo {
@@ -18,17 +19,30 @@
     visibility: visible;
 }
 
+.myclogo1 {
+    position: absolute;
+    font-size: 30px;
+    top: -10px;
+    left: 90px;
+    background: #05f1e6;
+    background: -webkit-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
+    background: -moz-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
+    background: linear-gradient(to right, #05f1e6 0%, hotpink 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .mycmenu {
     position: absolute;
-    top: 15px;
-    left: 10%;
-    width: 35%;
+    top: -0.5%;
+    left: 30%;
+    width: 45%;
     height: 8%;
     border-radius: 20px;
 }
 
 .mycmenu .myc-ul .myc-a {
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
     padding: 10px 15px;
     float: left;
@@ -37,6 +51,11 @@
     display: block;
     cursor: pointer;
     font-weight: bold;
+    text-decoration: none;
+}
+
+.mycmenu .myc-ul .myc-li {
+    list-style: none;
 }
 
 .mycmenu .myc-ul .myc-li .myc-a:hover {
@@ -60,8 +79,8 @@
 .myc-h2 {
     position: absolute;
     font-size: 35px;
-    top: 150px;
-    left: 50px;
+    top: 120px;
+    left: 70px;
     color: burlywood;
     /* text-shadow: 0 0 2px palevioletred, 0 0 4px palevioletred, 0 0 6px palevioletred, 0 0 8px palevioletred, 0 0 10px paleturquoise, 0 0 12px paleturquoise, 0 0 14px paleturquoise */
 }
@@ -121,12 +140,13 @@
     border: 3px solid hotpink;
     top: 450px;
     left: 130px;
-    font-size: 20px;
+    font-size: 22px;
     border-radius: 20px;
     cursor: pointer;
     display: inline-block;
     transform: translateY(-100px);
     /* display: none; */
+    text-decoration: none;
 }
 
 .myc-container1 .myc-box .myc-imgBx .mycprg {
@@ -150,7 +170,7 @@
     position: relative;
     display: block;
     font-size: 25px;
-    top: 170px;
+    top: 150px;
     left: 40px;
     transition: 0.5s;
     cursor: pointer;
@@ -163,7 +183,7 @@
 .myc-container1:hover .myc-button .mycbtna {
     transition: 0.5s;
     box-shadow: 4px 2px 2px #ff0d45;
-    top: 330px;
+    top: 345px;
 }
 
 .myc-container1 .myc-box .myc-imgBx:hover {
@@ -184,7 +204,7 @@
 }
 
 .myc-footer {
-    position: relative;
+    position: absolute;
     background: #1f212b;
     width: 100%;
     height: 400px;
@@ -202,15 +222,24 @@
 
 .myc-main-content .myc-left-box {
     border: none;
+    left: 30px;
+    position: absolute;
+    top: 15px;
+    width: 250px;
+    /* background-color: #0000ff; */
 }
 
 .myc-main-content .myc-left-box .myc-h2 {
     font-size: 30px;
     line-height: 1;
     color: #005792;
-    left: 100px;
-    top: 30px;
+    left: 70px;
+    top: 20px;
     position: relative;
+}
+
+.myc-main-content .myc-left-box .myclt-ul .myclt-li {
+    list-style: none;
 }
 
 .myc-main-content .myc-left-box .myclt-ul .myclt-li .myclt-a {
@@ -222,9 +251,11 @@
     margin-left: 10px;
     color: #e4d1d3;
     text-align: center;
-    left: 100px;
-    top: 50px;
+    left: -10px;
+    top: 15px;
     cursor: pointer;
+    text-decoration: none;
+    font-style: oblique;
 }
 
 .myc-main-content .myc-left-box .myclt-ul .myclt-li .myclt-a:hover {
@@ -243,6 +274,7 @@
     height: 300px;
     top: 30px;
     left: 35%;
+    font-size: 23px;
 }
 
 .myc-main-content .myc-center-box .myce-h2 {
@@ -257,9 +289,9 @@
 .myc-main-content .myc-center-box .myce-phone {
     position: relative;
     display: flex;
-    font-size: 20px;
+    font-size: 23px;
     top: 60px;
-    left: 10px;
+    left: 30px;
     color: #e4d1d3;
     cursor: pointer;
 }
@@ -267,8 +299,8 @@
 .myc-main-content .myc-center-box .myce-mail {
     position: relative;
     display: flex;
-    font-size: 20px;
-    left: 10px;
+    font-size: 23px;
+    left: 30px;
     top: 130px;
     color: #e4d1d3;
     cursor: pointer;
@@ -277,8 +309,8 @@
 .myc-main-content .myc-center-box .myce-location {
     position: relative;
     display: flex;
-    font-size: 20px;
-    left: 10px;
+    font-size: 23px;
+    left: 30px;
     top: 200px;
     color: #e4d1d3;
 }
@@ -287,13 +319,15 @@
     border: 3px solid #ff5f5f;
     position: relative;
     /* display: flex; */
-    font-size: 20px;
+    font-size: 23px;
     color: white;
     border-radius: 15px;
     padding: 10px 15px;
     text-align: center;
     top: 200px;
     left: 85px;
+    text-decoration: none;
+    font-style: oblique;
 }
 
 .myc-main-content .myc-center-box .myce-mail,
@@ -313,22 +347,22 @@
     width: 300px;
     height: 350px;
     top: 25px;
-    left: 60%;
+    left: 70%;
 }
 
 .myc-main-content .myc-right-box .mycrt-h2 {
     position: absolute;
     display: flex;
     font-size: 30px;
-    top: 30px;
-    left: 30px;
+    top: 15px;
+    left: 40px;
     color: #005792;
 }
 
 .myc-main-content .myc-right-box .mycrt-social_media .mycrt-ul {
     position: relative;
-    top: 150px;
-    left: 120px;
+    top: 170px;
+    left: 150px;
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
@@ -353,7 +387,10 @@
     box-shadow: 0 10px 15px rgba(0, 0, 0, 3);
     background: linear-gradient(0deg, #ddd, #fff);
     transition: 0.5s;
-    background-color: #1f005c;
+}
+
+.myc-main-content .myc-right-box .mycrt-social_media .mycrt-ul {
+    color: #c70cec;
 }
 
 .mycrt-social_media .mycrt-ul .mycrt-li .mycrt-a:hover {
@@ -362,38 +399,33 @@
     transform: translate(0, -20px);
 }
 
-.mycrt-ul .mycrt-li:nth-child(1) .mycrt-a:hover .fab {
+.mycrt-ul .mycrt-li:nth-child(1) .mycrt-a:hover {
     color: #3b5998;
 }
 
-.mycrt-ul .mycrt-li:nth-child(2) .mycrt-a:hover .fab {
+.mycrt-ul .mycrt-li:nth-child(2) .mycrt-a:hover {
     color: #00acee;
 }
 
-.mycrt-ul .mycrt-li:nth-child(3) .mycrt-a:hover .fab {
+.mycrt-ul .mycrt-li:nth-child(3) .mycrt-a:hover {
     color: #db4a39;
 }
 
-.mycrt-ul .mycrt-li:nth-child(4) .mycrt-a:hover .fab {
+.mycrt-ul .mycrt-li:nth-child(4) .mycrt-a:hover {
     color: #0e76a8;
 }
 
-.mycrt-ul .mycrt-li:nth-child(5) .mycrt-a:hover .fab {
+.mycrt-ul .mycrt-li:nth-child(5) .mycrt-a:hover {
     color: #de249f;
 }
 
-.myc-main-content .myc-right-box .mycrt-social_media .mycrt-ul .mycrt-li .mycrt-a.fab {
+.myc-main-content .myc-right-box .mycrt-social_media .mycrt-ul .mycrt-li .mycrt-a {
     width: 70%;
     height: 70%;
     display: block;
     background: linear-gradient(0deg, #fff, #ddd);
-    border-radius: 50%;
+    /* border-radius: 50%; */
     line-height: calc(6px - 12px);
-    font-size: 50px;
-    color: #262626;
+    /* font-size: 50px; */
     transition: 0.5s;
-}
-
-.myc-main-content .myc-right-box .mycrt-social_media .mycrt-ul .mycrt-li>i {
-    font-size: 25px;
 }

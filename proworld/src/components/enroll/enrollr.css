@@ -5,6 +5,8 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: "Times New Roman", Times, serif;
+    position: relative;
+    height: 150em;
     background: linear-gradient( 90deg, #1f005c, #350168, #4e0274, #6a0380, #8b058b, #970780, #a30971, #af0b5f);
 }
 
@@ -19,17 +21,40 @@
     visibility: visible;
 } */
 
+.enlogo {
+    position: fixed;
+    left: 15px;
+    top: 10px;
+    width: 50px;
+    border-radius: 40%;
+    border: 3px solid rgb(8, 128, 48);
+    visibility: visible;
+}
+
+.enlogo1 {
+    position: fixed;
+    font-size: 28px;
+    top: -5px;
+    left: 90px;
+    background: #05f1e6;
+    background: -webkit-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
+    background: -moz-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
+    background: linear-gradient(to right, #05f1e6 0%, hotpink 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .en-menu {
     position: absolute;
-    top: 10px;
+    top: 2px;
     left: 35%;
-    width: 35%;
+    width: 45%;
     height: 8%;
     border-radius: 20px;
 }
 
 .en-menu .en-ul .en-a {
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
     padding: 10px 15px;
     float: left;
@@ -40,7 +65,11 @@
     font-weight: bold;
 }
 
-.menu .en-ul .en-li .en-a:hover {
+.en-menu .en-ul .en-li {
+    list-style: none;
+}
+
+.en-menu .en-ul .en-li .en-a:hover {
     padding-bottom: 10px;
     border-bottom-style: solid;
     border-bottom-width: 3.1px;
@@ -59,10 +88,11 @@
 }
 
 .en-container {
-    position: absolute;
+    position: fixed;
     width: 30%;
     height: 100%;
     display: flex;
+    top: 70px;
     background: hsla(136, 82%, 72%, 1);
     background: linear-gradient( 180deg, hsla(136, 82%, 72%, 1) 23%, hsla(205, 84%, 36%, 1) 100%);
     background: -moz-linear-gradient( 180deg, hsla(136, 82%, 72%, 1) 23%, hsla(205, 84%, 36%, 1) 100%);
@@ -120,10 +150,9 @@
 .en-container1 {
     position: absolute;
     width: 70%;
-    height: 120%;
-    top: 20%;
+    height: 50%;
+    top: 100px;
     left: 30%;
-    /* background-color: dimgrey; */
 }
 
 .en-container1 .en-right1 .enrt-h3 {
@@ -143,7 +172,7 @@
 }
 
 .en-container1 .en-right1 .enrt-ul .enrt-li {
-    top: 50px;
+    top: 90px;
     position: relative;
     font-size: 23px;
     margin-left: 70px;
@@ -159,7 +188,7 @@
     color: #a30971;
     font-size: 30px;
     padding: 0px 10px;
-    top: 225px;
+    top: 240px;
     background: #ffff00;
     background: -webkit-radial-gradient( circle farthest-corner at center center, #ffff00 0%, #05c1ff 51%, #ffff00 100%);
     background: -moz-radial-gradient( circle farthest-corner at center center, #ffff00 0%, #05c1ff 51%, #ffff00 100%);
@@ -171,7 +200,7 @@
 }
 
 .en-container1 .en-right2 .enrt2-ul .enrt2-li {
-    top: 140px;
+    top: 160px;
     position: relative;
     font-size: 23px;
     margin-left: 70px;
@@ -187,7 +216,7 @@
     color: #a30971;
     font-size: 30px;
     padding: 0px 10px;
-    top: 420px;
+    top: 460px;
     background: #ffff00;
     background: -webkit-radial-gradient( circle farthest-corner at center center, #ffff00 0%, #05c1ff 51%, #ffff00 100%);
     background: -moz-radial-gradient( circle farthest-corner at center center, #ffff00 0%, #05c1ff 51%, #ffff00 100%);
@@ -215,7 +244,7 @@
     color: #a30971;
     font-size: 30px;
     padding: 0px 10px;
-    top: 650px;
+    top: 700px;
     background: #ffff00;
     background: -webkit-radial-gradient( circle farthest-corner at center center, #ffff00 0%, #05c1ff 51%, #ffff00 100%);
     background: -moz-radial-gradient( circle farthest-corner at center center, #ffff00 0%, #05c1ff 51%, #ffff00 100%);
@@ -227,7 +256,7 @@
 }
 
 .en-container1 .en-right4 .enrt4-ul .enrt4-li {
-    top: 320px;
+    top: 300px;
     position: relative;
     margin-left: 70px;
     line-height: 35px;
@@ -244,7 +273,7 @@
     color: #a30971;
     font-size: 30px;
     padding: 0px 10px;
-    top: 765px;
+    top: 820px;
     background: #ffff00;
     background: -webkit-radial-gradient( circle farthest-corner at center center, #ffff00 0%, #05c1ff 51%, #ffff00 100%);
     background: -moz-radial-gradient( circle farthest-corner at center center, #ffff00 0%, #05c1ff 51%, #ffff00 100%);
@@ -256,7 +285,7 @@
 }
 
 .en-container1 .en-right5 .enrt5-ul .enrt5-li {
-    top: 405px;
+    top: 380px;
     font-size: 23px;
     position: relative;
     margin-left: 70px;
@@ -269,13 +298,15 @@
 .en-footer {
     position: relative;
     background: #1f212b;
-    width: 100%;
+    width: 70%;
     height: 400px;
     box-sizing: border-box;
     bottom: 0;
     margin: 0;
     padding: 0;
-    top: 1500px;
+    top: 2000px;
+    left: 30%;
+    overflow: hidden;
 }
 
 .en-main-content {
@@ -291,9 +322,13 @@
     font-size: 30px;
     line-height: 1;
     color: #005792;
-    left: 100px;
+    left: 50px;
     top: 30px;
     position: relative;
+}
+
+.en-main-content .en-left-box .enlt-ul .enlt-li {
+    list-style: none;
 }
 
 .en-main-content .en-left-box .enlt-ul .enlt-li .enlt-a {
@@ -305,12 +340,14 @@
     margin-left: 10px;
     color: #e4d1d3;
     text-align: center;
-    left: 100px;
-    top: 50px;
+    left: 10px;
+    top: 30px;
     cursor: pointer;
+    text-decoration: none;
+    font-style: italic;
 }
 
-.en-main-content .en-left-box .enlt-ul .enlt-li .enlt-a :hover {
+.en-main-content .en-left-box .enlt-ul .enlt-li .enlt-a:hover {
     color: white;
     border-bottom: #f29c08;
     padding-bottom: 5px;
@@ -323,16 +360,16 @@
     display: block;
     border: none;
     width: 300px;
-    height: 300px;
-    top: 30px;
-    left: 35%;
+    height: 350px;
+    top: 25px;
+    left: 30%;
 }
 
 .en-main-content .en-center-box .ence-h2 {
     position: absolute;
     font-size: 30px;
     left: 110px;
-    top: 10px;
+    top: 6px;
     color: #005792;
     /* line-height: 2.0; */
 }
@@ -341,7 +378,7 @@
     position: relative;
     display: flex;
     font-size: 20px;
-    top: 60px;
+    top: 80px;
     left: 10px;
     color: #e4d1d3;
     cursor: pointer;
@@ -352,7 +389,7 @@
     display: flex;
     font-size: 20px;
     left: 10px;
-    top: 130px;
+    top: 150px;
     color: #e4d1d3;
     cursor: pointer;
 }
@@ -362,7 +399,7 @@
     display: flex;
     font-size: 20px;
     left: 10px;
-    top: 200px;
+    top: 220px;
     color: #e4d1d3;
 }
 
@@ -375,8 +412,9 @@
     border-radius: 15px;
     padding: 10px 15px;
     text-align: center;
-    top: 200px;
+    top: 240px;
     left: 85px;
+    text-decoration: none;
 }
 
 .en-main-content .en-center-box .ence-mail,
@@ -396,14 +434,14 @@
     width: 300px;
     height: 350px;
     top: 25px;
-    left: 60%;
+    left: 47%;
 }
 
 .en-main-content .en-right-box .enrtf-h2 {
     position: absolute;
     display: flex;
     font-size: 30px;
-    top: 30px;
+    top: 10px;
     left: 30px;
     color: #005792;
 }
@@ -436,7 +474,7 @@
     box-shadow: 0 10px 15px rgba(0, 0, 0, 3);
     background: linear-gradient(0deg, #ddd, #fff);
     transition: 0.5s;
-    background-color: #1f005c;
+    /* background-color: #1f005c; */
 }
 
 .enrtf-social_media .enrtf-ul .enrtf-li .enrtf-a:hover {
@@ -445,23 +483,23 @@
     transform: translate(0, -20px);
 }
 
-.enrtf-ul .enrtf-li:nth-child(1) .enrtf-a:hover .fab {
+.enrtf-ul .enrtf-li:nth-child(1) .enrtf-a:hover {
     color: #3b5998;
 }
 
-.enrtf-ul .enrtf-li:nth-child(2) .enrtf-a:hover .fab {
+.enrtf-ul .enrtf-li:nth-child(2) .enrtf-a:hover {
     color: #00acee;
 }
 
-.enrtf-ul .enrtf-li:nth-child(3) .enrtf-a:hover .fab {
+.enrtf-ul .enrtf-li:nth-child(3) .enrtf-a:hover {
     color: #db4a39;
 }
 
-.enrtf-ul .enrtf-li:nth-child(4) .enrtf-a:hover .fab {
+.enrtf-ul .enrtf-li:nth-child(4) .enrtf-a:hover {
     color: #0e76a8;
 }
 
-.enrtf-ul .enrtf-li:nth-child(5) .enrtf-a:hover .fab {
+.enrtf-ul .enrtf-li:nth-child(5) .enrtf-a:hover {
     color: #de249f;
 }
 
@@ -470,13 +508,13 @@
     height: 70%;
     display: block;
     background: linear-gradient(0deg, #fff, #ddd);
-    border-radius: 50%;
+    border-radius: 100% !important;
     line-height: calc(6px - 12px);
-    font-size: 50px;
-    color: #262626;
+    font-size: 25px;
+    color: #970780;
     transition: 0.5s;
 }
 
-.en-main-content .en-right-box .enrtf-social_media .enrtf-ul .enrtf-li>i {
+.en-main-content .en-right-box .enrtf-social_media .enrtf-ul .enrtf-li .enrtf-a {
     font-size: 25px;
 }

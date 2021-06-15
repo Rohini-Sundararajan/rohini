@@ -65,6 +65,10 @@
     /* text-shadow: 0 0 4px #fff, 0 0 4px #fff, 0 0 8px #fff, 0 0 10px #fff, 0 0 12px #0fa, 0 0 16px #0fa, 0 0 20px #0fa, 0 0 22px #0fa, 0 0 24px #0fa; */
 }
 
+.con-menu .con-ul .con-li .con-a.con3 {
+    color: #ff5f5f !important;
+}
+
 
 /* .container {
     background: #fff;

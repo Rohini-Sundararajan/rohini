@@ -6,6 +6,10 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 2000px;
+    top: -20px;
 }
 
 .htlogo {
@@ -21,8 +25,8 @@
 .htlogo1 {
     position: fixed;
     font-size: 25px;
-    top: 20px;
-    left: 80px;
+    top: -5px;
+    left: 90px;
     background: #05f1e6;
     background: -webkit-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
     background: -moz-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
@@ -35,8 +39,8 @@
     position: relative;
     top: 10px;
     left: 30%;
-    width: 35%;
-    height: 8%;
+    width: 45%;
+    height: 50px;
     border-radius: 20px;
 }
 
@@ -50,6 +54,10 @@
     display: block;
     cursor: pointer;
     font-weight: bold;
+}
+
+.htmenu .ht-ul .ht-li {
+    list-style: none;
 }
 
 .htmenu .ht-ul .ht-li .ht-a:hover {
@@ -70,6 +78,11 @@
     /* text-shadow: 0 0 4px #fff, 0 0 4px #fff, 0 0 8px #fff, 0 0 10px #fff, 0 0 12px #0fa, 0 0 16px #0fa, 0 0 20px #0fa, 0 0 22px #0fa, 0 0 24px #0fa; */
 }
 
+.ht-container .htcon-content .htcon-a .a1 {
+    color: darkred !important;
+    font-weight: bold;
+}
+
 .ht-container {
     position: fixed;
     top: 70px;
@@ -82,8 +95,8 @@
 .ht-container .htcon-h3 {
     font-size: 30px;
     position: absolute;
-    padding: 5px 10px;
-    left: 20px;
+    top: -20px;
+    left: 25px;
 }
 
 .ht-container .htcon-content .htcon-a .htcon-p {
@@ -97,6 +110,10 @@
     color: #1f212b;
 }
 
+.ht-container .htcon-content .htcon-a {
+    text-decoration: none;
+}
+
 .ht-container .htcon-content .htcon-p:hover {
     color: #1f005c;
     font-weight: bold;
@@ -104,7 +121,7 @@
 
 .htmain-part {
     position: absolute;
-    top: 20%;
+    top: 7%;
     left: 30%;
     /* background-color: lightgrey; */
     width: 60%;
@@ -233,8 +250,9 @@
     color: wheat;
     font-size: 30px;
     padding: 5px 30px;
-    top: 1350px;
+    top: 1450px;
     left: 80%;
+    text-decoration: none;
 }
 
 .htbtn .htbtna:hover {
@@ -245,12 +263,12 @@
     position: relative;
     background: #1f212b;
     width: 79.6%;
-    height: 60%;
+    height: 390px;
     box-sizing: border-box;
     bottom: 0px;
     margin: 0;
     padding: 0;
-    top: 1500px;
+    top: 1550px;
     left: 275px;
     overflow: hidden;
 }
@@ -283,8 +301,14 @@
     color: #e4d1d3;
     text-align: center;
     left: 30px;
-    top: 50px;
+    top: 30px;
     cursor: pointer;
+    text-decoration: none;
+    font-style: oblique;
+}
+
+.htmain-content .htleft-box .htlt-ul .htlt-li {
+    list-style: none;
 }
 
 .htmain-content .htleft-box .htlt-ul .htlt-li .htlt-a:hover {
@@ -347,13 +371,15 @@
     border: 3px solid #ff5f5f;
     position: relative;
     /* display: flex; */
-    font-size: 20px;
+    font-size: 23px;
     color: white;
     border-radius: 15px;
     padding: 10px 15px;
     text-align: center;
     top: 200px;
     left: 60px;
+    text-decoration: none;
+    font-style: oblique;
 }
 
 .htmain-content .htcenter-box .ht-mail,
@@ -373,7 +399,7 @@
     width: 300px;
     height: 350px;
     top: 25px;
-    left: 60%;
+    left: 55%;
 }
 
 .htmain-content .htright-box .htrt-h2 {
@@ -422,23 +448,23 @@
     transform: translate(0, -20px);
 }
 
-.htrt-ul .htrt-li:nth-child(1) .htrt-a:hover .fab {
+.htrt-ul .htrt-li:nth-child(1) .htrt-a:hover {
     color: #3b5998;
 }
 
-.htrt-ul .htrt-li:nth-child(2) .htrt-a:hover .fab {
+.htrt-ul .htrt-li:nth-child(2) .htrt-a:hover {
     color: #00acee;
 }
 
-.htrt-ul .htrt-li:nth-child(3) .htrt-a:hover .fab {
+.htrt-ul .htrt-li:nth-child(3) .htrt-a:hover {
     color: #db4a39;
 }
 
-.htrt-ul .htrt-li:nth-child(4) .htrt-a:hover .fab {
+.htrt-ul .htrt-li:nth-child(4) .htrt-a:hover {
     color: #0e76a8;
 }
 
-.htrt-ul .htrt-li:nth-child(5) .htrt-a:hover .fab {
+.htrt-ul .htrt-li:nth-child(5) .htrt-a:hover {
     color: #de249f;
 }
 
@@ -454,6 +480,6 @@
     transition: 0.5s;
 }
 
-.htmain-content .htright-box .htsocial_media .htrt-ul .htrt-li .htrt-a>i {
+.htmain-content .htright-box .htsocial_media .htrt-ul .htrt-li .htrt-a {
     font-size: 25px;
 }

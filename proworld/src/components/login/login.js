@@ -70,7 +70,7 @@ export default function Login() {
         var z = document.getElementById("btn");
 
         function register() {
-            x.style.left = "-400px";
+            x.style.left = "400px";
             y.style.left = "50px";
             z.style.left = "110px";
         }

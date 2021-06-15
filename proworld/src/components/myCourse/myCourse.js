@@ -3,29 +3,38 @@ import "./myCourser.css";
 import myclogo from "./../../assets/mainlogoroh.jpg";
 import mychtml from "./../../assets/html1.png";
 import { Link } from "react-router-dom";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGooglePlus } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function Mcourse() {
   return (
     <div className="mycpg">
       <img className="myclogo" src={myclogo} alt="main " />
+      <h3 className="myclogo1">PRO WORLD</h3>
       <div className="mycmenu">
         <ul className="myc-ul">
-          <li className="myc-ul">
+          <li className="myc-li">
             <Link className="myc-a" to="/">
               Home
             </Link>
           </li>
-          <li className="myc-ul">
+          <li className="myc-li">
             <Link className="myc-a" to="/course">
               Courses
             </Link>
           </li>
-          <li className="myc-ul">
+          <li className="myc-li">
             <Link className="myc-a" to="/contact">
               Contact us
             </Link>
           </li>
-          <li className="myc-ul">
+          <li className="myc-li">
             <Link className="myc-a" to="/about">
               About
             </Link>
@@ -79,15 +88,21 @@ export default function Mcourse() {
           <div className="myc-center-box">
             <h2 className="myce-h2">Address</h2>
             <div className="myce-location">
-              <i className="fas fa-map-marker-alt"></i>
+              <span>
+                <FontAwesomeIcon icon={faMapMarkerAlt} />
+              </span>
               <i className="myce-text">Coimbatore,Tamilnadu</i>
             </div>
             <div className="myce-mail">
-              <i className="fas fa-envelope"></i>
+              <span>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </span>
               <i className="myce-text">talktorohini21@gmail.com</i>
             </div>
             <div className="myce-phone">
-              <i className="fas fa-phone-alt"></i>
+              <span>
+                <FontAwesomeIcon icon={faPhoneAlt} />
+              </span>
               <i className="myce-text">+91 7339481237</i>
             </div>
 
@@ -104,27 +119,37 @@ export default function Mcourse() {
               <ul className="mycrt-ul">
                 <li className="mycrt-li">
                   <Link className="mycrt-a" to="#">
-                    <i className="fab fa-facebook" aria-hidden="true"></i>
+                    <span>
+                      <FontAwesomeIcon icon={faFacebook} />
+                    </span>
                   </Link>
                 </li>
                 <li className="mycrt-li">
                   <Link className="mycrt-a" to="#">
-                    <i className="fab fa-twitter" aria-hidden="true"></i>
+                    <span>
+                      <FontAwesomeIcon icon={faTwitter} />
+                    </span>
                   </Link>
                 </li>
                 <li className="mycrt-li">
                   <Link className="mycrt-a" to="#">
-                    <i className="fab fa-google-plus-g" aria-hidden="true"></i>
+                    <span>
+                      <FontAwesomeIcon icon={faGooglePlus} />
+                    </span>
                   </Link>
                 </li>
                 <li className="mycrt-li">
                   <Link className="mycrt-a" to="#">
-                    <i className="fab fa-linkedin" aria-hidden="true"></i>
+                    <span>
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    </span>
                   </Link>
                 </li>
                 <li className="mycrt-li">
                   <Link className="mycrt-a" to="#">
-                    <i className="fab fa-instagram" aria-hidden="true"></i>
+                    <span>
+                      <FontAwesomeIcon icon={faInstagram} />
+                    </span>
                   </Link>
                 </li>
               </ul>

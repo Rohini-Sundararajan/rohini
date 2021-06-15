@@ -2,11 +2,22 @@ import React from "react";
 import "./enrollr.css";
 import enlogo from "./../../assets/html1.png";
 import { Link } from "react-router-dom";
+import enmainl from "./../../assets/mainlogoroh.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGooglePlus } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Enroll() {
   return (
     <div className="enrollpg">
-      {/* <img class="logo" src="./mainlogoroh.jpg" alt="main "/> */}
+      <img class="enlogo" src={enmainl} alt="main " />
+      <h3 className="enlogo1">PRO WORLD</h3>
       <div className="en-menu">
         <ul className="en-ul">
           <li className="en-li">
@@ -31,6 +42,7 @@ export default function Enroll() {
           </li>
         </ul>
       </div>
+
       <div className="en-container">
         <h2 className="enco-h1">HTML</h2>
         <img className="enco-img1" src={enlogo} alt="html" />
@@ -38,6 +50,7 @@ export default function Enroll() {
           <button className="enco-btn">Enroll Now!</button>
         </Link>
       </div>
+
       <div className="en-container1">
         <div className="en-right1">
           <h3 className="enrt-h3">What Will I Learn?</h3>
@@ -125,15 +138,21 @@ export default function Enroll() {
           <div className="en-center-box">
             <h2 className="ence-h2">Address</h2>
             <div className="ence-location">
-              <i className="fas fa-map-marker-alt"></i>
+              <span>
+                <FontAwesomeIcon icon={faMapMarkerAlt} />
+              </span>
               <i className="ence-text">Coimbatore,Tamilnadu</i>
             </div>
             <div className="ence-mail">
-              <i className="fas fa-envelope"></i>
+              <span>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </span>
               <i className="ence-text">talktorohini21@gmail.com</i>
             </div>
             <div className="ence-phone">
-              <i className="fas fa-phone-alt"></i>
+              <span>
+                <FontAwesomeIcon icon={faPhoneAlt} />
+              </span>
               <i className="ence-text">+91 7339481237</i>
             </div>
 
@@ -150,27 +169,37 @@ export default function Enroll() {
               <ul className="enrtf-ul">
                 <li className="enrtf-li">
                   <Link className="enrtf-a" to="#">
-                    <i className="fab fa-facebook" aria-hidden="true"></i>
+                    <span>
+                      <FontAwesomeIcon icon={faFacebook} />
+                    </span>
                   </Link>
                 </li>
                 <li className="enrtf-li">
                   <Link className="enrtf-a" to="#">
-                    <i className="fab fa-twitter" aria-hidden="true"></i>
+                    <span>
+                      <FontAwesomeIcon icon={faTwitter} />
+                    </span>
                   </Link>
                 </li>
                 <li className="enrtf-li">
                   <Link className="enrtf-a" to="#">
-                    <i className="fab fa-google-plus-g" aria-hidden="true"></i>
+                    <span>
+                      <FontAwesomeIcon icon={faGooglePlus} />
+                    </span>
                   </Link>
                 </li>
                 <li className="enrtf-li">
                   <Link className="enrtf-a" to="#">
-                    <i className="fab fa-linkedin" aria-hidden="true"></i>
+                    <span>
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    </span>
                   </Link>
                 </li>
                 <li className="enrtf-li">
-                  <Link className="enrtf-a" to="#  ">
-                    <i className="fab fa-instagram" aria-hidden="true"></i>
+                  <Link className="enrtf-a" href="# ">
+                    <span>
+                      <FontAwesomeIcon icon={faInstagram} />
+                    </span>
                   </Link>
                 </li>
               </ul>

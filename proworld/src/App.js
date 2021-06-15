@@ -30,7 +30,7 @@ export default function App() {
           <Route path="/para" component={Para} />
           <Route path="/tag" component={Tag} />
           <Route path="/login" component={Login} />
-          <Route path="/head" component={Head} />
+          <Route path="/head" component={Head} /> 
           <About />
           <Contact />
           <Course />

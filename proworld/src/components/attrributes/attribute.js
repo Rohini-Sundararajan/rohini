@@ -2,6 +2,15 @@ import React from "react";
 import "./attributer.css";
 import malogo from "../../assets/mainlogoroh.jpg";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGooglePlus } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function Attribute() {
   return (
     <div className="attributepg">
@@ -45,7 +54,7 @@ export default function Attribute() {
             <p className="att-p">HTML Elements</p>
           </Link>
           <Link className="attcona" to="/attribute">
-            <p class="att-p">HTML Attributes</p>
+            <p class="att-p a4">HTML Attributes</p>
           </Link>
           <Link className="attcona" to="/head">
             <p className="att-p">HTML Headings</p>
@@ -201,15 +210,21 @@ export default function Attribute() {
           <div className="attcenter-box ">
             <h2 className="atce-h2">Address</h2>
             <div className="atce-location ">
-              <i className="fas fa-map-marker-alt "></i>
+              <span>
+                <FontAwesomeIcon icon={faMapMarkerAlt} />
+              </span>
               <i className="atce-text ">Coimbatore,Tamilnadu</i>
             </div>
             <div className="atce-mail ">
-              <i className="fas fa-envelope "></i>
+              <span>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </span>
               <i className="atce-text ">talktorohini21@gmail.com</i>
             </div>
             <div className="atce-phone ">
-              <i className="fas fa-phone-alt "></i>
+              <span>
+                <FontAwesomeIcon icon={faPhoneAlt} />
+              </span>
               <i className="atce-text ">+91 7339481237</i>
             </div>
 
@@ -226,30 +241,41 @@ export default function Attribute() {
               <ul className="atrt-ul">
                 <li className="atrt-li">
                   <Link className="atrt-a" to="# ">
-                    <i className="fab fa-facebook " aria-hidden="true "></i>
+                    <span>
+                      <FontAwesomeIcon icon={faFacebook} />
+                    </span>
                   </Link>
                 </li>
                 <li className="atrt-li">
                   <Link className="atrt-a" to="# ">
-                    <i className="fab fa-twitter " aria-hidden="true "></i>
+                    <span>
+                      <FontAwesomeIcon icon={faTwitter} />
+                    </span>
                   </Link>
                 </li>
                 <li className="atrt-li">
                   <Link className="atrt-a" to="# ">
-                    <i
-                      className="fab fa-google-plus-g "
-                      aria-hidden="true "
-                    ></i>
+                    <span>
+                      <FontAwesomeIcon icon={faGooglePlus} />
+                    </span>
                   </Link>
                 </li>
                 <li className="atrt-li">
                   <Link className="atrt-a" to="# ">
-                    <i className="fab fa-linkedin " aria-hidden="true "></i>
+                    <span>
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    </span>
                   </Link>
                 </li>
                 <li className="atrt-li">
                   <Link className="atrt-a" to="#">
-                    <i className="fab fa-instagram " aria-hidden="true "></i>
+                    <span>
+                      <FontAwesomeIcon
+                        color="blue"
+                        className="attinsta"
+                        icon={faInstagram}
+                      />
+                    </span>
                   </Link>
                 </li>
               </ul>

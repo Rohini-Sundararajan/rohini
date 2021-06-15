@@ -6,6 +6,15 @@ import abtc from "../../assets/aboutc.gif";
 import abtd from "./../../assets/aboutd.gif";
 import "./aboutr.css";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGooglePlus } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function About() {
   return (
     <div className="aboutpage">
@@ -124,15 +133,21 @@ export default function About() {
           <div className="abt-center-box">
             <h2 className="abtcen-h2">Address</h2>
             <div className="abtcen-location">
-              <i className="fas fa-map-marker-alt"></i>
+              <span>
+                <FontAwesomeIcon icon={faMapMarkerAlt} />
+              </span>
               <i className="text">Coimbatore,Tamilnadu</i>
             </div>
             <div className="abtcen-mail">
-              <i className="fas fa-envelope"></i>
+              <span>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </span>
               <i className="text">talktorohini21@gmail.com</i>
             </div>
             <div className="abtcen-phone">
-              <i className="fas fa-phone-alt"></i>
+              <span>
+                <FontAwesomeIcon icon={faPhoneAlt} />
+              </span>
               <i className="text">+91 7339481237</i>
             </div>
 
@@ -149,27 +164,37 @@ export default function About() {
               <ul className="abtrt-ul">
                 <li className="abtrt-li">
                   <Link className="abtrt-a" to="#">
-                    <i className="fab fa-facebook" aria-hidden="true"></i>
+                    <span>
+                      <FontAwesomeIcon icon={faFacebook} />
+                    </span>
                   </Link>
                 </li>
                 <li className="abtrt-li">
                   <Link className="abtrt-a" to="#">
-                    <i className="fab fa-twitter" aria-hidden="true"></i>
+                    <span>
+                      <FontAwesomeIcon icon={faTwitter} />
+                    </span>
                   </Link>
                 </li>
                 <li className="abtrt-li">
                   <Link className="abtrt-a" to="#">
-                    <i className="fab fa-google-plus-g" aria-hidden="true"></i>
+                    <span>
+                      <FontAwesomeIcon icon={faGooglePlus} />
+                    </span>
                   </Link>
                 </li>
                 <li className="abtrt-li">
                   <Link className="abtrt-a" to="#">
-                    <i className="fab fa-linkedin" aria-hidden="true"></i>
+                    <span>
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    </span>
                   </Link>
                 </li>
                 <li className="abtrt-li">
                   <Link className="abtrt-a" to="#">
-                    <i className="fab fa-instagram" aria-hidden="true"></i>
+                    <span>
+                      <FontAwesomeIcon icon={faInstagram} />
+                    </span>
                   </Link>
                 </li>
               </ul>

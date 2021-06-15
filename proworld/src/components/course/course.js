@@ -8,6 +8,13 @@ import htmlcard from "./../../assets/html1.png";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGooglePlus } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function Course() {
   return (
     <div className="coursepage">
@@ -21,7 +28,7 @@ export default function Course() {
             </Link>
           </li>
           <li className="co-li">
-            <Link className="co-a" to="/course">
+            <Link className="co-a co2" to="/course">
               Courses
             </Link>
           </li>
@@ -116,15 +123,21 @@ export default function Course() {
           <div className="co-center-box">
             <h2 className="coce-h1">Address</h2>
             <div className="co-location">
-              <i className="fas fa-map-marker-alt"></i>
+              <span>
+                <FontAwesomeIcon icon={faMapMarkerAlt} />
+              </span>
               <i className="co-text">Coimbatore,Tamilnadu</i>
             </div>
             <div className="co-mail">
-              <i className="fas fa-envelope"></i>
+              <span>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </span>
               <i className="co-text">talktorohini21@gmail.com</i>
             </div>
             <div className="co-phone">
-              <i className="fas fa-phone-alt"></i>
+              <span>
+                <FontAwesomeIcon icon={faPhoneAlt} />
+              </span>
               <i className="co-text">+91 7339481237</i>
             </div>
 
@@ -142,28 +155,36 @@ export default function Course() {
                 <li className="cort-li">
                   <Link className="cort-a" to="#">
                     <span>
-                      <FontAwesomeIcon icon={faFacebook} />
+                      <FontAwesomeIcon className="cofb" icon={faFacebook} />
                     </span>
                   </Link>
                 </li>
                 <li className="cort-li">
                   <Link className="cort-a" to="#">
-                    <i className="fab fa-twitter" aria-hidden="true"></i>
+                    <span>
+                      <FontAwesomeIcon icon={faTwitter} />
+                    </span>
                   </Link>
                 </li>
                 <li className="cort-li">
                   <Link className="cort-a" to="#">
-                    <i className="fab fa-google-plus-g" aria-hidden="true"></i>
+                    <span>
+                      <FontAwesomeIcon icon={faGooglePlus} />
+                    </span>
                   </Link>
                 </li>
                 <li className="cort-li">
                   <Link className="cort-a" to="#">
-                    <i className="fab fa-linkedin" aria-hidden="true"></i>
+                    <span>
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    </span>
                   </Link>
                 </li>
                 <li className="cort-li">
                   <Link className="cort-a" to="#">
-                    <i className="fab fa-instagram" aria-hidden="true"></i>
+                    <span>
+                      <FontAwesomeIcon icon={faInstagram} />
+                    </span>
                   </Link>
                 </li>
               </ul>
