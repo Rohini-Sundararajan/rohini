@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import htmllogo from "./../../assets/mainlogoroh.jpg";
 import "./htmlr.css";
 import { Link } from "react-router-dom";
@@ -12,6 +13,9 @@ import { faMapMarkerAlt, faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function Html() {
+  useEffect(() => {
+    window.scroll = (0, 0);
+  }, []);
   return (
     <div className="htmlpg">
       <h3 className="htlogo1">PRO WORLD</h3>
@@ -64,7 +68,7 @@ export default function Html() {
           <Link
             className="htcon-a"
             to="https://forms.gle/p4M4YjYaYyFYtWDz9"
-            target="_blank"
+            
           >
             <p className="htcon-p">HTML Quiz</p>
           </Link>

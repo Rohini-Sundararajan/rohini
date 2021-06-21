@@ -1,0 +1,118 @@
+.selectorpg {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #044c65;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -20px;
+}
+
+.selec1 {
+    position: relative;
+    top: -300px;
+    left: 300px;
+    /* background-color: cornsilk; */
+    width: 70%;
+    height: 50%;
+}
+
+.selh1 {
+    position: relative;
+    width: fit-content;
+    font-size: 35px;
+    left: 40%;
+}
+
+.selh2 {
+    position: relative;
+    width: fit-content;
+    font-size: 25px;
+    left: 15%;
+    top: 20px;
+}
+
+.selp1 {
+    position: relative;
+    width: fit-content;
+    font-size: 22px;
+    line-height: 1.7;
+    left: 30px;
+    top: 50px;
+}
+
+.selh3 {
+    position: relative;
+    width: fit-content;
+    font-size: 30px;
+    left: 0;
+    top: 60px;
+}
+
+.selp2 {
+    position: relative;
+    width: fit-content;
+    font-size: 22px;
+    /* line-height: 1.7; */
+    left: 30px;
+    top: 65px;
+}
+
+.selh4 {
+    position: relative;
+    width: fit-content;
+    font-size: 30px;
+    left: 0;
+    top: 75px;
+}
+
+.selp3 {
+    position: relative;
+    width: fit-content;
+    font-size: 22px;
+    line-height: 1.7;
+    left: 30px;
+    top: 75px;
+}
+
+.selh5 {
+    position: relative;
+    width: fit-content;
+    font-size: 30px;
+    left: 0;
+    top: 80px;
+}
+
+.selp4 {
+    position: relative;
+    width: fit-content;
+    font-size: 22px;
+    line-height: 1.7;
+    left: 30px;
+    top: 85px;
+}
+
+.selp5 {
+    position: relative;
+    width: fit-content;
+    font-size: 22px;
+    line-height: 1.7;
+    left: 30px;
+    top: 80px;
+}
+
+.selh6 {
+    position: relative;
+    width: fit-content;
+    font-size: 30px;
+    left: 0;
+    top: 85px;
+}
+
+.selp6 {
+    position: relative;
+    width: fit-content;
+    font-size: 22px;
+    line-height: 1.7;
+    left: 30px;
+    top: 83px;
+}

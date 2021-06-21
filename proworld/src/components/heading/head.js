@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import "./headr.css";
 import headlogo from "./../../assets/mainlogoroh.jpg";
 import { Link } from "react-router-dom";
@@ -12,6 +13,9 @@ import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function Head() {
+  useEffect(() => {
+    window.scroll = (0, 0);
+  }, []);
   return (
     <div className="headpg">
       <h3 className="hlogo1">PRO WORLD</h3>
@@ -62,11 +66,7 @@ export default function Head() {
           <Link className="hcona" to="/para">
             <p className="headp">HTML Paragraphs</p>
           </Link>
-          <Link
-            className="hcona"
-            to="https://forms.gle/p4M4YjYaYyFYtWDz9"
-            target="_blank"
-          >
+          <Link className="hcona" to="https://forms.gle/p4M4YjYaYyFYtWDz9">
             <p className="headp">HTML Quiz</p>
           </Link>
         </div>

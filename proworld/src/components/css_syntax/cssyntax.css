@@ -1,0 +1,68 @@
+.csynpg {
+    background-color: #044c65;
+    margin: 0;
+    padding: 0;
+    height: 3000px;
+    position: relative;
+    top: -20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.csyntax {
+    position: relative;
+    width: 70%;
+    height: 50%;
+    /* background-color: aliceblue; */
+    left: 300px;
+    top: 100px;
+}
+
+.csynh1 {
+    position: relative;
+    font-size: 35px;
+    left: 40%;
+    /* background-color: aqua; */
+    width: fit-content;
+}
+
+.csynh2 {
+    position: relative;
+    font-size: 25px;
+    left: 20%;
+    top: 30px;
+    /* background-color: aqua; */
+    width: fit-content;
+}
+
+.synimg {
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.csynp1 {
+    position: relative;
+    width: fit-content;
+    font-size: 22px;
+    line-height: 1.7;
+    left: 30px;
+    top: 75px;
+}
+
+.csynp2 {
+    position: relative;
+    width: fit-content;
+    font-size: 22px;
+    line-height: 1.7;
+    left: 30px;
+    top: 85px;
+}
+
+.csynp3 {
+    position: relative;
+    width: fit-content;
+    font-size: 22px;
+    line-height: 1.7;
+    left: 30px;
+    top: 90px;
+}

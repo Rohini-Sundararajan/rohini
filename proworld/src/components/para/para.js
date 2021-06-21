@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import "./parar.css";
 import { Link } from "react-router-dom";
 import paralogo from "./../../assets/mainlogoroh.jpg";
@@ -62,11 +63,7 @@ export default function Para() {
           <Link className="paraconta" to="/para">
             <p className="paracontp a6">HTML Paragraphs</p>
           </Link>
-          <Link
-            className="paraconta"
-            to="https://forms.gle/p4M4YjYaYyFYtWDz9"
-            target="_blank"
-          >
+          <Link className="paraconta" to="https://forms.gle/p4M4YjYaYyFYtWDz9">
             <p className="paracontp">HTML Quiz</p>
           </Link>
         </div>

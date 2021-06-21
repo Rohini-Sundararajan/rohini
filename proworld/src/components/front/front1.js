@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import backg from "../../../src/assets/ini.jpg";
 import mainlogo from "./../../assets/mainlogoroh.jpg";
@@ -17,6 +18,42 @@ export default function Front1() {
   useEffect(() => {
     window.scroll = (0, 0);
   }, []);
+  const [fb1, setfb1] = useState(false);
+  var facebk = () => {
+    setfb1(true);
+    if (fb1) {
+      window.open("https://www.facebook.com", "_blank");
+    }
+  };
+  const [twt1, settwt1] = useState(false);
+  var twitter = () => {
+    settwt1(true);
+    if (twt1) {
+      window.open("https://www.twitter.com", "_blank");
+    }
+  };
+  const [goo, setgoo] = useState(false);
+  var google = () => {
+    setgoo(true);
+    if (goo) {
+      window.open("https://www.google.com", "_blank");
+    }
+  };
+  const [linked, setlinked] = useState(false);
+  var linkedin = () => {
+    setlinked(true);
+    if (linked) {
+      window.open("https://www.linkedin.com", "_blank");
+    }
+  };
+  const [ins, setins] = useState(false);
+  var insta = () => {
+    setins(true);
+    if (ins) {
+      window.open("https://www.instagram.com", "_blank");
+    }
+  };
+
   return (
     <div className="mainpage">
       <div className="back">
@@ -62,35 +99,35 @@ export default function Front1() {
       <div className="social_media">
         <ul className="main-soc">
           <li className="msoc-li">
-            <Link className="msoc-a" to="#">
+            <Link className="msoc-a" onClick={facebk}>
               <span>
                 <FontAwesomeIcon icon={faFacebook} />
               </span>
             </Link>
           </li>
           <li className="msoc-li">
-            <Link className="msoc-a" to="#">
+            <Link className="msoc-a" onClick={twitter}>
               <span>
                 <FontAwesomeIcon icon={faTwitter} />
               </span>
             </Link>
           </li>
           <li class="msoc-li">
-            <Link class="msoc-a" to="#">
+            <Link class="msoc-a" onClick={google}>
               <span>
                 <FontAwesomeIcon icon={faGooglePlus} />
               </span>
             </Link>
           </li>
           <li className="msoc-li">
-            <Link className="msoc-a" to="#">
+            <Link className="msoc-a" onClick={linkedin}>
               <span>
                 <FontAwesomeIcon icon={faLinkedin} />
               </span>
             </Link>
           </li>
           <li className="msoc-li">
-            <Link className="msoc-a" to="#">
+            <Link className="msoc-a" onClick={insta}>
               <span>
                 <FontAwesomeIcon icon={faInstagram} />
               </span>

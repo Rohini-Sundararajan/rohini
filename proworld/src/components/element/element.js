@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import "./elementr.css";
 import melogo from "./../../assets/mainlogoroh.jpg";
 import { Link } from "react-router-dom";
@@ -12,6 +13,9 @@ import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function Element() {
+  useEffect(() => {
+    window.scroll = (0, 0);
+  }, []);
   return (
     <div className="elementpage">
       <h3 className="ele-logo1">PRO WORLD</h3>
@@ -62,11 +66,7 @@ export default function Element() {
           <Link className="elec-a" to="/para">
             <p className="ele-p">HTML Paragraphs</p>
           </Link>
-          <Link
-            className="elec-a"
-            to="https://forms.gle/p4M4YjYaYyFYtWDz9"
-            target="_blank"
-          >
+          <Link className="elec-a" to="https://forms.gle/p4M4YjYaYyFYtWDz9">
             <p className="ele-p">HTML Quiz</p>
           </Link>
         </div>

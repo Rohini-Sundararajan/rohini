@@ -1,10 +1,14 @@
 import React from "react";
+import { useEffect } from "react";
 import "../contact/contactr.css";
 import conph from "../../assets/contact.png";
 import mlogo from "../../assets/mainlogoroh.jpg";
 import { Link } from "react-router-dom";
 
 export default function Contact() {
+  useEffect(() => {
+    window.scroll = (0, 0);
+  }, []);
   return (
     <div className="contactpage">
       <h3 className="conlogo1">PRO WORLD</h3>

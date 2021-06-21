@@ -1,0 +1,203 @@
+.cscolrpg {
+    position: relative;
+    height: 3500px;
+    font-family: "Times New Roman", Times, serif !important;
+    background-color: #044c65;
+    top: -20px;
+}
+
+.clrh3 {
+    position: relative;
+    top: -350px;
+    font-size: 35px;
+    left: 50%;
+    width: fit-content;
+}
+
+.colorpg {
+    position: relative;
+    width: 70%;
+    height: 200px;
+    /* background-color: aqua; */
+    top: -300px;
+    left: 350px;
+}
+
+.clrp1 {
+    position: relative;
+    background-color: tomato;
+    font-size: 25px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    top: 10px;
+    left: 10px;
+}
+
+.clrp12 {
+    position: relative;
+    background-color: orange;
+    font-size: 25px;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    left: 300px;
+    top: -100px;
+}
+
+.clrp13 {
+    position: relative;
+    background-color: dodgerblue;
+    font-size: 25px;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    top: -215px;
+    left: 600px;
+}
+
+.clrp14 {
+    position: relative;
+    background-color: green;
+    font-size: 25px;
+    width: 155px;
+    text-align: center;
+    justify-content: center;
+    align-items: left;
+    padding: 30px;
+    left: 10px;
+    top: -200px;
+}
+
+.clrp16 {
+    position: relative;
+    background-color: violet;
+    font-size: 25px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    left: 600px;
+    top: -420px;
+}
+
+.clrp15 {
+    position: relative;
+    background-color: gray;
+    font-size: 25px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    top: -310px;
+    left: 300px;
+}
+
+.colorpg1 {
+    position: relative;
+    width: 70%;
+    height: 300px;
+    /* background-color: blanchedalmond; */
+    top: -200px;
+    left: 300px;
+}
+
+.clr1 {
+    position: relative;
+    width: fit-content;
+    font-size: 30px;
+}
+
+.clrp2 {
+    position: relative;
+    width: fit-content;
+    top: 5px;
+    font-size: 22px;
+}
+
+.clr2 {
+    position: relative;
+    width: fit-content;
+    background-color: darkgray;
+    top: 5px;
+}
+
+.clrp3 {
+    position: relative;
+    font-size: 22px;
+    top: 10px;
+    width: fit-content;
+    background-color: cadetblue;
+}
+
+.clr3 {
+    position: relative;
+    width: fit-content;
+    top: 15px;
+    font-size: 30px;
+}
+
+.clrp31 {
+    position: relative;
+    width: fit-content;
+    font-size: 22px;
+    /* color: chocolate; */
+    top: 17px;
+}
+
+.clr4 {
+    position: relative;
+    width: fit-content;
+    color: chocolate;
+    top: 18px;
+    font-size: 22px;
+}
+
+.clrp4 {
+    position: relative;
+    width: fit-content;
+    font-size: 22px;
+    color: cornflowerblue;
+    top: 20px;
+}
+
+.clrp5 {
+    position: relative;
+    width: fit-content;
+    font-size: 22px;
+    color: darksalmon;
+    top: 22px;
+}
+
+.clr8 {
+    position: relative;
+    font-size: 30px;
+    top: 27px;
+}
+
+.clr5 {
+    position: relative;
+    font-size: 22px;
+    border: 2px solid red;
+    top: 33px;
+    padding: 10px;
+}
+
+.clr6 {
+    position: relative;
+    font-size: 22px;
+    border: 2px solid salmon;
+    top: 36px;
+    padding: 10px;
+}
+
+.clr7 {
+    position: relative;
+    font-size: 22px;
+    border: 2px solid mediumturquoise;
+    top: 39px;
+    padding: 10px;
+}

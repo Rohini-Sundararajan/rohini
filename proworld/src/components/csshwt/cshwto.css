@@ -1,0 +1,55 @@
+.hwtpg {
+    position: relative;
+    height: 3300px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #044c65;
+    top: -20px;
+}
+
+.hwt {
+    position: relative;
+    width: 70%;
+    left: 300px;
+    height: 500px;
+    top: -300px;
+    /* background-color: antiquewhite; */
+}
+
+.hwth1 {
+    position: relative;
+    width: fit-content;
+    font-size: 35px;
+    left: 30%;
+}
+
+.hwtp1 {
+    position: relative;
+    width: fit-content;
+    font-size: 25px;
+    text-align: left;
+    line-height: 2;
+}
+
+.hwth2,
+.hwth21,
+.hwth3,
+.hwth4,
+.hwth5,
+.hwth6 {
+    position: relative;
+    width: fit-content;
+    font-size: 30px;
+}
+
+.hwtp2,
+.hwtp3,
+.hwtp4,
+.hwtp5,
+.hwtp6,
+.hwtp7 {
+    position: relative;
+    width: fit-content;
+    font-size: 22px;
+    left: 30px;
+    line-height: 2;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import "./tagr.css";
 import taglogo from "./../../assets/mainlogoroh.jpg";
 import { Link } from "react-router-dom";
@@ -12,6 +13,9 @@ import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function Tag() {
+  useEffect(() => {
+    window.scroll = (0, 0);
+  }, []);
   return (
     <div className="tagpg">
       <h3 className="tag-logo1">PRO WORLD</h3>
@@ -61,11 +65,7 @@ export default function Tag() {
           <Link className="tagcon-a" to="/para">
             <p className="tagcon-p">HTML Paragraphs</p>
           </Link>
-          <Link
-            className="tagcon-a"
-            to="https://forms.gle/p4M4YjYaYyFYtWDz9"
-            target="_blank"
-          >
+          <Link className="tagcon-a" to="https://forms.gle/p4M4YjYaYyFYtWDz9">
             <p className="tagcon-p">HTML Quiz</p>
           </Link>
         </div>
@@ -203,7 +203,7 @@ export default function Tag() {
             <h2 className="tce-h2">Address</h2>
             <div className="tce-location">
               <span>
-                <FontAwesomeIcon icon={faFacebook} />
+                <FontAwesomeIcon icon={faMapMarkerAlt} />
               </span>
               <i className="tce-text">Coimbatore,Tamilnadu</i>
             </div>

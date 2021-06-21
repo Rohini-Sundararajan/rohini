@@ -13,6 +13,12 @@ import Para from "./components/para/para";
 import Tag from "./components/tag/tag";
 import Login from "./components/login/login";
 import Head from "./components/heading/head";
+import Csintro from "./components/cssintro/csintro";
+import Cssyntax from "./components/css_syntax/cssyntax";
+import Cselector from "./components/cssselectors/cseletor";
+import Csshwto from "./components/csshwt/cshwto";
+import Cscolor from "./components/cscolor/csccolor";
+import Csborder from "./components/csborder/csborder";
 export default function App() {
   return (
     <Router basename="/proworld/">
@@ -24,25 +30,19 @@ export default function App() {
           <Route path="/course" component={Course} />
           <Route path="/attribute" component={Attribute} />
           <Route path="/element" component={Element} />
-          <Route path="/enroll" component={Enroll} />
+          <Route path="/enroll/:name" component={Enroll} />
           <Route path="/html" component={Html} />
           <Route path="/mycourse" component={Mcourse} />
           <Route path="/para" component={Para} />
           <Route path="/tag" component={Tag} />
           <Route path="/login" component={Login} />
-          <Route path="/head" component={Head} /> 
-          <About />
-          <Contact />
-          <Course />
-          <Attribute />
-          <Element />
-          <Enroll />
-          <Html />
-          <Mcourse />
-          <Para />
-          <Tag />
-          <Login />
-          <Head />
+          <Route path="/head" component={Head} />
+          <Route path="/cssintro" component={Csintro} />
+          <Route path="/cssyntax" component={Cssyntax} />
+          <Route path="/csselector" component={Cselector} />
+          <Route path="/csshowto" component={Csshwto} />
+          <Route path="/csscolor" component={Cscolor} />
+          <Route path="/cssborder" component={Csborder} />
         </Switch>
       </div>
     </Router>

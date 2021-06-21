@@ -1,4 +1,6 @@
 import React from "react";
+import { useEffect } from "react";
+
 import logo1 from "./../../assets/logo1.jpg";
 import mlogo from "../../assets/mainlogoroh.jpg";
 import abte from "./../../assets/aboute.gif";
@@ -16,6 +18,9 @@ import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function About() {
+  useEffect(() => {
+    window.scroll = (0, 0);
+  }, []);
   return (
     <div className="aboutpage">
       <img className="abo-logo" src={mlogo} alt="main " />

@@ -1,10 +1,16 @@
 import React from "react";
+import { useEffect } from "react";
 import "./courser.css";
 import mclogo from "./../../assets/mainlogoroh.jpg";
 import htmlph from "./../../assets/html.jpg";
 import cssph from "./../../assets/css.jpeg";
 import javaph from "./../../assets/javascript.png";
 import htmlcard from "./../../assets/html1.png";
+import css from "./../../assets/css1.png";
+import cplus from "../../assets/c++.png";
+import javas from "./../../assets/js.png";
+import python from "../../assets/python.jpg";
+import Card from "./card.js";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
@@ -16,6 +22,34 @@ import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function Course() {
+  useEffect(() => {
+    window.scroll = (0, 0);
+  }, []);
+  var courseitem = [
+    {
+      img: htmlcard,
+      name: "The Web Tool - HTML",
+    },
+    {
+      img: css,
+      name: "The Style Tool - CSS",
+    },
+  ];
+  var coursearr = [];
+  var n = courseitem.length;
+  for (let i = 0; i < n; i++) {
+    var array1 = courseitem.slice(i * 2, (i + 1) * 2);
+    coursearr.push(
+      <div>
+        {array1.map((arr) => (
+          <div className="cocrd2">
+            <Card arrcd={arr} />
+          </div>
+        ))}
+      </div>
+    );
+  }
+
   return (
     <div className="coursepage">
       <img className="cologo" src={mclogo} alt="main " />
@@ -80,7 +114,8 @@ export default function Course() {
           </div>
         </div>
       </div>
-      <div className="co-container1">
+      <div>{coursearr}</div>
+      {/* <div className="co-container1">
         <div className="co-box">
           <div className="co-imgBx">
             <img className="co-img2" src={htmlcard} alt="html" />
@@ -92,7 +127,28 @@ export default function Course() {
             </Link>
           </div>
         </div>
+      </div> */}
+      <h2 className="uptlte">Upcoming Events</h2>
+      <div className="upcmng">
+        <marquee behavior=" " directon="">
+          <div className="upcard1">
+            <img className="upimg1" src={javas} alt="javascript" />
+            <h3 className="upcrd"> The language for programming web pages</h3>
+            <p className="upp">Upcoming!!</p>
+          </div>
+          <div className="upcard2">
+            <img className="upimg2" src={python} alt="javascript" />
+            <h3 className="upcrd1"> A popular programming language</h3>
+            <p className="upp1">Upcoming!!</p>
+          </div>
+          <div className="upcard3">
+            <img className="upimg3" src={cplus} alt="javascript" />
+            <h3 className="upcrd2"> A programming language</h3>
+            <p className="upp2">Upcoming!!</p>
+          </div>
+        </marquee>
       </div>
+
       <div className="co-footer">
         <div className="co-main-content">
           <div className="co-left-box">

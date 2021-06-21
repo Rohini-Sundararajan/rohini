@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import "./attributer.css";
 import malogo from "../../assets/mainlogoroh.jpg";
 import { Link } from "react-router-dom";
@@ -12,6 +13,9 @@ import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function Attribute() {
+  useEffect(() => {
+    window.scroll = (0, 0);
+  }, []);
   return (
     <div className="attributepg">
       <h3 className="attlogo1">PRO WORLD</h3>
@@ -62,9 +66,13 @@ export default function Attribute() {
           <Link className="attcona" to="/para">
             <p className="att-p">HTML Paragraphs</p>
           </Link>
-          <Link className="attcona" to="https://forms.gle/p4M4YjYaYyFYtWDz9">
+          <a
+            className="attcona"
+            href="https://forms.gle/p4M4YjYaYyFYtWDz9"
+            target="_blank"
+          >
             <p className="att-p">HTML Quiz</p>
-          </Link>
+          </a>
         </div>
       </div>
       <div className="attribute1">
@@ -228,50 +236,54 @@ export default function Attribute() {
               <i className="atce-text ">+91 7339481237</i>
             </div>
 
-            <Link
+            <a
               className="atce-button "
-              to="https://www.google.co.in/maps/place/PSG+College+of+Arts+%26+Science/@11.0332141,77.0316629,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba858526b5c0591:0x6c452206816788d4!8m2!3d11.0332088!4d77.0338516?hl=en&authuser=0 "
+              href="https://www.google.co.in/maps/place/PSG+College+of+Arts+%26+Science/@11.0332141,77.0316629,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba858526b5c0591:0x6c452206816788d4!8m2!3d11.0332088!4d77.0338516?hl=en&authuser=0 "
+              target="_blank"
             >
               Locate Us
-            </Link>
+            </a>
           </div>
           <div className="attright-box ">
             <h2 className="atrt-h2">Connect with us</h2>
             <div className="atrtsocial_media ">
               <ul className="atrt-ul">
                 <li className="atrt-li">
-                  <Link className="atrt-a" to="# ">
+                  <a
+                    className="atrt-a"
+                    href="https://www.facebook.com"
+                    target="_blank"
+                  >
                     <span>
                       <FontAwesomeIcon icon={faFacebook} />
                     </span>
-                  </Link>
+                  </a>
                 </li>
                 <li className="atrt-li">
-                  <Link className="atrt-a" to="# ">
+                  <Link className="atrt-a">
                     <span>
                       <FontAwesomeIcon icon={faTwitter} />
                     </span>
                   </Link>
                 </li>
                 <li className="atrt-li">
-                  <Link className="atrt-a" to="# ">
+                  <Link className="atrt-a">
                     <span>
                       <FontAwesomeIcon icon={faGooglePlus} />
                     </span>
                   </Link>
                 </li>
                 <li className="atrt-li">
-                  <Link className="atrt-a" to="# ">
+                  <Link className="atrt-a">
                     <span>
                       <FontAwesomeIcon icon={faLinkedin} />
                     </span>
                   </Link>
                 </li>
                 <li className="atrt-li">
-                  <Link className="atrt-a" to="#">
+                  <Link className="atrt-a">
                     <span>
                       <FontAwesomeIcon
-                        color="blue"
                         className="attinsta"
                         icon={faInstagram}
                       />

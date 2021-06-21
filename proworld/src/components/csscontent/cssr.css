@@ -1,0 +1,123 @@
+.csspg {
+    font-family: "Times New Roman", Times, serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+.cslogo {
+    position: fixed;
+    left: 15px;
+    top: 10px;
+    width: 50px;
+    border-radius: 40%;
+    border: 3px solid rgb(8, 128, 48);
+    visibility: visible;
+}
+
+.cslogo1 {
+    position: fixed;
+    font-size: 25px;
+    top: -5px;
+    left: 90px;
+    background: #05f1e6;
+    background: -webkit-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
+    background: -moz-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
+    background: linear-gradient(to right, #05f1e6 0%, hotpink 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.csmenu {
+    position: absolute;
+    top: 10px;
+    left: 30%;
+    width: 40%;
+    height: 65px;
+    border-radius: 20px;
+    text-align: center;
+    /* background-color: #05f1e6; */
+}
+
+.csmenu .csul .csli {
+    list-style: none;
+}
+
+.csmenu .csul .cssa {
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 15px;
+    float: left;
+    text-align: center;
+    color: greenyellow;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.csmenu .csul .csli .cssa:hover {
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+    border-bottom-color: #9dd3a8;
+    background: #f29c08;
+    background: linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    background: -webkit-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    background: -moz-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    background: -o-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='F29C08', endColorstr='#FF0D45', GradientType=1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    /* text-shadow: 0 0 4px #fff, 0 0 4px #fff, 0 0 8px #fff, 0 0 10px #fff, 0 0 12px #0fa, 0 0 16px #0fa, 0 0 20px #0fa, 0 0 22px #0fa, 0 0 24px #0fa; */
+}
+
+
+/* .cscontainer .cscontent .cscona .a4 {
+    color: darkred !important;
+    font-weight: bold;
+} */
+
+.cscontainer {
+    position: fixed;
+    top: 70px;
+    width: 20%;
+    height: 100%;
+    background-color: aquamarine;
+    margin-left: 5px;
+}
+
+.cscontainer .csh3 {
+    font-size: 30px;
+    position: absolute;
+    top: -3%;
+    left: 20px;
+    /* padding-top: 5px; */
+    /* background-color: #005792; */
+}
+
+.cscontainer .cscontent .cscona .cs-p {
+    position: relative;
+    line-height: 2;
+    font-size: 20px;
+    padding: 5px 20px;
+    top: 50px;
+    left: 20px;
+    cursor: pointer;
+    color: #1f212b;
+}
+
+.cscontainer .cscontent .cscona {
+    text-decoration: none;
+}
+
+.cscontainer .cscontent .cs-p:hover {
+    color: #1f005c;
+    font-weight: bold;
+}
+
+
+/* .active {
+    color: red;
+} */

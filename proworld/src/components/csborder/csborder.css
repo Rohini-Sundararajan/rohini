@@ -1,0 +1,146 @@
+.brder {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #044c65;
+    height: 3500px;
+    position: relative;
+    top: -10px;
+}
+
+.border {
+    position: relative;
+    width: fit-content;
+    height: 500px;
+    /* background-color: aqua; */
+    top: -350px;
+    left: 300px;
+}
+
+.borh1 {
+    position: relative;
+    left: 40%;
+    font-size: 35px;
+    width: fit-content;
+}
+
+.borp1 {
+    position: relative;
+    width: fit-content;
+    font-size: 25px;
+    top: 10px;
+    left: 15px;
+}
+
+.bp1 {
+    position: relative;
+    font-size: 22px;
+    border: 2px solid white;
+    top: 15px;
+    padding: 10px;
+}
+
+.bp2 {
+    position: relative;
+    font-size: 22px;
+    border: 2px solid white;
+    top: 20px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.bp3 {
+    position: relative;
+    font-size: 22px;
+    border-bottom: 2px solid red;
+    top: 25px;
+    padding: 10px;
+}
+
+.borh2 {
+    position: relative;
+    top: 35px;
+    font-size: 25px;
+    width: fit-content;
+}
+
+.borp2 {
+    position: relative;
+    width: fit-content;
+    top: 40px;
+    line-height: 1.7;
+    font-size: 22px;
+}
+
+.bp4,
+.bp5,
+.bp6,
+.bp7,
+.bp8,
+.bp9,
+.bp10,
+.bp11,
+.bp12,
+.bp13,
+.bp14 {
+    position: relative;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.bp4 {
+    top: 45px;
+    border: 2px dotted grey;
+}
+
+.bp5 {
+    top: 50px;
+    border: 2px dashed grey;
+}
+
+.bp6 {
+    top: 55px;
+    border: 2px solid grey;
+}
+
+.bp7 {
+    top: 60px;
+    border: 2px double grey;
+}
+
+.bp8 {
+    top: 65px;
+    border: 2px groove grey;
+}
+
+.bp9 {
+    top: 70px;
+    border: 2px ridge grey;
+}
+
+.bp10 {
+    top: 75px;
+    border: 2px inset grey;
+}
+
+.bp11 {
+    top: 80px;
+    border: 2px outset grey;
+}
+
+.bp12 {
+    top: 85px;
+}
+
+.bp13 {
+    top: 90px;
+    border: hidden;
+}
+
+.bp14 {
+    top: 95px;
+    border-top: 2px dotted grey;
+    border-bottom: 2px groove grey;
+    border-left: 2px solid grey;
+    border-right: 2px dashed grey;
+}

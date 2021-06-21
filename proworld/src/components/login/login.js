@@ -1,6 +1,10 @@
 import React from "react";
+import { useEffect } from "react";
 import "./loginr.css";
 export default function Login() {
+  useEffect(() => {
+    window.scroll = (0, 0);
+  }, []);
   return (
     <div className="loginpg">
       <div className="hero">

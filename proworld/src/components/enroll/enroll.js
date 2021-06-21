@@ -1,8 +1,12 @@
 import React from "react";
+import { useEffect } from "react";
 import "./enrollr.css";
-import enlogo from "./../../assets/html1.png";
 import { Link } from "react-router-dom";
 import enmainl from "./../../assets/mainlogoroh.jpg";
+import htmlcard from "./../../assets/html1.png";
+import css from "./../../assets/css1.png";
+import cplus from "../../assets/c++.png";
+import python from "../../assets/python.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -12,8 +16,44 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-
-export default function Enroll() {
+export default function Enroll(props) {
+  useEffect(() => {
+    window.scroll = (0, 0);
+  }, []);
+  var nameid = props.match.params.name;
+  var id = nameid.slice(1);
+  console.log(id);
+  var enrlitem = [
+    {
+      imag: htmlcard,
+      name: "The Web Tool - HTML",
+      l01: "Write HTML code.",
+      l02: "To set up HTML document.",
+      l03: " Create your own Awesome webpage.",
+      l04: "Format HTML elements",
+      l05: "Anyone who wants to learn to create websites, be it a beginner or intermediate programmer.",
+      l06: "If you want to start your carrier as a frontend web developer, HTML is a must along with other technologies.",
+      l07: "HTML is fun to write and easy to get started with, no need to set up compiler or the environment.",
+      l08: "Nowadays every business, be it small or large needs a website, so there is a lot of opportunity for a web developer.",
+      l09: "40,000 USD per year",
+      l10: " You won't need to know anything before taking this course",
+    },
+    {
+      imag: css,
+      name: "The Style Tool - CSS",
+      l01: "Understand how HTML and CSS work together.",
+      l02: "Apply CSS styling to HTML elements.",
+      l03: "Build beautiful websites which don't just contain great content but also look good.",
+      l04: "Understand the concepts and theory behind CSS and certain CSS features.",
+      l05: " CSS is designed to save you time and we show you how to use it effectively to achieve results.",
+      l06: "Being able to learn CSS will give you a strong background to learn other web design and app design languages.",
+      l07: "Web development is required in each an every sector, having CSS in your skill set is a good advantage.",
+      l08: "40,000 USD per year",
+      l09: "Should have basic knowledge of HTML and its tags.",
+      l10: "Having creativity and good taste of color combination is a plus point.",
+    },
+  ];
+  var enrl1 = enrlitem.filter((r) => r.name === id);
   return (
     <div className="enrollpg">
       <img class="enlogo" src={enmainl} alt="main " />
@@ -44,8 +84,8 @@ export default function Enroll() {
       </div>
 
       <div className="en-container">
-        <h2 className="enco-h1">HTML</h2>
-        <img className="enco-img1" src={enlogo} alt="html" />
+        <h2 className="enco-h1">{enrl1[0].name}</h2>
+        <img className="enco-img1" src={enrl1[0].imag} alt="html" />
         <Link className="enco-a" to="/mycourse">
           <button className="enco-btn">Enroll Now!</button>
         </Link>
@@ -56,54 +96,37 @@ export default function Enroll() {
           <h3 className="enrt-h3">What Will I Learn?</h3>
           <ul className="enrt-ul">
             <div className="enrt-li">
-              <li>Write HTML code.</li>
-              <li>To set up HTML document.</li>
-              <li>Create your own Awesome webpage.</li>
-              <li>Format HTML elements</li>
+              <li>{enrl1[0].l01}</li>
+              <li>{enrl1[0].l02}</li>
+              <li>{enrl1[0].l03}</li>
+              <li>{enrl1[0].l04}</li>
             </div>
           </ul>
         </div>
         <div className="en-right2">
           <h3 className="enrt2-h3">Who is the target audience?</h3>
           <ul className="enrt2-ul">
-            <li className="enrt2-li">
-              Anyone who wants to learn to create websites, be it a beginner or
-              intermediate programmer.
-            </li>
-            <li className="enrt2-li">
-              If you want to start your carrier as a frontend web developer,
-              HTML is a must along with other technologies.
-            </li>
+            <li className="enrt2-li">{enrl1[0].l05}</li>
+            <li className="enrt2-li">{enrl1[0].l06}</li>
           </ul>
         </div>
         <div className="en-right3">
           <h3 className="enrt3-h3">Benefits</h3>
           <ul className="enrt3-ul">
-            <li className="enrt3-li">
-              HTML is fun to write and easy to get started with, no need to set
-              up compiler or the environment.
-            </li>
-            <li className="enrt3-li">
-              Nowadays every business, be it small or large needs a website, so
-              there is a lot of opportunity for a web developer.
-            </li>
+            <li className="enrt3-li">{enrl1[0].l07}</li>
+            <li className="enrt3-li">{enrl1[0].l08}</li>
           </ul>
         </div>
         <div className="en-right4">
           <h3 className="enrt4-h3">Salary</h3>
           <ul className="enrt4-ul">
-            <li className="enrt4-li">40,000 USD per year</li>
+            <li className="enrt4-li"> {enrl1[0].l09}</li>
           </ul>
         </div>
         <div className="en-right5">
           <h3 className="enrt5-h3">Requirements</h3>
           <ul className="enrt5-ul">
-            <li className="enrt5-li">
-              You won't need to know anything before taking this course
-            </li>
-            <li className="enrt5-li">
-              Eagerness to learn, and make awesome websites.
-            </li>
+            <li className="enrt5-li">{enrl1[0].l10}</li>
           </ul>
         </div>
       </div>
