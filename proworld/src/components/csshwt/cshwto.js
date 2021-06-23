@@ -2,6 +2,7 @@ import React from "react";
 import "./cshwto.css";
 import Css from "./../csscontent/css";
 import Csfooter from "./../csscontent/csfooter";
+import { Link } from "react-router-dom";
 export default function Csshwto() {
   return (
     <div className="hwtpg">
@@ -80,6 +81,14 @@ export default function Csshwto() {
           So, an inline style has the highest priority, and will override
           external and internal styles and browser defaults.
         </p>
+      </div>
+      <div className="cshwt-btn">
+        <Link to="/csscolor" className="cshwt-next">
+          Next
+        </Link>
+        <Link to="/csselector" className="cshwt-previous">
+          Previous
+        </Link>
       </div>
     </div>
   );

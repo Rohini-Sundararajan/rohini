@@ -56,6 +56,11 @@ export default function Front1() {
 
   return (
     <div className="mainpage">
+      <Link
+        rel="shortcut icon"
+        href="./../../assets/mainlogoroh.jpg"
+        type="image/jpg"
+      />
       <div className="back">
         <img src={backg} />
       </div>

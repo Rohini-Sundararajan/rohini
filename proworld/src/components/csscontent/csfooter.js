@@ -85,32 +85,48 @@ export default function Csfooter() {
                   </a>
                 </li>
                 <li className="csrt-li">
-                  <Link className="csrt-a">
+                  <a
+                    className="csrt-a"
+                    href="https://www.twitter.com"
+                    target="_blank"
+                  >
                     <span>
                       <FontAwesomeIcon icon={faTwitter} />
                     </span>
-                  </Link>
+                  </a>
                 </li>
                 <li className="csrt-li">
-                  <Link className="csrt-a">
+                  <a
+                    className="csrt-a"
+                    href="https://www.google.com"
+                    target="_blank"
+                  >
                     <span>
                       <FontAwesomeIcon icon={faGooglePlus} />
                     </span>
-                  </Link>
+                  </a>
                 </li>
                 <li className="csrt-li">
-                  <Link className="csrt-a">
+                  <a
+                    className="csrt-a"
+                    href="https://www.linkedin.com"
+                    target="_blank"
+                  >
                     <span>
                       <FontAwesomeIcon icon={faLinkedin} />
                     </span>
-                  </Link>
+                  </a>
                 </li>
                 <li className="csrt-li">
-                  <Link className="csrt-a">
+                  <a
+                    className="csrt-a"
+                    href="https://www.instagram.com"
+                    target="_blank"
+                  >
                     <span>
                       <FontAwesomeIcon className="csinsta" icon={faInstagram} />
                     </span>
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

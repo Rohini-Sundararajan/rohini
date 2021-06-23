@@ -6,7 +6,7 @@
 
 .cslogo {
     position: fixed;
-    left: 15px;
+    left: 10px;
     top: 10px;
     width: 50px;
     border-radius: 40%;
@@ -17,8 +17,8 @@
 .cslogo1 {
     position: fixed;
     font-size: 25px;
-    top: -5px;
-    left: 90px;
+    top: 10px;
+    left: 75px;
     background: #05f1e6;
     background: -webkit-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
     background: -moz-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
@@ -29,14 +29,25 @@
 }
 
 .csmenu {
-    position: absolute;
+    position: relative;
     top: 10px;
-    left: 30%;
-    width: 40%;
-    height: 65px;
-    border-radius: 20px;
+    left: 20.5%;
+    width: 79.5%;
+    height: 60px;
+    /* border-radius: 20px; */
     text-align: center;
-    /* background-color: #05f1e6; */
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.csmenu .csul .csli {
+    position: relative;
+    width: fit-content;
+    float: left;
+    /* background-color: #f29c08; */
+    left: 25%;
 }
 
 .csmenu .csul .csli {
@@ -55,23 +66,41 @@
     font-weight: bold;
 }
 
-.csmenu .csul .csli .cssa:hover {
+.csmenu .csul .csc {
+    width: fit-content;
+    /* border-bottom: 2px solid; */
+    /* border-bottom-color: aqua; */
+    background: #ff0000;
+    background: -webkit-linear-gradient( to left, #ff0000 0%, #ffff00 50%, #ff0000 100%);
+    background: -moz-linear-gradient( to left, #ff0000 0%, #ffff00 50%, #ff0000 100%);
+    background: linear-gradient(to left, #ff0000 0%, #ffff00 50%, #ff0000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    text-shadow: 0 5px 10px coral;
+}
+
+.csmenu .csul .csli .csh:hover,
+.csmenu .csul .csli .cscc:hover,
+.csmenu .csul .csli .csa:hover {
     padding-bottom: 10px;
     border-bottom-style: solid;
     border-bottom-width: 3.1px;
     width: fit-content;
     border-bottom-color: #9dd3a8;
-    background: #f29c08;
-    background: linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
-    background: -webkit-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
-    background: -moz-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
-    background: -o-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='F29C08', endColorstr='#FF0D45', GradientType=1);
+    background: #ff0000;
+    background: -webkit-linear-gradient( to left, #ff0000 0%, #ffff00 50%, #ff0000 100%);
+    background: -moz-linear-gradient( to left, #ff0000 0%, #ffff00 50%, #ff0000 100%);
+    background: linear-gradient(to left, #ff0000 0%, #ffff00 50%, #ff0000 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
     /* text-shadow: 0 0 4px #fff, 0 0 4px #fff, 0 0 8px #fff, 0 0 10px #fff, 0 0 12px #0fa, 0 0 16px #0fa, 0 0 20px #0fa, 0 0 22px #0fa, 0 0 24px #0fa; */
 }
+
+
+/* .csmenu .csul .csli .csh:hover .csmenu .csul .csc,
+.csmenu .csul .csli .cscc:hover .csmenu .csul .csc, */
 
 
 /* .cscontainer .cscontent .cscona .a4 {
@@ -90,26 +119,43 @@
 
 .cscontainer .csh3 {
     font-size: 30px;
+    width: 100%;
     position: absolute;
-    top: -3%;
-    left: 20px;
-    /* padding-top: 5px; */
-    /* background-color: #005792; */
+    top: -10px;
+    left: 0px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.cscontainer .cscontent .cscona .cs-p {
+.cscontainer .cscontent {
     position: relative;
-    line-height: 2;
-    font-size: 20px;
-    padding: 5px 20px;
+    width: 80%;
     top: 50px;
-    left: 20px;
+    text-align: left;
+    align-items: center;
+}
+
+.cscontainer .cscontent .cs-p .cscona {
+    position: relative;
+    line-height: 2.8;
+    font-size: 25px;
+    /* padding: 5px 20px; */
+    top: 0px;
+    left: 10px;
     cursor: pointer;
     color: #1f212b;
+    /* background-color: #f29c08; */
 }
 
 .cscontainer .cscontent .cscona {
     text-decoration: none;
+}
+
+.cscontainer .cscontent .cs-p {
+    list-style: none;
 }
 
 .cscontainer .cscontent .cs-p:hover {
@@ -117,7 +163,8 @@
     font-weight: bold;
 }
 
-
-/* .active {
+.cscontent .cs-p .cscona.active {
     color: red;
-} */
+    font-weight: bold;
+    text-shadow: 2px 0 5px green;
+}

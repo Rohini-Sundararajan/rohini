@@ -3,8 +3,10 @@
     background-color: #044c65;
     margin: 0;
     padding: 0;
-    position: relative;
+    position: absolute;
     top: -20px;
+    height: 2591px;
+    width: 100%;
 }
 
 .selec1 {
@@ -115,4 +117,50 @@
     line-height: 1.7;
     left: 30px;
     top: 83px;
+}
+
+.cselec-btn .cselec-next {
+    position: relative;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: black;
+    background: #060b07;
+    background: linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -webkit-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -moz-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -o-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='060B07', endColorstr='#8CFFF8', GradientType=1);
+    color: wheat;
+    font-size: 30px;
+    padding: 5px 30px;
+    top: -100px;
+    left: 80%;
+    text-decoration: none;
+}
+
+.cselec-btn .cselec-next:hover {
+    text-shadow: 1px 1px 1px red, 3px 3px 5px blue;
+}
+
+.cselec-btn .cselec-previous {
+    text-decoration: none;
+    position: relative;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: black;
+    background: #060b07;
+    background: linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -webkit-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -moz-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -o-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='060B07', endColorstr='#8CFFF8', GradientType=1);
+    color: wheat;
+    font-size: 30px;
+    padding: 5px 20px;
+    top: -100px;
+    left: 15%;
+}
+
+.cselec-btn .cselec-previous:hover {
+    text-shadow: 1px 1px 1px red, 3px 3px 5px blue;
 }

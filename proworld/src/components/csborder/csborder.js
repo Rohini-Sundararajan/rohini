@@ -2,6 +2,7 @@ import React from "react";
 import Css from "./../csscontent/css";
 import Csfooter from "./../csscontent/csfooter";
 import "./csborder.css";
+import { Link } from "react-router-dom";
 export default function Csborder() {
   return (
     <div className="brder">
@@ -71,6 +72,11 @@ export default function Csborder() {
         <p className="bp12">No border</p>
         <p className="bp13">A hidden border</p>
         <p className="bp14">A mixed border</p>
+      </div>
+      <div className="csbrder-btn">
+        <Link to="/csscolor" className="csbrder-previous">
+          Previous
+        </Link>
       </div>
     </div>
   );

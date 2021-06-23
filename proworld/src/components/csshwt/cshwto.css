@@ -1,6 +1,6 @@
 .hwtpg {
     position: relative;
-    height: 3300px;
+    height: 2590px;
     font-family: "Times New Roman", Times, serif;
     background-color: #044c65;
     top: -20px;
@@ -11,7 +11,7 @@
     width: 70%;
     left: 300px;
     height: 500px;
-    top: -300px;
+    top: -350px;
     /* background-color: antiquewhite; */
 }
 
@@ -19,7 +19,7 @@
     position: relative;
     width: fit-content;
     font-size: 35px;
-    left: 30%;
+    left: 40%;
 }
 
 .hwtp1 {
@@ -52,4 +52,50 @@
     font-size: 22px;
     left: 30px;
     line-height: 2;
+}
+
+.cshwt-btn .cshwt-next {
+    position: relative;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: black;
+    background: #060b07;
+    background: linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -webkit-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -moz-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -o-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='060B07', endColorstr='#8CFFF8', GradientType=1);
+    color: wheat;
+    font-size: 30px;
+    padding: 5px 30px;
+    top: 1100px;
+    left: 80%;
+    text-decoration: none;
+}
+
+.cshwt-btn .cshwt-next:hover {
+    text-shadow: 1px 1px 1px red, 3px 3px 5px blue;
+}
+
+.cshwt-btn .cshwt-previous {
+    text-decoration: none;
+    position: relative;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: black;
+    background: #060b07;
+    background: linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -webkit-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -moz-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -o-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='060B07', endColorstr='#8CFFF8', GradientType=1);
+    color: wheat;
+    font-size: 30px;
+    padding: 5px 20px;
+    top: 1100px;
+    left: 15%;
+}
+
+.cshwt-btn .cshwt-previous:hover {
+    text-shadow: 1px 1px 1px red, 3px 3px 5px blue;
 }

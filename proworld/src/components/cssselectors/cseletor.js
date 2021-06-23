@@ -2,6 +2,7 @@ import React from "react";
 import "./cselector.css";
 import Css from "./../csscontent/css";
 import Csfooter from "./../csscontent/csfooter";
+import { Link } from "react-router-dom";
 export default function Cseletor() {
   return (
     <div className="selectorpg">
@@ -81,6 +82,14 @@ export default function Cseletor() {
           To group selectors, separate each selector with a comma.
           <br />
         </p>
+      </div>
+      <div className="cselec-btn">
+        <Link to="/csshowto" className="cselec-next">
+          Next
+        </Link>
+        <Link to="/cssyntax" className="cselec-previous">
+          Previous
+        </Link>
       </div>
     </div>
   );

@@ -144,3 +144,26 @@
     border-left: 2px solid grey;
     border-right: 2px dashed grey;
 }
+
+.csbrder-btn .csbrder-previous {
+    text-decoration: none;
+    position: relative;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: black;
+    background: #060b07;
+    background: linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -webkit-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -moz-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -o-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='060B07', endColorstr='#8CFFF8', GradientType=1);
+    color: wheat;
+    font-size: 30px;
+    padding: 5px 20px;
+    top: 1100px;
+    left: 25%;
+}
+
+.csbrder-btn .csbrder-previous:hover {
+    text-shadow: 1px 1px 1px red, 3px 3px 5px blue;
+}

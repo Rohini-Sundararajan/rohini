@@ -1,10 +1,12 @@
 .csfoopg {
+    /* position: relative; */
     font-family: "Times New Roman", Times, serif !important;
+    /* top: 2150px; */
 }
 
 .css-footer {
     position: relative;
-    /* top: auto; */
+    /* bottom: auto; */
     background: #1f212b;
     width: 79.6%;
     height: 400px;
@@ -12,7 +14,7 @@
     bottom: 0px;
     margin: 0;
     padding: 0;
-    top: 2750px;
+    top: 2150px;
     left: 275px;
     overflow: hidden;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import Css from "./../csscontent/css";
 import Csfooter from "./../csscontent/csfooter";
 import synimg from "./../../assets/cssyntax.gif";
+import { Link } from "react-router-dom";
 import "./cssyntax.css";
 
 import "./cssyntax.css";
@@ -58,7 +59,15 @@ export default function Cssyntax() {
           </ul>
         </p>
       </div>
-      <Csfooter />
+      <div className="csyn-btn">
+        <Link to="/csselector" className="csyn-next">
+          Next
+        </Link>
+        <Link to="/cssintro" className="csyn-previous">
+          Previous
+        </Link>
+      </div>
+      <Csfooter className="csfooter" />
     </div>
   );
 }

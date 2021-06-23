@@ -1,6 +1,6 @@
 .cscolrpg {
     position: relative;
-    height: 3500px;
+    height: 2590px;
     font-family: "Times New Roman", Times, serif !important;
     background-color: #044c65;
     top: -20px;
@@ -8,7 +8,7 @@
 
 .clrh3 {
     position: relative;
-    top: -350px;
+    top: -300px;
     font-size: 35px;
     left: 50%;
     width: fit-content;
@@ -19,7 +19,7 @@
     width: 70%;
     height: 200px;
     /* background-color: aqua; */
-    top: -300px;
+    top: -270px;
     left: 350px;
 }
 
@@ -200,4 +200,50 @@
     border: 2px solid mediumturquoise;
     top: 39px;
     padding: 10px;
+}
+
+.csclr-btn .csclr-next {
+    position: relative;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: black;
+    background: #060b07;
+    background: linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -webkit-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -moz-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -o-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='060B07', endColorstr='#8CFFF8', GradientType=1);
+    color: wheat;
+    font-size: 30px;
+    padding: 5px 30px;
+    top: 500px;
+    left: 80%;
+    text-decoration: none;
+}
+
+.csclr-btn .csclr-next:hover {
+    text-shadow: 1px 1px 1px red, 3px 3px 5px blue;
+}
+
+.csclr-btn .csclr-previous {
+    text-decoration: none;
+    position: relative;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: black;
+    background: #060b07;
+    background: linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -webkit-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -moz-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    background: -o-linear-gradient(0deg, #060b07 0%, #8cfff8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='060B07', endColorstr='#8CFFF8', GradientType=1);
+    color: wheat;
+    font-size: 30px;
+    padding: 5px 20px;
+    top: 500px;
+    left: 15%;
+}
+
+.csclr-btn .csclr-previous:hover {
+    text-shadow: 1px 1px 1px red, 3px 3px 5px blue;
 }

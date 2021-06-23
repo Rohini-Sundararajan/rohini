@@ -1,14 +1,24 @@
 import React from "react";
 import cslogo from "./../../assets/mainlogoroh.jpg";
 import "./cssr.css";
+import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 export default function Css() {
   return (
     <div className="csspg">
-      <h3 className="cslogo1">PRO WORLD</h3>
-      <img className="cslogo" src={cslogo} alt="main " />
       <div className="csmenu">
+        {/* <h3 >PRO WORLD</h3> */}
+
+        <img
+          className="cslogo1"
+          src="https://images.cooltext.com/5537411.png"
+          width="203"
+          height="47"
+          alt="PRO WORLD"
+        />
+
+        <img className="cslogo" src={cslogo} alt="main " />
         <ul className="csul">
           <li className="csli">
             <Link className="cssa csh" to="/">
@@ -32,36 +42,58 @@ export default function Css() {
           </li>
         </ul>
       </div>
-
       <div className="cscontainer">
         <h3 className="csh3">CSS Tutorial</h3>
-        <div className="cscontent">
-          <Link className="cscona" to="/cssintro">
-            <p className="cs-p">CSS Introduction</p>
-          </Link>
-          <Link className="cscona" to="/cssyntax">
-            <p className="cs-p">CSS Syntax</p>
-          </Link>
-          <Link className="cscona" to="/csselector">
-            <p className="cs-p">CSS Selectors</p>
-          </Link>
-          <Link className="cscona" to="/csshowto">
-            <p class="cs-p">CSS How To</p>
-          </Link>
-          <Link className="cscona" to="/csscolor">
-            <p className="cs-p">CSS Colors</p>
-          </Link>
-          <Link className="cscona" to="/cssborder">
-            <p className="cs-p">CSS Borders</p>
-          </Link>
-          <a
-            className="cscona"
-            href="https://forms.gle/p4M4YjYaYyFYtWDz9"
-            target="_blank"
-          >
-            <p className="cs-p">HTML Quiz</p>
-          </a>
-        </div>
+        <ul className="cscontent">
+          <li className="cs-p">
+            <NavLink className="cscona" to="/cssintro" activeClassName="active">
+              CSS Introduction
+            </NavLink>
+          </li>
+          <li className="cs-p">
+            <NavLink className="cscona" to="/cssyntax" activeClassName="active">
+              CSS Syntax
+            </NavLink>
+          </li>
+          <li className="cs-p">
+            <NavLink
+              className="cscona"
+              to="/csselector"
+              activeClassName="active"
+            >
+              CSS Selectors
+            </NavLink>
+          </li>
+          <li className="cs-p">
+            {" "}
+            <NavLink className="cscona" to="/csshowto" activeClassName="active">
+              CSS How To
+            </NavLink>
+          </li>
+          <li className="cs-p">
+            <NavLink className="cscona" to="/csscolor" activeClassName="active">
+              CSS Colors
+            </NavLink>
+          </li>
+          <li className="cs-p">
+            <NavLink
+              className="cscona"
+              to="/cssborder"
+              activeClassName="active"
+            >
+              CSS Borders
+            </NavLink>
+          </li>
+          <li className="cs-p">
+            <a
+              className="cscona"
+              href="https://forms.gle/p4M4YjYaYyFYtWDz9"
+              target="_blank"
+            >
+              HTML Quiz
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );

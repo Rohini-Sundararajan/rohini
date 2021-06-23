@@ -2,6 +2,7 @@ import React from "react";
 import "./cscolor.css";
 import Css from "./../csscontent/css";
 import Csfooter from "./../csscontent/csfooter";
+import { Link } from "react-router-dom";
 export default function Cscolor() {
   return (
     <div className="cscolrpg">
@@ -45,6 +46,14 @@ export default function Cscolor() {
         <h3 className="clr5">Hello World</h3>
         <h3 className="clr6">Hello World</h3>
         <h3 className="clr7">Hello World</h3>
+      </div>
+      <div className="csclr-btn">
+        <Link to="/cssborder" className="csclr-next">
+          Next
+        </Link>
+        <Link to="/csshowto" className="csclr-previous">
+          Previous
+        </Link>
       </div>
     </div>
   );

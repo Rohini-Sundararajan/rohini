@@ -2,6 +2,7 @@ import React from "react";
 import Css from "./../csscontent/css";
 import "./csintro.css";
 import Csfooter from "./../csscontent/csfooter";
+import { Link } from "react-router-dom";
 export default function Csintro() {
   return (
     <div className="csintropg">
@@ -65,6 +66,11 @@ export default function Csintro() {
           an external stylesheet file, you can change the look of an entire
           website by changing just one file!
         </p>
+      </div>
+      <div className="csintro-btn">
+        <Link to="/cssyntax" className="csintro-next">
+          Next
+        </Link>
       </div>
       <Csfooter />
     </div>
