@@ -1,0 +1,71 @@
+.loginpg {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 1.8ch;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group {
+    top: 100px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    position: absolute;
+    top: 140px;
+}
+
+.submit-btns {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    position: absolute;
+    top: 190px;
+}
+
+.ckeck-box {
+    margin: 30px 10px 30px 0px;
+}
+
+.logspan {
+    color: #777;
+    font-size: 12px;
+    bottom: 2px;
+    left: 20px;
+    position: absolute;
+}
+
+#register {
+    left: 450px;
+}

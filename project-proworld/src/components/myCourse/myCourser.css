@@ -1,0 +1,432 @@
+.mycpg {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+    background: linear-gradient( 90deg, #1f005c, #350168, #4e0274, #6a0380, #8b058b, #970780, #a30971, #af0b5f);
+    height: 1600px;
+}
+
+.myclogo {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    width: 50px;
+    border-radius: 40%;
+    border: 3px solid rgb(8, 128, 48);
+    visibility: visible;
+}
+
+.myclogo1 {
+    position: absolute;
+    font-size: 30px;
+    top: -10px;
+    left: 90px;
+    background: #05f1e6;
+    background: -webkit-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
+    background: -moz-linear-gradient(to right, #05f1e6 0%, hotpink 100%);
+    background: linear-gradient(to right, #05f1e6 0%, hotpink 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mycmenu {
+    position: absolute;
+    top: -0.5%;
+    left: 30%;
+    width: 45%;
+    height: 8%;
+    border-radius: 20px;
+}
+
+.mycmenu .myc-ul .myc-a {
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 15px;
+    float: left;
+    text-align: center;
+    color: greenyellow;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mycmenu .myc-ul .myc-li {
+    list-style: none;
+}
+
+.mycmenu .myc-ul .myc-li .myc-a:hover {
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+    border-bottom-color: #9dd3a8;
+    background: #f29c08;
+    background: linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    background: -webkit-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    background: -moz-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    background: -o-linear-gradient(20deg, #f29c08 0%, #ff0d45 67%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='F29C08', endColorstr='#FF0D45', GradientType=1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    /* text-shadow: 0 0 4px #fff, 0 0 4px #fff, 0 0 8px #fff, 0 0 10px #fff, 0 0 12px #0fa, 0 0 16px #0fa, 0 0 20px #0fa, 0 0 22px #0fa, 0 0 24px #0fa; */
+}
+
+.myc-h2 {
+    position: absolute;
+    font-size: 35px;
+    top: 120px;
+    left: 70px;
+    color: burlywood;
+    /* text-shadow: 0 0 2px palevioletred, 0 0 4px palevioletred, 0 0 6px palevioletred, 0 0 8px palevioletred, 0 0 10px paleturquoise, 0 0 12px paleturquoise, 0 0 14px paleturquoise */
+}
+
+.myc-container1 {
+    /* box-sizing: border-box; */
+    position: relative;
+    display: block;
+    border: 4px solid hotpink;
+    width: 30%;
+    /* border: none; */
+    height: 300px;
+    top: 15em;
+    left: 5em;
+    overflow: hidden;
+    border-radius: 35px 65px;
+    /* margin: 50px; */
+    /* background-color: red; */
+}
+
+.myc-box {
+    position: relative;
+    box-sizing: border-box;
+    border: none;
+    background: hsla(94, 100%, 70%, 1);
+    background: linear-gradient( 90deg, hsla(94, 100%, 70%, 1) 0%, hsla(0, 100%, 77%, 1) 100%);
+    background: -moz-linear-gradient( 90deg, hsla(94, 100%, 70%, 1) 0%, hsla(0, 100%, 77%, 1) 100%);
+    background: -webkit-linear-gradient( 90deg, hsla(94, 100%, 70%, 1) 0%, hsla(0, 100%, 77%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A9FF68", endColorstr="#FF8989", GradientType=1);
+    border-radius: 30px 60px;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.myc-imgBx {
+    position: absolute;
+    border: 2px solid black;
+    /* background-color: #FF0D45; */
+    width: 80%;
+    height: 70%;
+    /* padding: 5px 5px; */
+    top: 8%;
+    left: 10%;
+    border-radius: 15px;
+    align-items: center;
+    overflow: hidden;
+    /* background: #12c2e9;
+    background: -webkit-linear-gradient(to top, #f64f59, #c471ed, #12c2e9);
+    background: linear-gradient(to top, #f64f59, #c471ed, #12c2e9); */
+}
+
+.myc-container1 .myc-box .myc-button .mycbtna {
+    position: relative;
+    padding: 10px 15px;
+    color: white;
+    background-color: black;
+    border: 3px solid hotpink;
+    top: 450px;
+    left: 130px;
+    font-size: 22px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    transform: translateY(-100px);
+    /* display: none; */
+    text-decoration: none;
+}
+
+.myc-container1 .myc-box .myc-imgBx .mycprg {
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    left: 10px;
+}
+
+.myc-container1 .myc-box .myc-imgBx .myc-img1 {
+    position: absolute;
+    border: 2px double darkorange;
+    width: 90%;
+    height: 50%;
+    top: 30px;
+    left: 20px;
+    transition: 0.5s;
+}
+
+.myc-container1 .myc-box .myc-imgBx .myc-head1 {
+    position: relative;
+    display: block;
+    font-size: 25px;
+    top: 150px;
+    left: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.myc-container1:hover {
+    overflow: visible;
+}
+
+.myc-container1:hover .myc-button .mycbtna {
+    transition: 0.5s;
+    box-shadow: 4px 2px 2px #ff0d45;
+    top: 345px;
+}
+
+.myc-container1 .myc-box .myc-imgBx:hover {
+    /* border-radius: 10px 40px; */
+    transition: 0.5s;
+}
+
+.myc-container1:hover .myc-head1 {
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+.myc-container1 .myc-box .myc-imgBx:hover .myc-button .mycbtna {
+    transform: translateY(0px);
+    opacity: 1;
+    transition: 0.5s ease;
+    box-shadow: 5px 4px 2px #ff0d45;
+    top: 500px;
+}
+
+.myc-footer {
+    position: absolute;
+    background: #1f212b;
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    bottom: 0px;
+    margin: 0;
+    padding: 0;
+    top: 1500px;
+}
+
+.myc-main-content {
+    display: flex;
+    /* position: absolute; */
+}
+
+.myc-main-content .myc-left-box {
+    border: none;
+    left: 30px;
+    position: absolute;
+    top: 15px;
+    width: 250px;
+    /* background-color: #0000ff; */
+}
+
+.myc-main-content .myc-left-box .myc-h2 {
+    font-size: 30px;
+    line-height: 1;
+    color: #005792;
+    left: 70px;
+    top: 20px;
+    position: relative;
+}
+
+.myc-main-content .myc-left-box .myclt-ul .myclt-li {
+    list-style: none;
+}
+
+.myc-main-content .myc-left-box .myclt-ul .myclt-li .myclt-a {
+    position: relative;
+    display: block;
+    font-size: 25px;
+    line-height: 2;
+    padding-top: 10px;
+    margin-left: 10px;
+    color: #e4d1d3;
+    text-align: center;
+    left: -10px;
+    top: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: oblique;
+}
+
+.myc-main-content .myc-left-box .myclt-ul .myclt-li .myclt-a:hover {
+    color: white;
+    border-bottom: #f29c08;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+}
+
+.myc-main-content .myc-center-box {
+    position: absolute;
+    display: block;
+    border: none;
+    width: 300px;
+    height: 300px;
+    top: 30px;
+    left: 35%;
+    font-size: 23px;
+}
+
+.myc-main-content .myc-center-box .myce-h2 {
+    position: absolute;
+    font-size: 30px;
+    left: 110px;
+    top: 10px;
+    color: #005792;
+    /* line-height: 2.0; */
+}
+
+.myc-main-content .myc-center-box .myce-phone {
+    position: relative;
+    display: flex;
+    font-size: 23px;
+    top: 60px;
+    left: 30px;
+    color: #e4d1d3;
+    cursor: pointer;
+}
+
+.myc-main-content .myc-center-box .myce-mail {
+    position: relative;
+    display: flex;
+    font-size: 23px;
+    left: 30px;
+    top: 130px;
+    color: #e4d1d3;
+    cursor: pointer;
+}
+
+.myc-main-content .myc-center-box .myce-location {
+    position: relative;
+    display: flex;
+    font-size: 23px;
+    left: 30px;
+    top: 200px;
+    color: #e4d1d3;
+}
+
+.myc-main-content .myc-center-box .myce-button {
+    border: 3px solid #ff5f5f;
+    position: relative;
+    /* display: flex; */
+    font-size: 23px;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 15px;
+    text-align: center;
+    top: 200px;
+    left: 85px;
+    text-decoration: none;
+    font-style: oblique;
+}
+
+.myc-main-content .myc-center-box .myce-mail,
+.myc-main-content .myc-center-box .myce-phone,
+.myc-main-content .myc-center-box .myce-location {
+    font-size: 25px;
+    text-indent: 20px;
+}
+
+.myc-main-content .myc-center-box .myce-button:hover {
+    box-shadow: 4px 3px 8px 4px #e79686;
+}
+
+.myc-main-content .myc-right-box {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 350px;
+    top: 25px;
+    left: 70%;
+}
+
+.myc-main-content .myc-right-box .mycrt-h2 {
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    top: 15px;
+    left: 40px;
+    color: #005792;
+}
+
+.myc-main-content .myc-right-box .mycrt-social_media .mycrt-ul {
+    position: relative;
+    top: 170px;
+    left: 150px;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.myc-main-content .myc-right-box .mycrt-social_media .mycrt-ul .mycrt-li {
+    list-style-type: none;
+}
+
+.myc-main-content .myc-right-box .mycrt-social_media .mycrt-ul .mycrt-li .mycrt-a {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: 0.5s;
+}
+
+.myc-main-content .myc-right-box .mycrt-social_media .mycrt-ul {
+    color: #c70cec;
+}
+
+.mycrt-social_media .mycrt-ul .mycrt-li .mycrt-a:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 3);
+    text-decoration: none;
+    transform: translate(0, -20px);
+}
+
+.mycrt-ul .mycrt-li:nth-child(1) .mycrt-a:hover {
+    color: #3b5998;
+}
+
+.mycrt-ul .mycrt-li:nth-child(2) .mycrt-a:hover {
+    color: #00acee;
+}
+
+.mycrt-ul .mycrt-li:nth-child(3) .mycrt-a:hover {
+    color: #db4a39;
+}
+
+.mycrt-ul .mycrt-li:nth-child(4) .mycrt-a:hover {
+    color: #0e76a8;
+}
+
+.mycrt-ul .mycrt-li:nth-child(5) .mycrt-a:hover {
+    color: #de249f;
+}
+
+.myc-main-content .myc-right-box .mycrt-social_media .mycrt-ul .mycrt-li .mycrt-a {
+    width: 70%;
+    height: 70%;
+    display: block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    /* border-radius: 50%; */
+    line-height: calc(6px - 12px);
+    /* font-size: 50px; */
+    transition: 0.5s;
+}
